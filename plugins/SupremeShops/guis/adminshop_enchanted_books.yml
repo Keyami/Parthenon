@@ -1,0 +1,554 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Enchanted_books'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  8afff442ed:
+    item:
+      slot: 0
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AMAgF0G/1oD0ap/HuBE7QUIwkLRgkzu97GViwnmHO9VC6i0ZnjTcDGBLG9jVMM5JUbF2UycsV++MWTCGmwA89o9gpQgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:8afff442ed
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:de244fffa8
+
+  7b6f363465:
+    item:
+      slot: 1
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI7eXMW7EziAIaXEJlBMbZzf9yKwYD29G+dD6U7qjdXfCGAIGOtXMc0IkrE1USZLxfcixtdj3ZlcugI/O+8jDUcAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:7b6f363465
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:564363f6b7
+
+  2fa4b1f28f:
+    item:
+      slot: 2
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI7eXMW7EziAaaBIk1ITbJzf9yKwYD396ZwPS5XMG5u/EcAQMOqnmGYEydiaGKdOxffC5JX7VUhV7AZ+hC89KkcAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:2fa4b1f28f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:f82f1b4af2
+
+  8ef66a47ce:
+    item:
+      slot: 3
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAEwBV9KE+fluLfCizAIJyRBA4DG+tnxgIL1pOlSjjUv06ZRdksgMFgTH/CNMPEgC1HFV/dw/1OrvH6aqF4xqJAB5ecaMVIAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:8ef66a47ce
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:ec74a66fe8
+
+  2eae17d843:
+    item:
+      slot: 4
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDhYGDKTGGQz83MS00uSkwrsSooys9KTS7JzEmNBzJLQMz8PAYGAJG3+5BNAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:2eae17d843
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:348d71eae2
+
+  50ae36ca64:
+    item:
+      slot: 5
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKOJy3h3AidooMQmUExpnN/3ErBhv30Yl0vzQ+qd1WcCsATE9jXEFUEKji7K2aj6aTxfMXIZCvwD1zQ/QwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:50ae36ca64
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:46ac63ea05
+
+  6134e4d6df:
+    item:
+      slot: 6
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQz83MS00uSkwrsUosLE2MT0xLy8zLLKlkYAAAc+ANh0UAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:6134e4d6df
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:fd6d4e4316
+
+  1be8d43908:
+    item:
+      slot: 7
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQyM3MS00uSkwrsSrJyC/KK2ZgAAA/k0bWPgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:1be8d43908
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:80934d8eb1
+
+  97ecaa226b:
+    item:
+      slot: 8
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKMXd/HuBA5gCK2hCVRTGuf3vQQsWE9/jOnQUrN6Z/WRAEwBsX0NcUYQwtZFuVi+fSd+vV7DTYgN+AHM2/vkRQAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:97ecaa226b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:b622aace79
+
+  72f1dbb9a2:
+    item:
+      slot: 9
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGEQy83MS00uSkwrsUoryi8uiS9PzMlOLWJgAAC1BHyiRAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:72f1dbb9a2
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:2a9bbd1f27
+
+  7160432231:
+    item:
+      slot: 10
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXB0QmAMAwFwGdF0H7qNv47gROENqWFNkoSnN+7CGzYb3+U8yWpkvhgcYsApoC5fx3LitAyjtGEk1Lx0yrpK2wG/E0iA6pBAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:7160432231
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:1322340617
+
+  e44c886aee:
+    item:
+      slot: 11
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKMXd/HuBA5gkFZtAjWB6vy8F4AJ825vZdo0PVGtsFoLAJzHkP8MN8ILYSminGq8bD1FSfQ+0lcbAx3WKWHmRQAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:e44c886aee
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:eea688c44e
+
+  cc9dd96b96:
+    item:
+      slot: 12
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGHgz83MS00uSkwrsSrOzSxJZWAAAMXzWxs9AAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:cc9dd96b96
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:69b69dd9cc
+
+  0d91e626cf:
+    item:
+      slot: 13
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBTQqAIBAG0C8jKJetO0n7TtABZPIHBZ0JHTp/71lgw36r9Bgu9plYW2QdFsBkMNevYllhSsDRCkffKen5EEcnyVHX3OWVMIAfC1L5dEoAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:0d91e626cf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:fc626e19d0
+
+  026ede82ea:
+    item:
+      slot: 14
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9elCNu490JnKCWGkmhJNg4v+9FYEU6vQ/Jh/FD5k3M3whgCpjrVxEWhJKxtWLCg27f1TrrRazAD8afKpxBAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:026ede82ea
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:ae28ede620
+
+  a1c77aa9b5:
+    item:
+      slot: 15
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGEQzc3MS00uSkwrsUrLLEqNTywuSE0uYWAAAA0fNhpDAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:a1c77aa9b5
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:5b9aa77c1a
+
+  6976ab535c:
+    item:
+      slot: 16
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAAwRU+yk/L8W8FVkDgVBI4ErxYvzMBFrbT+pB8aHqiWhO1NwCTw9ev4mdcyaytqKQRL9tr71b0hh//O5qXPwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:6976ab535c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:c535ba6796
+
+  270dd58a72:
+    item:
+      slot: 17
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAEwBU+ypNy/FuBFRBY9RI4DVy0fWcCsCDudneWTfOV1BrVRgAwOfj6VvgZTgpiE2Xu6bB1fOQjegI/CrQ0s0AAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:270dd58a72
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:27a85dd072
+
+  c780b697ee:
+    item:
+      slot: 18
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGHgz83MS00uSkwrsSrIL08tYmAAAL/kZ0k9AAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:c780b697ee
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:ee796b087c
+
+  5dfd087e29:
+    item:
+      slot: 19
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGHgz83MS00uSkwrsSooBSplYAAAY7VQfD0AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:5dfd087e29
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:92e780dfd5
+
+  4430f010d8:
+    item:
+      slot: 20
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBQRJAMAwF0K/d0KVxGnsncIJog4w2ZiKc33sJGDCufhuXRfNJ6o3VnwSgC4j1q4g9ghRMTZSz0e7zq5sxXaIH8AOuJCP0QgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:4430f010d8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:8d010f0344
+
+  2faee88ce3:
+    item:
+      slot: 21
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGHgz83MS00uSkwrsUrLScxNZWAAACaKPQM9AAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:2faee88ce3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:3ec88eeaf2
+
+  6a497700a1:
+    item:
+      slot: 22
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQzM3MS00uSkwrscrJr0zMKalkYAAA0rdzIT8AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:6a497700a1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:1a007794a6
+
+  01fad4a871:
+    item:
+      slot: 23
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXB0QmAMAwFwGdF0H52HP+dwAlCGzWQRKnB+b3LwIKyx925bV4v8jD2eDOAIWHUTzHNSNJQTJxrpyNWsYdU/AR+NrrqC0AAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:01fad4a871
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:178a4daf10
+
+  4c37d35d22:
+    item:
+      slot: 24
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBTQqAIBCA0U/blEuP074TdALxhwZ0AhuCbt97ATbiafes5dB8JbVR1Z4AOM/S345b8VKIQ7TmmZrtok1U7IMfxpxf2UAAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:4c37d35d22
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:22d53d73c4
+
+  72b885fbfa:
+    item:
+      slot: 25
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAxA0a9clJuO490JnIBAjU2gGmyc3/cizKyH313KbvlK5k3M3wgMI6F+lTAxamFpapJ7On3r+rgWgR+2c1jIPwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:72b885fbfa
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:afbf588b27
+
+  631ac7ab74:
+    item:
+      slot: 26
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQyc3MS00uSkwrsQKpy0vNycxLZ2AAAHpikZJCAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:631ac7ab74
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:47ba7ca136
+
+  057e07c867:
+    item:
+      slot: 27
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKNu490JnIBADU3akkB1ft9LwIb99j6oXlZaNlcynwlAiFjkE4QVkSsOZaMy8uOnvuI8W3fgB5K5g05BAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:057e07c867
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:768c70e750
+
+  2d364fcf79:
+    item:
+      slot: 28
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQy83MS00uSkwrsSoszUzOjgeqLkpPZWAAAPTLo7VEAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:2d364fcf79
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:97fcf463d2
+
+  75d2a7d2fd:
+    item:
+      slot: 29
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI6Mw50JnICUqk2gmto4v+9FYEPa/TZuRemq6oPV3whgCpj717GsCNKQhiiT1cPzI2wkegI/zLczH0AAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:75d2a7d2fd
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:df2d7a2d57
+
+  a084076083:
+    item:
+      slot: 30
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQzM3MS00uSkwrsQIqScnMS2dgAADZDJhpPwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:a084076083
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:380670480a
+
+  341e411edf:
+    item:
+      slot: 31
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKM3V/HuBA5gCFRpAjUplfl9LwAL1tNepXxIKlGskVgPAJzHVEeFm+E5Y2sslDTeto8o3AvLc6VPOwE/qQh0D0cAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:341e411edf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:fde114e143
+
+  67c2289c2c:
+    item:
+      slot: 32
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGEQyc3MS00uSkwrsUpNS8tMzkzNS65kYAAA1rK8dUIAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:67c2289c2c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:c2c9822c76
+
+  10994d29f9:
+    item:
+      slot: 33
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQyc3MS00uSkwrsSrOzMmOL8kvTc5gYAAA7c0SskIAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:10994d29f9
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:9f92d49901
+
+  1f42d2a766:
+    item:
+      slot: 34
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAAwRU+yk/L8W8FVkDwiCRwJHhavzMBFrbT+pDr0HRHtSZqTwAmh69fxc+4crG2opJGzLbnPuxVgR+C4imiPwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:1f42d2a766
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:667a2d24f1
+
+  acb0c237ed:
+    item:
+      slot: 35
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKM3V/HuBA7QECiBCCWB6vy+54AN+619cLwkZC/aWHQ6AIuBrV+FXWFKxNGKcBg+6Vnf8FBPpJlpsgd+MBsemEcAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:acb0c237ed
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:de732c0bca
+
+  ec2003229e:
+    item:
+      slot: 36
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBQRJAMAwF0K/d0KVxGnsncIJog4w2ZiKc33sJGDCufhuXRfNJ6o3VnwSgC4j1q4g9ghRMTZSz0e7zq5sxXaIH8AOuJCP0QgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:ec2003229e
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:e9223002ce
+
+  83c7a46a89:
+    item:
+      slot: 37
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGHgy83MS00uSkwrscopLUplYAAAVr3BQjwAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:83c7a46a89
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:98a64a7c38
+
+  972136e51e:
+    item:
+      slot: 38
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQzM3MS00uSkwrsQIqScnMS2dgAADZDJhpPwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:972136e51e
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:e15e631279
+
+  03844f768d:
+    item:
+      slot: 39
+      type: ENCHANTED_BOOK
+      amount: 1
+      name: '&7&cMoney &7-> &aEnchanted Book &7(left click)'
+      lore:
+        - '&7&cEnchanted Book &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKM3V/HuBA5gCFRpAjUplfl9LwAL1tNepXxIKlGskVgPAJzHVEeFm+E5Y2sslDTeto8o3AvLc6VPOwE/qQh0D0cAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE enchanted_books:03844f768d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE enchanted_books:d867f44830
+

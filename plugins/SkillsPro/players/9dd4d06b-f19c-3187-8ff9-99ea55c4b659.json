@@ -1,0 +1,31 @@
+{
+  "skill": "Juggernaut",
+  "level": 20,
+  "xp": 29,
+  "souls": 5,
+  "showReadyMessage": true,
+  "lastSkillChange": 1586323729286,
+  "stats": {
+    "INT": 0,
+    "DEF": 60,
+    "PTS": 0,
+    "DEX": 0,
+    "STR": 0
+  },
+  "disabledAbilities": [],
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "improvements": {
+    "juggernaut": {
+      "aegis_protection": 1,
+      "throw": 1,
+      "heavy_strikes": 1,
+      "passive": 1,
+      "stone_skin": 1,
+      "chain_smash": 1
+    }
+  },
+  "masteries": {},
+  "bonuses": {}
+}

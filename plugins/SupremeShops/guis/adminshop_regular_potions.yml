@@ -1,0 +1,592 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Regular_potions'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  3a22f51695:
+    item:
+      slot: 0
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgz83MS00uSkwrsSpPLEktYgAAfW0rXB4AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:3a22f51695
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:59615f22a3
+
+  ae30d5fb03:
+    item:
+      slot: 1
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscotzUtJzEtlAADcZdyWIAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:ae30d5fb03
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:30bf5d03ea
+
+  ef15b68b41:
+    item:
+      slot: 2
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgz83MS00uSkwrsSrJyEzOZgAASidR6h4AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:ef15b68b41
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:14b86b51fe
+
+  1b5dacaa51:
+    item:
+      slot: 3
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrsUoszy5PLEphAAAOdkYtIAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:1b5dacaa51
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:15aacad5b1
+
+  2dd5458f25:
+    item:
+      slot: 4
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrLTM8oiS/LLAaJAwDNwrJXJQAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:2dd5458f25
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:52f8545dd2
+
+  7abe536be3:
+    item:
+      slot: 5
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPz8tMzyiJL8ssBkkCAEG1Q8EqAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:7abe536be3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:3eb635eba7
+
+  8f96af87d7:
+    item:
+      slot: 6
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrMK8sszkzKzMksqWQAAJUa8Z0lAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:8f96af87d7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:7d78fa69f8
+
+  7b9d4bd805:
+    item:
+      slot: 7
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPz8wryyzOTMrMySypZAAAGW0ACyoAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:7b9d4bd805
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:508db4d9b7
+
+  f7ff048d74:
+    item:
+      slot: 8
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpJTSzIzEtnAAB2MByuIAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:f7ff048d74
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:47d840ff7f
+
+  90dbe4e716:
+    item:
+      slot: 9
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrJz0uPz0lNLMjMS2cAAB5QtnQlAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:90dbe4e716
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:617e4ebd09
+
+  a64e0cb7c4:
+    item:
+      slot: 10
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSU0syMxLZwAAy46EOicAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:a64e0cb7c4
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:4c7bc0e46a
+
+  9a288a91ea:
+    item:
+      slot: 11
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsUrLLEqNL0otziwuScxLTmUAAGUoRuEoAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:9a288a91ea
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:ae19a882a9
+
+  c4d9d124cf:
+    item:
+      slot: 12
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrscrJz0uPT8ssSo0vSi3OLC5JzEtOZQAAIGiqMy0AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:c4d9d124cf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:fc421d9d4c
+
+  7e5ea62968:
+    item:
+      slot: 13
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzs3MS00uSkwrsSouz0wryUstLmYAAGN0PT4iAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:7e5ea62968
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:86926ae5e7
+
+  4e015f2cb8:
+    item:
+      slot: 14
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrscrJz0uPLy7PTCvJSy0uZgAATt+YUCcAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:4e015f2cb8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:8bc2f510e4
+
+  dcddfc1ef1:
+    item:
+      slot: 15
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQys3MS00uSkwrsSouKcrPS48vLs9MK8lLLS5mAADCVSCkKQAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:dcddfc1ef1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:1fe1cfddcd
+
+  9a0a0d034d:
+    item:
+      slot: 16
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSrOyS/PSy0uZgAAmM1znyEAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:9a0a0d034d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:d430d0a0a9
+
+  a2c9561215:
+    item:
+      slot: 17
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPL87JL89LLS5mAABWU+LWJgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:a2c9561215
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:5121659c2a
+
+  f601c0207c:
+    item:
+      slot: 18
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSouKcrPS48vzskvz0stLmYAAJzMEusoAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:f601c0207c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:c7020c106f
+
+  079fe47cc0:
+    item:
+      slot: 19
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrsSopLSrJSY3PTSwuSS1iAAD8mH5XJgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:079fe47cc0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:0cc74ef970
+
+  5ea834cf98:
+    item:
+      slot: 20
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyc3MS00uSkwrscrJz0uPLyktKslJjc9NLC5JLWIAALafT6MrAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:5ea834cf98
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:89fc438ae5
+
+  88005d0943:
+    item:
+      slot: 21
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrsSouKcrPS48vKS0qyUmNz00sLkktYgAA3Iyn/i0AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:88005d0943
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:3490d50088
+
+  5bbd3bf85a:
+    item:
+      slot: 22
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSpPLEktik8qSk0sycjMS2cAABYktK0oAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:5bbd3bf85a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:a58fb3dbb5
+
+  355ebecf2a:
+    item:
+      slot: 23
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrscrJz0uPL08sSS2KTypKTSzJyMxLZwAAU2RYfy0AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:355ebecf2a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:a2fcebe553
+
+  6cc8958dab:
+    item:
+      slot: 24
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpITczJzEtnAAAPREaPIAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:6cc8958dab
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:bad8598cc6
+
+  7f7d29d64a:
+    item:
+      slot: 25
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSE3MycxLZwAAsvreGycAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:7f7d29d64a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:a46d92d7f7
+
+  b47190728a:
+    item:
+      slot: 26
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpILAJy0hkAmTkrwyAAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:b47190728a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:a82709174b
+
+  e7b168bd12:
+    item:
+      slot: 27
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSCwCiqUzAAAkh7NXJwAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:e7b168bd12
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:21db861b7e
+
+  1ac08380d6:
+    item:
+      slot: 28
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQyM3MS00uSkwrsSrIzywGigAAlUMZ2R8AAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:1ac08380d6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:6d08380ca1
+
+  223a338f81:
+    item:
+      slot: 29
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzc3MS00uSkwrscrJz0uPL8jPLAYKAwAidHaKJAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:223a338f81
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:18f833a322
+
+  691bc5e527:
+    item:
+      slot: 30
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrsSouKcrPS48vyM8sBkoAAOKjlSgmAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:691bc5e527
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:725e5cb196
+
+  f54e96b88a:
+    item:
+      slot: 31
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrsSpKTU/NSy1KBIsDAOnmJA4lAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:f54e96b88a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:a88b69e45f
+
+  704e6d84bc:
+    item:
+      slot: 32
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPL0pNT81LLUoESwIAZZHVmCoAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:704e6d84bc
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:cb48d6e407
+
+  437a721e5e:
+    item:
+      slot: 33
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzc3MS00uSkwrsSouKcrPS48vSk1PzUstSgRLAwBRyZP5LAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:437a721e5e
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:e5e127a734
+
+  a41e319bb2:
+    item:
+      slot: 34
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSouKUrNSy/JYAAADKxKfiEAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:a41e319bb2
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:2bb913e14a
+
+  2482e815f8:
+    item:
+      slot: 35
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPLy4pSs1LL8lgAADCMts3JgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:2482e815f8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:8f518e2842
+
+  5182fa78cf:
+    item:
+      slot: 36
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSouKcrPS48HUql56SUZDAAIrSsKKAAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:5182fa78cf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:fc87af2815
+
+  c8dd145708:
+    item:
+      slot: 37
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSpPTczOSy0uZgAAAj77+SEAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:c8dd145708
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:807541dd8c
+
+  22f912ecf7:
+    item:
+      slot: 38
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPL09NzM5LLS5mAADMoGqwJgAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:22f912ecf7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:7fce219f22
+
+  b1cf001746:
+    item:
+      slot: 39
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgy83MS00uSkwrscopTc5mAAA8dq/IHQAAAA=='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:b1cf001746
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:647100fc1b
+
+  a4d22bcd6a:
+    item:
+      slot: 40
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrsSrOyS+PT0vMycnMS2cAAK/+fgolAAAA'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:a4d22bcd6a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:a6dcb22d4a
+
+  f4f96f85d0:
+    item:
+      slot: 41
+      type: POTION
+      amount: 1
+      name: '&7&cMoney &7-> &aPotion &7(left click)'
+      lore:
+        - '&7&cPotion &7-> &aMoney &7(right click)'
+      nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPL87JL49PS8zJycxLZwAAI4mPnCoAAAA='
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:f4f96f85d0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:0d58f69f4f
+
+  b338d7635d:
+    item:
+      slot: 42
+      type: GLASS_BOTTLE
+      amount: 1
+      name: '&7&cMoney &7-> &aGlass Bottle &7(left click)'
+      lore:
+        - '&7&cGlass Bottle &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE regular_potions:b338d7635d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE regular_potions:d5367d833b
+

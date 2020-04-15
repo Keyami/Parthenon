@@ -1,0 +1,72 @@
+{
+  "skill": "Swordsman",
+  "level": 20,
+  "xp": 318,
+  "souls": 23224,
+  "showReadyMessage": true,
+  "lastSkillChange": 1586323441493,
+  "stats": {
+    "INT": 5,
+    "DEF": 15,
+    "PTS": 400,
+    "DEX": 15,
+    "STR": 25
+  },
+  "disabledAbilities": [
+    "fire_crossbow",
+    "execute",
+    "dual_arrows",
+    "blackhole",
+    "fangs"
+  ],
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "improvements": {
+    "arbalist": {
+      "fire_crossbow": 3,
+      "dual_arrows": 3,
+      "execute": 3,
+      "minions": 3
+    },
+    "vampire": {
+      "blood_well": 3,
+      "blood_lust": 3,
+      "bleed": 3,
+      "eternal_darkness": 3
+    },
+    "swordsman": {
+      "parry": 1,
+      "dodge": 1,
+      "thousand_cuts": 1,
+      "passive": 1,
+      "pierce": 1
+    },
+    "firemage": {
+      "absorb_energy": 3,
+      "meteorite": 3,
+      "phoenix_essence": 3,
+      "black_fire": 3,
+      "inferno": 3
+    },
+    "eidolon": {
+      "spirit_fire": 3,
+      "fangs": 3,
+      "spectre": 3,
+      "purify": 3,
+      "blackhole": 3,
+      "shape_shifter": 3,
+      "defile": 3
+    },
+    "devourer": {
+      "hook": 3,
+      "gliders": 3,
+      "cloak": 3,
+      "consume": 3,
+      "blink": 3,
+      "disarm": 3
+    }
+  },
+  "masteries": {},
+  "bonuses": {}
+}

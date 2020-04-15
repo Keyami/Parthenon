@@ -1,0 +1,1361 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  54b4b2e57b:
+    name: '&cMoney &7-> &aOak Fence'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OAK_FENCE
+          amount: 1
+
+  b75e2b4b45:
+    name: '&cOak Fence &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OAK_FENCE
+          amount: 1
+
+  9a41ff0c59:
+    name: '&cMoney &7-> &aDark Oak Fence'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DARK_OAK_FENCE
+          amount: 1
+
+  95c0ff14a9:
+    name: '&cDark Oak Fence &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DARK_OAK_FENCE
+          amount: 1
+
+  d1fcad466b:
+    name: '&cMoney &7-> &aSpruce Fence'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SPRUCE_FENCE
+          amount: 1
+
+  b664dacf1d:
+    name: '&cSpruce Fence &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SPRUCE_FENCE
+          amount: 1
+
+  cdba5df039:
+    name: '&cMoney &7-> &aBirch Fence'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BIRCH_FENCE
+          amount: 1
+
+  930fd5abdc:
+    name: '&cBirch Fence &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BIRCH_FENCE
+          amount: 1
+
+  89425db5ba:
+    name: '&cMoney &7-> &aJungle Fence'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: JUNGLE_FENCE
+          amount: 1
+
+  ab5bd52498:
+    name: '&cJungle Fence &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: JUNGLE_FENCE
+          amount: 1
+
+  5177d2e7a1:
+    name: '&cMoney &7-> &aAcacia Fence'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ACACIA_FENCE
+          amount: 1
+
+  1a7e2d7715:
+    name: '&cAcacia Fence &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ACACIA_FENCE
+          amount: 1
+
+  9521db676b:
+    name: '&cMoney &7-> &aChest'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CHEST
+          amount: 1
+
+  b676bd1259:
+    name: '&cChest &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CHEST
+          amount: 1
+
+  92c2f4ad2c:
+    name: '&cMoney &7-> &aLadder'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LADDER
+          amount: 1
+
+  c2da4f2c29:
+    name: '&cLadder &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LADDER
+          amount: 1
+
+  b8d5fd480e:
+    name: '&cMoney &7-> &aCrafting Table'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CRAFTING_TABLE
+          amount: 1
+
+  e084df5d8b:
+    name: '&cCrafting Table &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CRAFTING_TABLE
+          amount: 1
+
+  6e06cf1a68:
+    name: '&cMoney &7-> &aOak Sign'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OAK_SIGN
+          amount: 1
+
+  86a1fc60e6:
+    name: '&cOak Sign &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OAK_SIGN
+          amount: 1
+
+  9078d51512:
+    name: '&cMoney &7-> &aDark Oak Sign'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DARK_OAK_SIGN
+          amount: 1
+
+  21515d8709:
+    name: '&cDark Oak Sign &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DARK_OAK_SIGN
+          amount: 1
+
+  c398690f64:
+    name: '&cMoney &7-> &aSpruce Sign'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SPRUCE_SIGN
+          amount: 1
+
+  46f096893c:
+    name: '&cSpruce Sign &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SPRUCE_SIGN
+          amount: 1
+
+  1d8ada6b4a:
+    name: '&cMoney &7-> &aBirch Sign'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BIRCH_SIGN
+          amount: 1
+
+  a4b6ada8d1:
+    name: '&cBirch Sign &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BIRCH_SIGN
+          amount: 1
+
+  de2095675e:
+    name: '&cMoney &7-> &aJungle Sign'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: JUNGLE_SIGN
+          amount: 1
+
+  e5765902ed:
+    name: '&cJungle Sign &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: JUNGLE_SIGN
+          amount: 1
+
+  df24d2e38d:
+    name: '&cMoney &7-> &aAcacia Sign'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ACACIA_SIGN
+          amount: 1
+
+  d83e2d42fd:
+    name: '&cAcacia Sign &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ACACIA_SIGN
+          amount: 1
+
+  c043b8149c:
+    name: '&cMoney &7-> &aEnd Portal Frame'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: END_PORTAL_FRAME
+          amount: 1
+
+  c9418b340c:
+    name: '&cEnd Portal Frame &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: END_PORTAL_FRAME
+          amount: 1
+
+  75147b0828:
+    name: '&cMoney &7-> &aEnchanting Table'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTING_TABLE
+          amount: 1
+
+  8280b74157:
+    name: '&cEnchanting Table &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTING_TABLE
+          amount: 1
+
+  3528126958:
+    name: '&cMoney &7-> &aEnder Chest'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENDER_CHEST
+          amount: 1
+
+  8596218253:
+    name: '&cEnder Chest &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENDER_CHEST
+          amount: 1
+
+  1142b0d9b0:
+    name: '&cMoney &7-> &aFurnace'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: FURNACE
+          amount: 1
+
+  0b9d0b2411:
+    name: '&cFurnace &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: FURNACE
+          amount: 1
+
+  43b8c5498f:
+    name: '&cMoney &7-> &aNote Block'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: NOTE_BLOCK
+          amount: 1
+
+  f8945c8b34:
+    name: '&cNote Block &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: NOTE_BLOCK
+          amount: 1
+
+  7ebc43abe9:
+    name: '&cMoney &7-> &aBrick Wall'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BRICK_WALL
+          amount: 1
+
+  9eba34cbe7:
+    name: '&cBrick Wall &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BRICK_WALL
+          amount: 1
+
+  d2d18c9bf2:
+    name: '&cMoney &7-> &aItem Frame'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ITEM_FRAME
+          amount: 1
+
+  2fb9c81d2d:
+    name: '&cItem Frame &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ITEM_FRAME
+          amount: 1
+
+  097fc9d276:
+    name: '&cMoney &7-> &aArmor Stand'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ARMOR_STAND
+          amount: 1
+
+  672d9cf790:
+    name: '&cArmor Stand &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ARMOR_STAND
+          amount: 1
+
+  5671b96cb1:
+    name: '&cMoney &7-> &aGlass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GLASS
+          amount: 1
+
+  1bc69b1765:
+    name: '&cGlass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GLASS
+          amount: 1
+
+  b204fcdaf6:
+    name: '&cMoney &7-> &aWhite Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: WHITE_STAINED_GLASS
+          amount: 1
+
+  6fadcf402b:
+    name: '&cWhite Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: WHITE_STAINED_GLASS
+          amount: 1
+
+  f173531f32:
+    name: '&cMoney &7-> &aOrange Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ORANGE_STAINED_GLASS
+          amount: 1
+
+  23f135371f:
+    name: '&cOrange Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ORANGE_STAINED_GLASS
+          amount: 1
+
+  cf27345ad3:
+    name: '&cMoney &7-> &aMagenta Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MAGENTA_STAINED_GLASS
+          amount: 1
+
+  3da54372fc:
+    name: '&cMagenta Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MAGENTA_STAINED_GLASS
+          amount: 1
+
+  44e2e4e310:
+    name: '&cMoney &7-> &aLight Blue Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_BLUE_STAINED_GLASS
+          amount: 1
+
+  013e4e2e44:
+    name: '&cLight Blue Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_BLUE_STAINED_GLASS
+          amount: 1
+
+  7339bc0251:
+    name: '&cMoney &7-> &aYellow Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: YELLOW_STAINED_GLASS
+          amount: 1
+
+  1520cb9337:
+    name: '&cYellow Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: YELLOW_STAINED_GLASS
+          amount: 1
+
+  7189a82896:
+    name: '&cMoney &7-> &aLime Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIME_STAINED_GLASS
+          amount: 1
+
+  69828a9817:
+    name: '&cLime Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIME_STAINED_GLASS
+          amount: 1
+
+  0ae66e20c5:
+    name: '&cMoney &7-> &aPink Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PINK_STAINED_GLASS
+          amount: 1
+
+  5c02e66ea0:
+    name: '&cPink Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PINK_STAINED_GLASS
+          amount: 1
+
+  4e16f5cf35:
+    name: '&cMoney &7-> &aGray Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRAY_STAINED_GLASS
+          amount: 1
+
+  53fc5f61e4:
+    name: '&cGray Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRAY_STAINED_GLASS
+          amount: 1
+
+  0363aba263:
+    name: '&cMoney &7-> &aLight Gray Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_STAINED_GLASS
+          amount: 1
+
+  362aba3630:
+    name: '&cLight Gray Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_STAINED_GLASS
+          amount: 1
+
+  58878c1e0b:
+    name: '&cMoney &7-> &aCyan Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CYAN_STAINED_GLASS
+          amount: 1
+
+  b0e1c87885:
+    name: '&cCyan Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CYAN_STAINED_GLASS
+          amount: 1
+
+  9a621fe209:
+    name: '&cMoney &7-> &aPurple Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PURPLE_STAINED_GLASS
+          amount: 1
+
+  902ef126a9:
+    name: '&cPurple Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PURPLE_STAINED_GLASS
+          amount: 1
+
+  c2edf88a71:
+    name: '&cMoney &7-> &aBlue Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLUE_STAINED_GLASS
+          amount: 1
+
+  17a88fde2c:
+    name: '&cBlue Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLUE_STAINED_GLASS
+          amount: 1
+
+  a025b1d345:
+    name: '&cMoney &7-> &aBrown Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BROWN_STAINED_GLASS
+          amount: 1
+
+  543d1b520a:
+    name: '&cBrown Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BROWN_STAINED_GLASS
+          amount: 1
+
+  a9c699c3c3:
+    name: '&cMoney &7-> &aGreen Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GREEN_STAINED_GLASS
+          amount: 1
+
+  3c3c996c9a:
+    name: '&cGreen Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GREEN_STAINED_GLASS
+          amount: 1
+
+  0e47905dce:
+    name: '&cMoney &7-> &aRed Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RED_STAINED_GLASS
+          amount: 1
+
+  ecd50974e0:
+    name: '&cRed Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RED_STAINED_GLASS
+          amount: 1
+
+  0254b7abcd:
+    name: '&cMoney &7-> &aBlack Stained Glass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLACK_STAINED_GLASS
+          amount: 1
+
+  dcba7b4520:
+    name: '&cBlack Stained Glass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLACK_STAINED_GLASS
+          amount: 1
+
+  45749cab5e:
+    name: '&cMoney &7-> &aLoom'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LOOM
+          amount: 1
+
+  e5bac94754:
+    name: '&cLoom &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LOOM
+          amount: 1
+
+  3108287745:
+    name: '&cMoney &7-> &aBarrel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BARREL
+          amount: 1
+
+  5477828013:
+    name: '&cBarrel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BARREL
+          amount: 1
+
+  ae87c55971:
+    name: '&cMoney &7-> &aSmoker'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SMOKER
+          amount: 1
+
+  17955c78ea:
+    name: '&cSmoker &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SMOKER
+          amount: 1
+
+  e177a8bb08:
+    name: '&cMoney &7-> &aBlast Furnace'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLAST_FURNACE
+          amount: 1
+
+  80bb8a771e:
+    name: '&cBlast Furnace &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLAST_FURNACE
+          amount: 1
+
+  5dd106c8ec:
+    name: '&cMoney &7-> &aCartography Table'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CARTOGRAPHY_TABLE
+          amount: 1
+
+  ce8c601dd5:
+    name: '&cCartography Table &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CARTOGRAPHY_TABLE
+          amount: 1
+
+  2b841e4aad:
+    name: '&cMoney &7-> &aFletching Table'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: FLETCHING_TABLE
+          amount: 1
+
+  daa4e148b2:
+    name: '&cFletching Table &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: FLETCHING_TABLE
+          amount: 1
+
+  d0ea38aef9:
+    name: '&cMoney &7-> &aGrindstone'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRINDSTONE
+          amount: 1
+
+  9fea83ae0d:
+    name: '&cGrindstone &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRINDSTONE
+          amount: 1
+
+  a57c5e2d03:
+    name: '&cMoney &7-> &aSmithing Table'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SMITHING_TABLE
+          amount: 1
+
+  30d2e5c75a:
+    name: '&cSmithing Table &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SMITHING_TABLE
+          amount: 1
+
+  7c4e323efe:
+    name: '&cMoney &7-> &aStonecutter'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STONECUTTER
+          amount: 1
+
+  efe323e4c7:
+    name: '&cStonecutter &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STONECUTTER
+          amount: 1
+
+  a5152a376e:
+    name: '&cMoney &7-> &aBell'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BELL
+          amount: 1
+
+  e673a2515a:
+    name: '&cBell &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BELL
+          amount: 1
+
+  f155ab874e:
+    name: '&cMoney &7-> &aLantern'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LANTERN
+          amount: 1
+
+  e478ba551f:
+    name: '&cLantern &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LANTERN
+          amount: 1
+
+  5ed70fd31a:
+    name: '&cMoney &7-> &aCampfire'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CAMPFIRE
+          amount: 1
+
+  a13df07de5:
+    name: '&cCampfire &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CAMPFIRE
+          amount: 1
+

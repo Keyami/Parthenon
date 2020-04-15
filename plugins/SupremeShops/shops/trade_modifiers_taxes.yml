@@ -1,0 +1,21 @@
+#----------------------------------------------------------------------------------------------------
+# Trade modifiers taxes configuration file for SupremeShops
+#----------------------------------------------------------------------------------------------------
+
+# Register your trade modifiers taxes here
+# They'll always be applied after regular trade modifiers
+# They apply to shop and won't be precalculated nor displayed in preview GUIs, they'll only apply when a trade is confirmed
+
+modifiers:
+ 
+  # 'sell_tax' is the id of the modifier here
+  # This modifier will apply a general 1% sell tax on all the trades
+#  sell_tax:
+#    # Which shop objects should be affected
+#    # Here we want all the buying amounts (money/items/...) to have a certain percentage of their value taken from the seller benefit
+#    target_object_sides:
+#      - TAKING
+#    target_object_types: []
+#    # Modifier formula to apply on the final amount
+#    # So here on the amount of money/items/... given to the seller during a trade
+#    formula: '{amount} * 0.99'

@@ -1,0 +1,7 @@
+This file is used to detect if the new Skills (v13) is being used.
+This will avoid doing unnecessary checks during server startup and converting user's data for no reason.
+This will probably be removed later.
+Please avoid deleting the file unless you know what you're doing.
+
+Status: You were not using Skills v14
+2020/04/07 10:44:08

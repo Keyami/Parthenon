@@ -1,0 +1,87 @@
+#----------------------------------------------------------------------------------------------------
+# Trade modifiers configuration file for SupremeShops
+#----------------------------------------------------------------------------------------------------
+
+# Register your trade modifiers here
+# They apply to shops and will always be precalculated (so the value displayed to / traded with the player will always be the correct one, with modifiers included)
+
+modifiers:
+ 
+  # 'inflation' is the id of the modifier here
+  # This modifier will apply inflation to all the trades ; it'll basically keep the prices going as long as player keep trading ; the more "hardcore" way of keeping the economy alive
+#  inflation:
+#    # Which shop objects should be affected
+#    # Here we want all the buying amounts (money/items/...) to be higher depending on the amount of trades made on the server
+#    target_object_sides:
+#      - TAKING
+#    target_object_types: []
+#    # Modifier formula to apply on the final amount
+#    # So here on the amount of money taken
+#    # !! This will really depend on your server's economy, so do your own calculations depending on how you wish your economy to be regarding trades !!
+#    formula: '{amount} * (1 + posOrZero(log({total_server_trades} / 5000000)))'
+  
+  # 'admin_buy_cheaper_if_quantity' is the id of the modifier here
+  # This modifier will charge less money if you buy in bigger quantities (multiple trades) only in admin shops
+#  admin_buy_cheaper_if_quantity:
+#    # Conditions to check
+#    # Here the target shops must be admin "items vs money" shops...
+#    conditions:
+#      required_valid: 3
+#      conditions:
+#        # ... first it must be an admin shop
+#        1:
+#          type: IS_ADMIN
+#        # ... then it must give at least one item object
+#        2:
+#          type: SHOP_OBJECT_COUNT
+#          object_side: GIVING
+#          object_type: ITEM
+#          amount: 1
+#         # ... and it must receive Vault money
+#        3:
+#          type: SHOP_OBJECT_COUNT
+#          object_side: TAKING
+#          object_type: VAULT_MONEY
+#          amount: 1
+#    # Which shop objects should be affected
+#    # Here we want the price to be a little cheaper, so affect the taken Vault money
+#    target_object_sides:
+#      - TAKING
+#    target_object_types:
+#      - VAULT_MONEY
+#    # Modifier formula to apply on the final amount
+#    # So here on the amount of money taken
+#    formula: '{amount} * (1 - posOrZero(log({trades} / 10)))'
+  
+  # 'admin_sell_cheaper' is the id of the modifier here
+  # This modifier will buy items from players 15% less than their original value
+#  admin_sell_cheaper:
+#    # Conditions to check
+#    # Here the target shops must be admin "money vs items" shops...
+#    conditions:
+#      required_valid: 3
+#      conditions:
+#        # ... first it must be an admin shop
+#        1:
+#          type: IS_ADMIN
+#        # ... then it must give Vault money
+#        2:
+#          type: SHOP_OBJECT_COUNT
+#          object_side: GIVING
+#          object_type: VAULT_MONEY
+#          amount: 1
+#        # ... and it must receive at least one item object
+#        3:
+#          type: SHOP_OBJECT_COUNT
+#          object_side: TAKING
+#          object_type: ITEM
+#          amount: 1
+#    # Which shop objects should be affected
+#    # Here we want the shop to give less money, so affect the given Vault money
+#    target_object_sides:
+#      - GIVING
+#    target_object_types:
+#      - VAULT_MONEY
+#    # Modifier formula to apply on the final amount
+#    # So here on the amount of money given
+#    formula: '{amount} * 0.85'

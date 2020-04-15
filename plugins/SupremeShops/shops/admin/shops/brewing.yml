@@ -1,0 +1,347 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  dff42de6b5:
+    name: '&cMoney &7-> &aBrewing Stand'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BREWING_STAND
+          amount: 1
+
+  5b6ed24ffd:
+    name: '&cBrewing Stand &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BREWING_STAND
+          amount: 1
+
+  fe36c73471:
+    name: '&cMoney &7-> &aCauldron'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CAULDRON
+          amount: 1
+
+  17437c63ef:
+    name: '&cCauldron &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CAULDRON
+          amount: 1
+
+  844aa5cf95:
+    name: '&cMoney &7-> &aGhast Tear'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GHAST_TEAR
+          amount: 1
+
+  59fc5aa448:
+    name: '&cGhast Tear &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GHAST_TEAR
+          amount: 1
+
+  28a7f4e724:
+    name: '&cMoney &7-> &aFermented Spider Eye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: FERMENTED_SPIDER_EYE
+          amount: 1
+
+  427e4f7a82:
+    name: '&cFermented Spider Eye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: FERMENTED_SPIDER_EYE
+          amount: 1
+
+  5baa8b18a5:
+    name: '&cMoney &7-> &aBlaze Powder'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLAZE_POWDER
+          amount: 1
+
+  5a81b8aab5:
+    name: '&cBlaze Powder &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLAZE_POWDER
+          amount: 1
+
+  28cefb58b3:
+    name: '&cMoney &7-> &aMagma Cream'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MAGMA_CREAM
+          amount: 1
+
+  3b85bfec82:
+    name: '&cMagma Cream &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MAGMA_CREAM
+          amount: 1
+
+  6f9f82ac03:
+    name: '&cMoney &7-> &aGlistering Melon Slice'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GLISTERING_MELON_SLICE
+          amount: 1
+
+  30ca28f9f6:
+    name: '&cGlistering Melon Slice &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GLISTERING_MELON_SLICE
+          amount: 1
+
+  a960b7ea4f:
+    name: '&cMoney &7-> &aGolden Carrot'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_CARROT
+          amount: 1
+
+  f4ae7b069a:
+    name: '&cGolden Carrot &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_CARROT
+          amount: 1
+
+  9d78803233:
+    name: '&cMoney &7-> &aRabbit Foot'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RABBIT_FOOT
+          amount: 1
+
+  33230887d9:
+    name: '&cRabbit Foot &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RABBIT_FOOT
+          amount: 1
+
+  2d7084cee3:
+    name: '&cMoney &7-> &aDragon Breath'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DRAGON_BREATH
+          amount: 1
+
+  3eec4807d2:
+    name: '&cDragon Breath &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DRAGON_BREATH
+          amount: 1
+
+  02380c2b6f:
+    name: '&cMoney &7-> &aPhantom Membrane'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PHANTOM_MEMBRANE
+          amount: 1
+
+  f6b2c08320:
+    name: '&cPhantom Membrane &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PHANTOM_MEMBRANE
+          amount: 1
+
+  371bbd20e8:
+    name: '&cMoney &7-> &aRedstone'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: REDSTONE
+          amount: 1
+
+  8e02dbb173:
+    name: '&cRedstone &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: REDSTONE
+          amount: 1
+
+  e88830b5fd:
+    name: '&cMoney &7-> &aGlowstone Dust'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GLOWSTONE_DUST
+          amount: 1
+
+  df5b03888e:
+    name: '&cGlowstone Dust &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GLOWSTONE_DUST
+          amount: 1
+

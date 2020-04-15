@@ -1,0 +1,225 @@
+#----------------------------------------------------------------------------------------------------
+# Configuration file for the items you can bet
+#----------------------------------------------------------------------------------------------------
+
+# Enable item values defined by the server, and for which types of shops
+# Settings : DISABLED, RECOMMENDED, ENABLED
+shop_settings:
+  GUI: RECOMMENDED
+  BLOCK: RECOMMENDED
+  MERCHANT: RECOMMENDED
+
+# Should it be enabled for all kinds of admin shops
+admin_setting: true
+
+# For those types of shops where item value is RECOMMENDED, above/below what percentage of difference of price should we be notifying the player that the trade value is unbalanced
+# By default it's at 25.0
+notify_unbalanced_diff: 25.0
+
+# Notify unbalanced trades in player trades
+notify_unbalanced_player_trades: true
+
+# Money value for item (per unit)
+# This list is only useful if you use any setting that require item values to be known by the plugin
+# To blacklist/whitelist items from shops, use /items/whitelist.yml and /items/blacklist.yml
+# By default every item has a default value of 1.5625$/unit (100$/stack) using the general settings ; every server economy value items differently so there aren't any default values
+# Config settings for items :
+#   - if you want some items to be more specific you can copy/paste them and add more settings (name, lore, unbreakable, durability, ...)
+#   - to check durability use durability_check: true
+#   - to check the item exactly (exact match, so if the additional settings such as name or lore don't match, the item won't be recognized), use exact_match: true
+# If you do not want any dynamic pricing for an item, just remove the "modifier" settings (but keep the default values)
+
+# Those generic settings are for all items, per unit
+# !! Generic settings will be divided per item type, not per name or anything else !!
+# -> any item with the type DIAMOND_SWORD will have the same value, regardless of its data or NBT
+# -> if you have custom items of type DIAMOND but with a specific name for example, you'll have to override it below
+# -> !! that does NOT mean that any item of type DIAMOND will be tradeable in any shop : the type of item sold in the shop will have to match, BUT the value between all diamonds will be synced !!
+generic_config:
+  # Per-side settings
+  values:
+    # Settings for when this item is in the "taking" objects (the value will affect what is given to the buyer -> so that's the "sell" price)
+    TAKING:
+      default_value: 1.5625
+      post_trade_modifier: '{value} * 0.9995^{trades}'
+      post_opposite_trade_modifier: '{value} * 1.0005^{trades}'
+      per_minute_modifier: '{value} * 1.0001'
+    # Settings for when this item is in the "given" objects (the value will affect what is taken from the buyer -> so that's the "buy" price)
+    GIVING:
+      default_value: 1.5625
+      post_trade_modifier: '{value} * 1.0005^{trades}'
+      post_opposite_trade_modifier: '{value} * 0.9995^{trades}'
+      per_minute_modifier: '{value} * 0.9999'
+
+# You can override items by adding them to this list ; if they match, those settings below will be used instead of the generic ones
+specific_configs:
+  my_sword:
+    # Item settings
+    type: DIAMOND_SWORD
+    name: '&cMy Sword'
+    # Per-side settings
+    values:
+       # Settings for when this item is in the "taking" objects (the value will affect what is given to the buyer -> so that's the "sell" price) (will override the generic values)
+       TAKING:
+         default_value: 1.5625
+         post_trade_modifier: '{value} * 0.9995^{trades}'
+         post_opposite_trade_modifier: '{value} * 1.0005^{trades}'
+         per_minute_modifier: '{value} * 1.0001'
+       # Settings for when this item is in the "given" objects (the value will affect what is taken from the buyer -> so that's the "buy" price) (will override the generic values)
+       GIVING:
+         default_value: 1.5625
+         # You can override only specific values, and the default ones will be taken from the generic values (here the post trade and per minute modifiers from the generic values will be kept)
+         # To override a modifier and make it apply nothing, just set an empty modifier (for example -> post_trade_modifier: ''))
+
+# Enchants value multipliers, for every level (if the item has this enchant, its value will be multiplied by the specified multiplier)
+# Those values are cumulative if an item has multiples enchants ; they'll be applied after the value of the item stack was calculated ; they won't apply if the item value already has that enchantment
+enchant_multipliers:
+  ARROW_DAMAGE:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  ARROW_FIRE:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  ARROW_INFINITE:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  ARROW_KNOCKBACK:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  DAMAGE_ALL:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  DAMAGE_ARTHROPODS:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  DAMAGE_UNDEAD:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  DEPTH_STRIDER:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  DIG_SPEED:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  DURABILITY:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  FIRE_ASPECT:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  KNOCKBACK:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  LOOT_BONUS_BLOCKS:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  LOOT_BONUS_MOBS:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  LUCK:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  LURE:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  OXYGEN:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  PROTECTION_ENVIRONMENTAL:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  PROTECTION_EXPLOSIONS:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  PROTECTION_FALL:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  PROTECTION_FIRE:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  PROTECTION_PROJECTILE:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  SILK_TOUCH:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  THORNS:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0
+  WATER_WORKER:
+    1: 1.2
+    2: 1.5
+    3: 1.9
+    4: 2.5
+    5: 3.0

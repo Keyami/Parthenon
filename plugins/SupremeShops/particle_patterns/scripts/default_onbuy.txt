@@ -1,0 +1,7 @@
+// Lines starting with // are comments
+// Lines starting with : are instructions ; the more : there are, the more deeper you're in the code (in a loop for example, one more : needs to be added to define which instructions are in the loop)
+// Default variables are baseX, baseY, baseZ (base coordinates)
+
+// Display an emerald
+
+:display VILLAGER_HAPPY,baseX,baseY + 1.5,baseZ,1

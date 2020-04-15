@@ -1,0 +1,25 @@
+#----------------------------------------------------------------------------------------------------
+# Particle patterns registration file for SupremeShops
+#----------------------------------------------------------------------------------------------------
+
+# Register your patterns here
+
+patterns:
+
+  default_emeralds:
+    name: 'Default Emeralds'
+    script: default_emeralds.txt
+    permission: supremeshops.particlepattern.default_emeralds
+    availability: BLOCK
+    icon:
+      type: EMERALD
+      name: '&aDefault Emeralds'
+
+  default_hearts_entity:
+    name: 'Default Hearts (entity)'
+    script: default_hearts_entity.txt
+    permission: supremeshops.particlepattern.default_hearts_entity
+    availability: ENTITY
+    icon:
+      type: RED_DYE
+      name: '&cDefault Hearts (entity)'

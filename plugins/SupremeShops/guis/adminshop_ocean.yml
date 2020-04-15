@@ -1,0 +1,334 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Ocean'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  6270553ffb:
+    item:
+      slot: 0
+      type: DARK_PRISMARINE
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Prismarine &7(left click)'
+      lore:
+        - '&7&cDark Prismarine &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:6270553ffb
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:bff3550726
+
+  1d18acfc81:
+    item:
+      slot: 1
+      type: PRISMARINE_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Bricks &7(left click)'
+      lore:
+        - '&7&cPrismarine Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:1d18acfc81
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:18cfca81d1
+
+  bfed988121:
+    item:
+      slot: 2
+      type: PRISMARINE
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine &7(left click)'
+      lore:
+        - '&7&cPrismarine &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:bfed988121
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:121889defb
+
+  079f389e46:
+    item:
+      slot: 3
+      type: DARK_PRISMARINE_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Prismarine Slab &7(left click)'
+      lore:
+        - '&7&cDark Prismarine Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:079f389e46
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:64e983f970
+
+  19330790ce:
+    item:
+      slot: 4
+      type: PRISMARINE_BRICK_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Brick Slab &7(left click)'
+      lore:
+        - '&7&cPrismarine Brick Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:19330790ce
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:ec09703391
+
+  027302284b:
+    item:
+      slot: 5
+      type: PRISMARINE_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Slab &7(left click)'
+      lore:
+        - '&7&cPrismarine Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:027302284b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:b482203720
+
+  f126d278e4:
+    item:
+      slot: 6
+      type: DARK_PRISMARINE_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Prismarine Stairs &7(left click)'
+      lore:
+        - '&7&cDark Prismarine Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:f126d278e4
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:4e872d621f
+
+  b2d6e6072b:
+    item:
+      slot: 7
+      type: PRISMARINE_BRICK_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Brick Stairs &7(left click)'
+      lore:
+        - '&7&cPrismarine Brick Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:b2d6e6072b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:b2706e6d2b
+
+  ec34546ba7:
+    item:
+      slot: 8
+      type: PRISMARINE_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Stairs &7(left click)'
+      lore:
+        - '&7&cPrismarine Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:ec34546ba7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:7ab64543ce
+
+  ff50891a21:
+    item:
+      slot: 9
+      type: TUBE_CORAL_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aTube Coral Block &7(left click)'
+      lore:
+        - '&7&cTube Coral Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:ff50891a21
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:12a19805ff
+
+  974adf27bf:
+    item:
+      slot: 10
+      type: BRAIN_CORAL_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aBrain Coral Block &7(left click)'
+      lore:
+        - '&7&cBrain Coral Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:974adf27bf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:fb72fda479
+
+  c8f5db7b10:
+    item:
+      slot: 11
+      type: BUBBLE_CORAL_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aBubble Coral Block &7(left click)'
+      lore:
+        - '&7&cBubble Coral Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:c8f5db7b10
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:01b7bd5f8c
+
+  809218ebfb:
+    item:
+      slot: 12
+      type: FIRE_CORAL_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aFire Coral Block &7(left click)'
+      lore:
+        - '&7&cFire Coral Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:809218ebfb
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:bfbe812908
+
+  05eeb1c8cc:
+    item:
+      slot: 13
+      type: HORN_CORAL_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aHorn Coral Block &7(left click)'
+      lore:
+        - '&7&cHorn Coral Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:05eeb1c8cc
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:cc8c1bee50
+
+  387e0b4ac6:
+    item:
+      slot: 14
+      type: BLUE_ICE
+      amount: 1
+      name: '&7&cMoney &7-> &aBlue Ice &7(left click)'
+      lore:
+        - '&7&cBlue Ice &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:387e0b4ac6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:6ca4b0e783
+
+  6bde9bf4b1:
+    item:
+      slot: 15
+      type: PACKED_ICE
+      amount: 1
+      name: '&7&cMoney &7-> &aPacked Ice &7(left click)'
+      lore:
+        - '&7&cPacked Ice &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:6bde9bf4b1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:1b4fb9edb6
+
+  28017de418:
+    item:
+      slot: 16
+      type: SPONGE
+      amount: 1
+      name: '&7&cMoney &7-> &aSponge &7(left click)'
+      lore:
+        - '&7&cSponge &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:28017de418
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:814ed71082
+
+  99462ff30b:
+    item:
+      slot: 17
+      type: PRISMARINE_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Wall &7(left click)'
+      lore:
+        - '&7&cPrismarine Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:99462ff30b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:b03ff26499
+
+  640780212d:
+    item:
+      slot: 18
+      type: TUBE_CORAL
+      amount: 1
+      name: '&7&cMoney &7-> &aTube Coral &7(left click)'
+      lore:
+        - '&7&cTube Coral &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:640780212d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:d212087046
+
+  dba7942403:
+    item:
+      slot: 19
+      type: BRAIN_CORAL
+      amount: 1
+      name: '&7&cMoney &7-> &aBrain Coral &7(left click)'
+      lore:
+        - '&7&cBrain Coral &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:dba7942403
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:3042497abd
+
+  fae0950e78:
+    item:
+      slot: 20
+      type: BUBBLE_CORAL
+      amount: 1
+      name: '&7&cMoney &7-> &aBubble Coral &7(left click)'
+      lore:
+        - '&7&cBubble Coral &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:fae0950e78
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:87e0590eaf
+
+  d45d6bc552:
+    item:
+      slot: 21
+      type: FIRE_CORAL
+      amount: 1
+      name: '&7&cMoney &7-> &aFire Coral &7(left click)'
+      lore:
+        - '&7&cFire Coral &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:d45d6bc552
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:255cb6d54d
+
+  111acedd1a:
+    item:
+      slot: 22
+      type: HORN_CORAL
+      amount: 1
+      name: '&7&cMoney &7-> &aHorn Coral &7(left click)'
+      lore:
+        - '&7&cHorn Coral &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:111acedd1a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:a1ddeca111
+
+  656498d2de:
+    item:
+      slot: 23
+      type: PRISMARINE_SHARD
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Shard &7(left click)'
+      lore:
+        - '&7&cPrismarine Shard &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:656498d2de
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:ed2d894656
+
+  4a8829fd5f:
+    item:
+      slot: 24
+      type: PRISMARINE_CRYSTALS
+      amount: 1
+      name: '&7&cMoney &7-> &aPrismarine Crystals &7(left click)'
+      lore:
+        - '&7&cPrismarine Crystals &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE ocean:4a8829fd5f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE ocean:f5df9288a4
+

@@ -1,0 +1,174 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # admin shops GUIs
+  adminshop_tools:
+    item:
+      slot: 10
+      type: IRON_PICKAXE
+      name: '&fTools'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_tools
+      
+  adminshop_miner:
+    item:
+      slot: 11
+      type: DIAMOND
+      name: '&bMiner'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_miner
+      
+  adminshop_explorer:
+    item:
+      slot: 12
+      type: MOSSY_COBBLESTONE
+      name: '&2Explorer'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_explorer
+      
+  adminshop_ocean:
+    item:
+      slot: 13
+      type: SPONGE
+      name: '&1Ocean'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_ocean
+      
+  adminshop_woodcutter:
+    item:
+      slot: 14
+      type: BIRCH_LOG
+      name: '&fWoodcutter'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_woodcutter
+      
+  adminshop_gardener:
+    item:
+      slot: 15
+      type: POPPY
+      name: '&4Gardener'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_gardener
+      
+  adminshop_farmer:
+    item:
+      slot: 16
+      type: WHEAT
+      name: '&eFarmer'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_farmer
+      
+  adminshop_food:
+    item:
+      slot: 19
+      type: APPLE
+      name: '&cFood'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_food
+      
+  adminshop_loot:
+    item:
+      slot: 20
+      type: ENDER_PEARL
+      name: '&3Loot'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_loot
+      
+  adminshop_brewing:
+    item:
+      slot: 21
+      type: BREWING_STAND
+      name: '&6Brewing'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_brewing
+      
+  adminshop_dye:
+    item:
+      slot: 22
+      type: PINK_DYE
+      name: '&dDye'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_dye
+      
+  adminshop_furniture:
+    item:
+      slot: 23
+      type: FURNACE
+      name: '&8Furniture'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_furniture
+      
+  adminshop_openable:
+    item:
+      slot: 24
+      type: IRON_TRAPDOOR
+      name: '&7Openable'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_openable
+      
+  adminshop_redstone:
+    item:
+      slot: 25
+      type: REDSTONE_TORCH
+      name: '&cRedstone'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_redstone
+      
+  adminshop_enchanted_books:
+    item:
+      slot: 28
+      type: ENCHANTED_BOOK
+      name: '&4Enchanted books'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_enchanted_books
+      
+  adminshop_regular_potions:
+    item:
+      slot: 29
+      type: GLASS_BOTTLE
+      name: '&6Regular potions'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_regular_potions
+      
+  adminshop_splash_potions:
+    item:
+      slot: 30
+      type: GLASS_BOTTLE
+      name: '&9Splash potions'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_splash_potions
+      
+  adminshop_lingering_potions:
+    item:
+      slot: 31
+      type: GLASS_BOTTLE
+      name: '&bLingering potions'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_lingering_potions
+      
+  adminshop_mob_eggs:
+    item:
+      slot: 32
+      type: CREEPER_SPAWN_EGG
+      name: '&aSpawn eggs'
+    click_actions:
+      DEFAULT: OPEN_GUI adminshop_mob_eggs
+  
+  # open the player merchants menu
+  player_merchants:
+    item:
+      slot: 43
+      type: PLAYER_HEAD
+      name: '&aPlayer shops and merchants'
+      lore:
+        - '&7Managed by players'
+    click_actions:
+      DEFAULT: OPEN_GUI player_shops_and_merchants

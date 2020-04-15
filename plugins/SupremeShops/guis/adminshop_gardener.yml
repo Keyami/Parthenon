@@ -1,0 +1,526 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Gardener'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  d78250f9fe:
+    item:
+      slot: 0
+      type: OAK_SAPLING
+      amount: 1
+      name: '&7&cMoney &7-> &aOak Sapling &7(left click)'
+      lore:
+        - '&7&cOak Sapling &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:d78250f9fe
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:ef9f05287d
+
+  f63cbd3c57:
+    item:
+      slot: 1
+      type: DARK_OAK_SAPLING
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Oak Sapling &7(left click)'
+      lore:
+        - '&7&cDark Oak Sapling &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:f63cbd3c57
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:75c3dbc36f
+
+  82acfa4b0d:
+    item:
+      slot: 2
+      type: SPRUCE_SAPLING
+      amount: 1
+      name: '&7&cMoney &7-> &aSpruce Sapling &7(left click)'
+      lore:
+        - '&7&cSpruce Sapling &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:82acfa4b0d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:d0b4afca28
+
+  b8ea2f2112:
+    item:
+      slot: 3
+      type: BIRCH_SAPLING
+      amount: 1
+      name: '&7&cMoney &7-> &aBirch Sapling &7(left click)'
+      lore:
+        - '&7&cBirch Sapling &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:b8ea2f2112
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:2112f2ae8b
+
+  7d8088824f:
+    item:
+      slot: 4
+      type: JUNGLE_SAPLING
+      amount: 1
+      name: '&7&cMoney &7-> &aJungle Sapling &7(left click)'
+      lore:
+        - '&7&cJungle Sapling &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:7d8088824f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:f4288808d7
+
+  9f77b31176:
+    item:
+      slot: 5
+      type: ACACIA_SAPLING
+      amount: 1
+      name: '&7&cMoney &7-> &aAcacia Sapling &7(left click)'
+      lore:
+        - '&7&cAcacia Sapling &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:9f77b31176
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:67113b77f9
+
+  942aaf421c:
+    item:
+      slot: 6
+      type: GRASS
+      amount: 1
+      name: '&7&cMoney &7-> &aGrass &7(left click)'
+      lore:
+        - '&7&cGrass &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:942aaf421c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:c124faa249
+
+  cdb320c9d7:
+    item:
+      slot: 7
+      type: FERN
+      amount: 1
+      name: '&7&cMoney &7-> &aFern &7(left click)'
+      lore:
+        - '&7&cFern &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:cdb320c9d7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:7d9c023bdc
+
+  1e50e643c3:
+    item:
+      slot: 8
+      type: DEAD_BUSH
+      amount: 1
+      name: '&7&cMoney &7-> &aDead Bush &7(left click)'
+      lore:
+        - '&7&cDead Bush &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:1e50e643c3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:3c346e05e1
+
+  f3b86fa586:
+    item:
+      slot: 9
+      type: OAK_LEAVES
+      amount: 1
+      name: '&7&cMoney &7-> &aOak Leaves &7(left click)'
+      lore:
+        - '&7&cOak Leaves &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:f3b86fa586
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:685af68b3f
+
+  34e7639a50:
+    item:
+      slot: 10
+      type: DARK_OAK_LEAVES
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Oak Leaves &7(left click)'
+      lore:
+        - '&7&cDark Oak Leaves &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:34e7639a50
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:05a9367e43
+
+  2800bba325:
+    item:
+      slot: 11
+      type: SPRUCE_LEAVES
+      amount: 1
+      name: '&7&cMoney &7-> &aSpruce Leaves &7(left click)'
+      lore:
+        - '&7&cSpruce Leaves &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:2800bba325
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:523abb0082
+
+  4aa7b4b229:
+    item:
+      slot: 12
+      type: BIRCH_LEAVES
+      amount: 1
+      name: '&7&cMoney &7-> &aBirch Leaves &7(left click)'
+      lore:
+        - '&7&cBirch Leaves &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:4aa7b4b229
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:922b4b7aa4
+
+  6d1742fbb1:
+    item:
+      slot: 13
+      type: JUNGLE_LEAVES
+      amount: 1
+      name: '&7&cMoney &7-> &aJungle Leaves &7(left click)'
+      lore:
+        - '&7&cJungle Leaves &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:6d1742fbb1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:1bbf2471d6
+
+  aa0b565747:
+    item:
+      slot: 14
+      type: ACACIA_LEAVES
+      amount: 1
+      name: '&7&cMoney &7-> &aAcacia Leaves &7(left click)'
+      lore:
+        - '&7&cAcacia Leaves &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:aa0b565747
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:747565b0aa
+
+  7e7005867e:
+    item:
+      slot: 15
+      type: SEAGRASS
+      amount: 1
+      name: '&7&cMoney &7-> &aSeagrass &7(left click)'
+      lore:
+        - '&7&cSeagrass &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:7e7005867e
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:e7685007e7
+
+  c1a8cdda8c:
+    item:
+      slot: 16
+      type: SEA_PICKLE
+      amount: 1
+      name: '&7&cMoney &7-> &aSea Pickle &7(left click)'
+      lore:
+        - '&7&cSea Pickle &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:c1a8cdda8c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:c8addc8a1c
+
+  852614a644:
+    item:
+      slot: 17
+      type: KELP
+      amount: 1
+      name: '&7&cMoney &7-> &aKelp &7(left click)'
+      lore:
+        - '&7&cKelp &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:852614a644
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:446a416258
+
+  2aee970814:
+    item:
+      slot: 18
+      type: DANDELION
+      amount: 1
+      name: '&7&cMoney &7-> &aDandelion &7(left click)'
+      lore:
+        - '&7&cDandelion &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:2aee970814
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:418079eea2
+
+  0238d0243b:
+    item:
+      slot: 19
+      type: POPPY
+      amount: 1
+      name: '&7&cMoney &7-> &aPoppy &7(left click)'
+      lore:
+        - '&7&cPoppy &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:0238d0243b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:b3420d8320
+
+  0bef20cd0d:
+    item:
+      slot: 20
+      type: BLUE_ORCHID
+      amount: 1
+      name: '&7&cMoney &7-> &aBlue Orchid &7(left click)'
+      lore:
+        - '&7&cBlue Orchid &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:0bef20cd0d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:d0dc02feb0
+
+  d9066584b7:
+    item:
+      slot: 21
+      type: ALLIUM
+      amount: 1
+      name: '&7&cMoney &7-> &aAllium &7(left click)'
+      lore:
+        - '&7&cAllium &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:d9066584b7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:7b4856609d
+
+  a70ded00ce:
+    item:
+      slot: 22
+      type: AZURE_BLUET
+      amount: 1
+      name: '&7&cMoney &7-> &aAzure Bluet &7(left click)'
+      lore:
+        - '&7&cAzure Bluet &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:a70ded00ce
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:ec00ded07a
+
+  3f49232a46:
+    item:
+      slot: 23
+      type: RED_TULIP
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Tulip &7(left click)'
+      lore:
+        - '&7&cRed Tulip &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:3f49232a46
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:64a23294f3
+
+  c84f0bca8d:
+    item:
+      slot: 24
+      type: ORANGE_TULIP
+      amount: 1
+      name: '&7&cMoney &7-> &aOrange Tulip &7(left click)'
+      lore:
+        - '&7&cOrange Tulip &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:c84f0bca8d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:d8acb0f48c
+
+  9664dfc292:
+    item:
+      slot: 25
+      type: WHITE_TULIP
+      amount: 1
+      name: '&7&cMoney &7-> &aWhite Tulip &7(left click)'
+      lore:
+        - '&7&cWhite Tulip &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:9664dfc292
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:292cfd4669
+
+  816c17c0ee:
+    item:
+      slot: 26
+      type: PINK_TULIP
+      amount: 1
+      name: '&7&cMoney &7-> &aPink Tulip &7(left click)'
+      lore:
+        - '&7&cPink Tulip &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:816c17c0ee
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:ee0c71c618
+
+  75bbd478af:
+    item:
+      slot: 27
+      type: OXEYE_DAISY
+      amount: 1
+      name: '&7&cMoney &7-> &aOxeye Daisy &7(left click)'
+      lore:
+        - '&7&cOxeye Daisy &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:75bbd478af
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:fa874dbb57
+
+  7122408f91:
+    item:
+      slot: 28
+      type: CORNFLOWER
+      amount: 1
+      name: '&7&cMoney &7-> &aCornflower &7(left click)'
+      lore:
+        - '&7&cCornflower &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:7122408f91
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:19f8042217
+
+  0699701bae:
+    item:
+      slot: 29
+      type: LILY_OF_THE_VALLEY
+      amount: 1
+      name: '&7&cMoney &7-> &aLily Of The Valley &7(left click)'
+      lore:
+        - '&7&cLily Of The Valley &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:0699701bae
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:eab1079960
+
+  9ff3ff11c2:
+    item:
+      slot: 30
+      type: WITHER_ROSE
+      amount: 1
+      name: '&7&cMoney &7-> &aWither Rose &7(left click)'
+      lore:
+        - '&7&cWither Rose &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:9ff3ff11c2
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:2c11ff3ff9
+
+  c65cf334af:
+    item:
+      slot: 31
+      type: SUNFLOWER
+      amount: 1
+      name: '&7&cMoney &7-> &aSunflower &7(left click)'
+      lore:
+        - '&7&cSunflower &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:c65cf334af
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:fa433fc56c
+
+  250ad8629f:
+    item:
+      slot: 32
+      type: LILAC
+      amount: 1
+      name: '&7&cMoney &7-> &aLilac &7(left click)'
+      lore:
+        - '&7&cLilac &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:250ad8629f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:f9268da052
+
+  484efb3898:
+    item:
+      slot: 33
+      type: ROSE_BUSH
+      amount: 1
+      name: '&7&cMoney &7-> &aRose Bush &7(left click)'
+      lore:
+        - '&7&cRose Bush &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:484efb3898
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:8983bfe484
+
+  1d599ae14b:
+    item:
+      slot: 34
+      type: PEONY
+      amount: 1
+      name: '&7&cMoney &7-> &aPeony &7(left click)'
+      lore:
+        - '&7&cPeony &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:1d599ae14b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:b41ea995d1
+
+  5e20c35319:
+    item:
+      slot: 35
+      type: BROWN_MUSHROOM
+      amount: 1
+      name: '&7&cMoney &7-> &aBrown Mushroom &7(left click)'
+      lore:
+        - '&7&cBrown Mushroom &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:5e20c35319
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:91353c02e5
+
+  5ea966c77c:
+    item:
+      slot: 36
+      type: RED_MUSHROOM
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Mushroom &7(left click)'
+      lore:
+        - '&7&cRed Mushroom &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:5ea966c77c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:c77c669ae5
+
+  02487732fa:
+    item:
+      slot: 37
+      type: VINE
+      amount: 1
+      name: '&7&cMoney &7-> &aVine &7(left click)'
+      lore:
+        - '&7&cVine &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:02487732fa
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:af23778420
+
+  f9d35d8bb8:
+    item:
+      slot: 38
+      type: LILY_PAD
+      amount: 1
+      name: '&7&cMoney &7-> &aLily Pad &7(left click)'
+      lore:
+        - '&7&cLily Pad &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:f9d35d8bb8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:8bb8d53d9f
+
+  6098b3b7ff:
+    item:
+      slot: 39
+      type: TALL_GRASS
+      amount: 1
+      name: '&7&cMoney &7-> &aTall Grass &7(left click)'
+      lore:
+        - '&7&cTall Grass &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:6098b3b7ff
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:ff7b3b8906
+
+  8320d07e0d:
+    item:
+      slot: 40
+      type: LARGE_FERN
+      amount: 1
+      name: '&7&cMoney &7-> &aLarge Fern &7(left click)'
+      lore:
+        - '&7&cLarge Fern &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE gardener:8320d07e0d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE gardener:d0e70d0238
+

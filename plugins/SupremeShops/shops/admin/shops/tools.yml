@@ -1,0 +1,1179 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  0178679ef4:
+    name: '&cMoney &7-> &aIron Pickaxe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_PICKAXE
+          amount: 1
+
+  4fe9768710:
+    name: '&cIron Pickaxe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_PICKAXE
+          amount: 1
+
+  70c61cce3d:
+    name: '&cMoney &7-> &aIron Shovel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_SHOVEL
+          amount: 1
+
+  d3ecc16c07:
+    name: '&cIron Shovel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_SHOVEL
+          amount: 1
+
+  02227ddf67:
+    name: '&cMoney &7-> &aIron Axe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_AXE
+          amount: 1
+
+  76fdd72220:
+    name: '&cIron Axe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_AXE
+          amount: 1
+
+  f8dc4d1751:
+    name: '&cMoney &7-> &aIron Hoe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_HOE
+          amount: 1
+
+  1571d4cd8f:
+    name: '&cIron Hoe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_HOE
+          amount: 1
+
+  f05a42a3d2:
+    name: '&cMoney &7-> &aIron Sword'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_SWORD
+          amount: 1
+
+  2d3a24a50f:
+    name: '&cIron Sword &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_SWORD
+          amount: 1
+
+  8b0acf649c:
+    name: '&cMoney &7-> &aIron Helmet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_HELMET
+          amount: 1
+
+  c946fca0b8:
+    name: '&cIron Helmet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_HELMET
+          amount: 1
+
+  985645a5e1:
+    name: '&cMoney &7-> &aIron Chestplate'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_CHESTPLATE
+          amount: 1
+
+  1e5a546589:
+    name: '&cIron Chestplate &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_CHESTPLATE
+          amount: 1
+
+  066c045c05:
+    name: '&cMoney &7-> &aIron Leggings'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_LEGGINGS
+          amount: 1
+
+  50c540c660:
+    name: '&cIron Leggings &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_LEGGINGS
+          amount: 1
+
+  06499ddfad:
+    name: '&cMoney &7-> &aIron Boots'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_BOOTS
+          amount: 1
+
+  dafdd99460:
+    name: '&cIron Boots &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_BOOTS
+          amount: 1
+
+  c86eaf72b0:
+    name: '&cMoney &7-> &aDiamond Pickaxe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_PICKAXE
+          amount: 1
+
+  0b27fae68c:
+    name: '&cDiamond Pickaxe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_PICKAXE
+          amount: 1
+
+  9359b306a6:
+    name: '&cMoney &7-> &aDiamond Shovel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_SHOVEL
+          amount: 1
+
+  6a603b9539:
+    name: '&cDiamond Shovel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_SHOVEL
+          amount: 1
+
+  2cb7d332c0:
+    name: '&cMoney &7-> &aDiamond Axe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_AXE
+          amount: 1
+
+  0c233d7bc2:
+    name: '&cDiamond Axe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_AXE
+          amount: 1
+
+  75c0d94afd:
+    name: '&cMoney &7-> &aDiamond Hoe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_HOE
+          amount: 1
+
+  dfa49d0c57:
+    name: '&cDiamond Hoe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_HOE
+          amount: 1
+
+  a93dc876e8:
+    name: '&cMoney &7-> &aDiamond Sword'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_SWORD
+          amount: 1
+
+  8e678cd39a:
+    name: '&cDiamond Sword &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_SWORD
+          amount: 1
+
+  dc709db324:
+    name: '&cMoney &7-> &aDiamond Helmet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_HELMET
+          amount: 1
+
+  423bd907cd:
+    name: '&cDiamond Helmet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_HELMET
+          amount: 1
+
+  84139b5b3c:
+    name: '&cMoney &7-> &aDiamond Chestplate'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+
+  c3b5b93148:
+    name: '&cDiamond Chestplate &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+
+  24e0fbd001:
+    name: '&cMoney &7-> &aDiamond Leggings'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_LEGGINGS
+          amount: 1
+
+  100dbf0e42:
+    name: '&cDiamond Leggings &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_LEGGINGS
+          amount: 1
+
+  8c8ceea64e:
+    name: '&cMoney &7-> &aDiamond Boots'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND_BOOTS
+          amount: 1
+
+  e46aeec8c8:
+    name: '&cDiamond Boots &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND_BOOTS
+          amount: 1
+
+  bbba750a9b:
+    name: '&cMoney &7-> &aGolden Pickaxe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_PICKAXE
+          amount: 1
+
+  b9a057abbb:
+    name: '&cGolden Pickaxe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_PICKAXE
+          amount: 1
+
+  43c5caf6b0:
+    name: '&cMoney &7-> &aGolden Shovel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_SHOVEL
+          amount: 1
+
+  0b6fac5c34:
+    name: '&cGolden Shovel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_SHOVEL
+          amount: 1
+
+  ce28b23bda:
+    name: '&cMoney &7-> &aGolden Axe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_AXE
+          amount: 1
+
+  adb32b82ec:
+    name: '&cGolden Axe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_AXE
+          amount: 1
+
+  664b6d6c67:
+    name: '&cMoney &7-> &aGolden Hoe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_HOE
+          amount: 1
+
+  76c6d6b466:
+    name: '&cGolden Hoe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_HOE
+          amount: 1
+
+  aa14e1d76d:
+    name: '&cMoney &7-> &aGolden Sword'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_SWORD
+          amount: 1
+
+  d67d1e41aa:
+    name: '&cGolden Sword &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_SWORD
+          amount: 1
+
+  d926704cb8:
+    name: '&cMoney &7-> &aGolden Helmet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_HELMET
+          amount: 1
+
+  8bc407629d:
+    name: '&cGolden Helmet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_HELMET
+          amount: 1
+
+  a0442df18b:
+    name: '&cMoney &7-> &aGolden Chestplate'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_CHESTPLATE
+          amount: 1
+
+  b81fd2440a:
+    name: '&cGolden Chestplate &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_CHESTPLATE
+          amount: 1
+
+  6cfd6a6322:
+    name: '&cMoney &7-> &aGolden Leggings'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_LEGGINGS
+          amount: 1
+
+  2236a6dfc6:
+    name: '&cGolden Leggings &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_LEGGINGS
+          amount: 1
+
+  36701d291a:
+    name: '&cMoney &7-> &aGolden Boots'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_BOOTS
+          amount: 1
+
+  a192d10763:
+    name: '&cGolden Boots &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_BOOTS
+          amount: 1
+
+  446b444c67:
+    name: '&cMoney &7-> &aStone Pickaxe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STONE_PICKAXE
+          amount: 1
+
+  76c444b644:
+    name: '&cStone Pickaxe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STONE_PICKAXE
+          amount: 1
+
+  bc73ab71f3:
+    name: '&cMoney &7-> &aStone Shovel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STONE_SHOVEL
+          amount: 1
+
+  3f17ba37cb:
+    name: '&cStone Shovel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STONE_SHOVEL
+          amount: 1
+
+  0d131aecc0:
+    name: '&cMoney &7-> &aStone Axe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STONE_AXE
+          amount: 1
+
+  0ccea131d0:
+    name: '&cStone Axe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STONE_AXE
+          amount: 1
+
+  5496e3d8ef:
+    name: '&cMoney &7-> &aStone Hoe'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STONE_HOE
+          amount: 1
+
+  fe8d3e6945:
+    name: '&cStone Hoe &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STONE_HOE
+          amount: 1
+
+  39370c93b4:
+    name: '&cMoney &7-> &aStone Sword'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STONE_SWORD
+          amount: 1
+
+  4b39c07393:
+    name: '&cStone Sword &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STONE_SWORD
+          amount: 1
+
+  1449c708d6:
+    name: '&cMoney &7-> &aLeather Helmet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LEATHER_HELMET
+          amount: 1
+
+  6d807c9441:
+    name: '&cLeather Helmet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LEATHER_HELMET
+          amount: 1
+
+  f1225676cc:
+    name: '&cMoney &7-> &aLeather Chestplate'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LEATHER_CHESTPLATE
+          amount: 1
+
+  cc6765221f:
+    name: '&cLeather Chestplate &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LEATHER_CHESTPLATE
+          amount: 1
+
+  56d3a301ae:
+    name: '&cMoney &7-> &aLeather Leggings'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LEATHER_LEGGINGS
+          amount: 1
+
+  ea103a3d65:
+    name: '&cLeather Leggings &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LEATHER_LEGGINGS
+          amount: 1
+
+  818b49327b:
+    name: '&cMoney &7-> &aLeather Boots'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LEATHER_BOOTS
+          amount: 1
+
+  b72394b818:
+    name: '&cLeather Boots &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LEATHER_BOOTS
+          amount: 1
+
+  12663fdfdd:
+    name: '&cMoney &7-> &aShears'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SHEARS
+          amount: 1
+
+  ddfdf36621:
+    name: '&cShears &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SHEARS
+          amount: 1
+
+  54b12f1ddf:
+    name: '&cMoney &7-> &aFlint And Steel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: FLINT_AND_STEEL
+          amount: 1
+
+  fdd1f21b45:
+    name: '&cFlint And Steel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: FLINT_AND_STEEL
+          amount: 1
+
+  a2412334ae:
+    name: '&cMoney &7-> &aFishing Rod'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: FISHING_ROD
+          amount: 1
+
+  ea4332142a:
+    name: '&cFishing Rod &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: FISHING_ROD
+          amount: 1
+
+  b8abc42cb2:
+    name: '&cMoney &7-> &aLead'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LEAD
+          amount: 1
+
+  2bc24cba8b:
+    name: '&cLead &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LEAD
+          amount: 1
+
+  5eef641c05:
+    name: '&cMoney &7-> &aName Tag'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: NAME_TAG
+          amount: 1
+
+  50c146fee5:
+    name: '&cName Tag &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: NAME_TAG
+          amount: 1
+
+  b05a26253f:
+    name: '&cMoney &7-> &aCompass'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COMPASS
+          amount: 1
+
+  f35262a50b:
+    name: '&cCompass &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COMPASS
+          amount: 1
+
+  acdea6beb5:
+    name: '&cMoney &7-> &aClock'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CLOCK
+          amount: 1
+
+  5beb6aedca:
+    name: '&cClock &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CLOCK
+          amount: 1
+
+  4c5c542291:
+    name: '&cMoney &7-> &aBow'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BOW
+          amount: 1
+
+  192245c5c4:
+    name: '&cBow &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BOW
+          amount: 1
+
+  6a51587fcb:
+    name: '&cMoney &7-> &aArrow'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ARROW
+          amount: 1
+
+  bcf78515a6:
+    name: '&cArrow &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ARROW
+          amount: 1
+

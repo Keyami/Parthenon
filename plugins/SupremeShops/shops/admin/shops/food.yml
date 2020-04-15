@@ -1,0 +1,841 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  ae3ab7705f:
+    name: '&cMoney &7-> &aApple'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: APPLE
+          amount: 1
+
+  f5077ba3ea:
+    name: '&cApple &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: APPLE
+          amount: 1
+
+  40ea4ab3a7:
+    name: '&cMoney &7-> &aMushroom Stew'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MUSHROOM_STEW
+          amount: 1
+
+  7a3ba4ae04:
+    name: '&cMushroom Stew &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MUSHROOM_STEW
+          amount: 1
+
+  6e90a01907:
+    name: '&cMoney &7-> &aBread'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BREAD
+          amount: 1
+
+  70910a09e6:
+    name: '&cBread &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BREAD
+          amount: 1
+
+  fc33f1bea8:
+    name: '&cMoney &7-> &aPorkchop'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PORKCHOP
+          amount: 1
+
+  8aeb1f33cf:
+    name: '&cPorkchop &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PORKCHOP
+          amount: 1
+
+  c1308443cb:
+    name: '&cMoney &7-> &aCooked Porkchop'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_PORKCHOP
+          amount: 1
+
+  bc3448031c:
+    name: '&cCooked Porkchop &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_PORKCHOP
+          amount: 1
+
+  b6c55bb6ed:
+    name: '&cMoney &7-> &aGolden Apple'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLDEN_APPLE
+          amount: 1
+
+  de6bb55c6b:
+    name: '&cGolden Apple &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLDEN_APPLE
+          amount: 1
+
+  98d3c29081:
+    name: '&cMoney &7-> &aCod'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COD
+          amount: 1
+
+  18092c3d89:
+    name: '&cCod &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COD
+          amount: 1
+
+  5cdbbf37ea:
+    name: '&cMoney &7-> &aSalmon'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SALMON
+          amount: 1
+
+  ae73fbbdc5:
+    name: '&cSalmon &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SALMON
+          amount: 1
+
+  4c544bb0ef:
+    name: '&cMoney &7-> &aTropical Fish'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: TROPICAL_FISH
+          amount: 1
+
+  fe0bb445c4:
+    name: '&cTropical Fish &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: TROPICAL_FISH
+          amount: 1
+
+  0d1fbc429d:
+    name: '&cMoney &7-> &aPufferfish'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PUFFERFISH
+          amount: 1
+
+  d924cbf1d0:
+    name: '&cPufferfish &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PUFFERFISH
+          amount: 1
+
+  3542fc9790:
+    name: '&cMoney &7-> &aCooked Cod'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_COD
+          amount: 1
+
+  0979cf2453:
+    name: '&cCooked Cod &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_COD
+          amount: 1
+
+  cf8988d7f2:
+    name: '&cMoney &7-> &aCooked Salmon'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_SALMON
+          amount: 1
+
+  2f7d8898fc:
+    name: '&cCooked Salmon &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_SALMON
+          amount: 1
+
+  ba54f117f8:
+    name: '&cMoney &7-> &aCake'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CAKE
+          amount: 1
+
+  8f711f45ab:
+    name: '&cCake &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CAKE
+          amount: 1
+
+  364ac9cc41:
+    name: '&cMoney &7-> &aCookie'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKIE
+          amount: 1
+
+  14cc9ca463:
+    name: '&cCookie &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKIE
+          amount: 1
+
+  5309c7bb0b:
+    name: '&cMoney &7-> &aMelon Slice'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MELON_SLICE
+          amount: 1
+
+  b0bb7c9035:
+    name: '&cMelon Slice &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MELON_SLICE
+          amount: 1
+
+  a360a51a71:
+    name: '&cMoney &7-> &aDried Kelp'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DRIED_KELP
+          amount: 1
+
+  17a15a063a:
+    name: '&cDried Kelp &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DRIED_KELP
+          amount: 1
+
+  b1d65d9bb6:
+    name: '&cMoney &7-> &aBeef'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BEEF
+          amount: 1
+
+  6bb9d56d1b:
+    name: '&cBeef &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BEEF
+          amount: 1
+
+  a39055e2e9:
+    name: '&cMoney &7-> &aCooked Beef'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_BEEF
+          amount: 1
+
+  9e2e55093a:
+    name: '&cCooked Beef &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_BEEF
+          amount: 1
+
+  b3f412c30e:
+    name: '&cMoney &7-> &aChicken'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CHICKEN
+          amount: 1
+
+  e03c214f3b:
+    name: '&cChicken &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CHICKEN
+          amount: 1
+
+  4482b07576:
+    name: '&cMoney &7-> &aCooked Chicken'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_CHICKEN
+          amount: 1
+
+  67570b2844:
+    name: '&cCooked Chicken &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_CHICKEN
+          amount: 1
+
+  7fdd09e645:
+    name: '&cMoney &7-> &aCarrot'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CARROT
+          amount: 1
+
+  546e90ddf7:
+    name: '&cCarrot &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CARROT
+          amount: 1
+
+  78b17cb2ea:
+    name: '&cMoney &7-> &aPotato'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: POTATO
+          amount: 1
+
+  ae2bc71b87:
+    name: '&cPotato &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: POTATO
+          amount: 1
+
+  3db0da9acc:
+    name: '&cMoney &7-> &aPumpkin Pie'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PUMPKIN_PIE
+          amount: 1
+
+  cca9ad0bd3:
+    name: '&cPumpkin Pie &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PUMPKIN_PIE
+          amount: 1
+
+  c03a58edd3:
+    name: '&cMoney &7-> &aRabbit'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RABBIT
+          amount: 1
+
+  3dde85a30c:
+    name: '&cRabbit &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RABBIT
+          amount: 1
+
+  4f72605511:
+    name: '&cMoney &7-> &aCooked Rabbit'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_RABBIT
+          amount: 1
+
+  11550627f4:
+    name: '&cCooked Rabbit &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_RABBIT
+          amount: 1
+
+  5293f1bfcd:
+    name: '&cMoney &7-> &aRabbit Stew'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RABBIT_STEW
+          amount: 1
+
+  dcfb1f3925:
+    name: '&cRabbit Stew &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RABBIT_STEW
+          amount: 1
+
+  144e47f0ae:
+    name: '&cMoney &7-> &aBaked Potato'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BAKED_POTATO
+          amount: 1
+
+  ea0f74e441:
+    name: '&cBaked Potato &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BAKED_POTATO
+          amount: 1
+
+  4e20b9147f:
+    name: '&cMoney &7-> &aMutton'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MUTTON
+          amount: 1
+
+  f7419b02e4:
+    name: '&cMutton &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MUTTON
+          amount: 1
+
+  716d0d11de:
+    name: '&cMoney &7-> &aCooked Mutton'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COOKED_MUTTON
+          amount: 1
+
+  ed11d0d617:
+    name: '&cCooked Mutton &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COOKED_MUTTON
+          amount: 1
+
+  7283aba687:
+    name: '&cMoney &7-> &aBeetroot'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BEETROOT
+          amount: 1
+
+  786aba3827:
+    name: '&cBeetroot &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BEETROOT
+          amount: 1
+
+  16a6b6a46d:
+    name: '&cMoney &7-> &aSweet Berries'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SWEET_BERRIES
+          amount: 1
+
+  d64a6b6a61:
+    name: '&cSweet Berries &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SWEET_BERRIES
+          amount: 1
+
+  a61444aaef:
+    name: '&cMoney &7-> &aBeetroot Soup'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BEETROOT_SOUP
+          amount: 1
+
+  feaa44416a:
+    name: '&cBeetroot Soup &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BEETROOT_SOUP
+          amount: 1
+

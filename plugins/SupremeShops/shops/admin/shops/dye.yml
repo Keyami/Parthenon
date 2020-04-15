@@ -1,0 +1,1257 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  3301ec3f13:
+    name: '&cMoney &7-> &aWhite Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: WHITE_WOOL
+          amount: 1
+
+  31f3ce1033:
+    name: '&cWhite Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: WHITE_WOOL
+          amount: 1
+
+  791b5e4713:
+    name: '&cMoney &7-> &aOrange Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ORANGE_WOOL
+          amount: 1
+
+  3174e5b197:
+    name: '&cOrange Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ORANGE_WOOL
+          amount: 1
+
+  f1b4aca23b:
+    name: '&cMoney &7-> &aMagenta Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MAGENTA_WOOL
+          amount: 1
+
+  b32aca4b1f:
+    name: '&cMagenta Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MAGENTA_WOOL
+          amount: 1
+
+  72e578a7c3:
+    name: '&cMoney &7-> &aYellow Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: YELLOW_WOOL
+          amount: 1
+
+  3c7a875e27:
+    name: '&cYellow Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: YELLOW_WOOL
+          amount: 1
+
+  b4da1c8d95:
+    name: '&cMoney &7-> &aLime Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIME_WOOL
+          amount: 1
+
+  59d8c1ad4b:
+    name: '&cLime Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIME_WOOL
+          amount: 1
+
+  293d3ca7cd:
+    name: '&cMoney &7-> &aPink Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PINK_WOOL
+          amount: 1
+
+  dc7ac3d392:
+    name: '&cPink Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PINK_WOOL
+          amount: 1
+
+  feadf682a6:
+    name: '&cMoney &7-> &aGray Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRAY_WOOL
+          amount: 1
+
+  6a286fdaef:
+    name: '&cGray Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRAY_WOOL
+          amount: 1
+
+  bf4704717d:
+    name: '&cMoney &7-> &aLight Gray Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_WOOL
+          amount: 1
+
+  d7174074fb:
+    name: '&cLight Gray Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_WOOL
+          amount: 1
+
+  5d69fe57ba:
+    name: '&cMoney &7-> &aCyan Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CYAN_WOOL
+          amount: 1
+
+  ab75ef96d5:
+    name: '&cCyan Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CYAN_WOOL
+          amount: 1
+
+  ddb0d14b67:
+    name: '&cMoney &7-> &aPurple Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PURPLE_WOOL
+          amount: 1
+
+  76b41d0bdd:
+    name: '&cPurple Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PURPLE_WOOL
+          amount: 1
+
+  7b1aaadfa9:
+    name: '&cMoney &7-> &aBlue Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLUE_WOOL
+          amount: 1
+
+  9afdaaa1b7:
+    name: '&cBlue Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLUE_WOOL
+          amount: 1
+
+  e9d8b34816:
+    name: '&cMoney &7-> &aBrown Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BROWN_WOOL
+          amount: 1
+
+  61843b8d9e:
+    name: '&cBrown Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BROWN_WOOL
+          amount: 1
+
+  c054340b4e:
+    name: '&cMoney &7-> &aGreen Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GREEN_WOOL
+          amount: 1
+
+  e4b043450c:
+    name: '&cGreen Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GREEN_WOOL
+          amount: 1
+
+  b7b35a974b:
+    name: '&cMoney &7-> &aRed Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RED_WOOL
+          amount: 1
+
+  b479a53b7b:
+    name: '&cRed Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RED_WOOL
+          amount: 1
+
+  d6f4f376c7:
+    name: '&cMoney &7-> &aBlack Wool'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLACK_WOOL
+          amount: 1
+
+  7c673f4f6d:
+    name: '&cBlack Wool &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLACK_WOOL
+          amount: 1
+
+  ed397abed1:
+    name: '&cMoney &7-> &aWhite Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: WHITE_CARPET
+          amount: 1
+
+  1deba793de:
+    name: '&cWhite Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: WHITE_CARPET
+          amount: 1
+
+  921f9359c5:
+    name: '&cMoney &7-> &aOrange Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ORANGE_CARPET
+          amount: 1
+
+  5c9539f129:
+    name: '&cOrange Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ORANGE_CARPET
+          amount: 1
+
+  069ad9a0e4:
+    name: '&cMoney &7-> &aMagenta Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MAGENTA_CARPET
+          amount: 1
+
+  4e0a9da960:
+    name: '&cMagenta Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MAGENTA_CARPET
+          amount: 1
+
+  648d2ca683:
+    name: '&cMoney &7-> &aLight Blue Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_BLUE_CARPET
+          amount: 1
+
+  386ac2d846:
+    name: '&cLight Blue Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_BLUE_CARPET
+          amount: 1
+
+  2e92fd68cc:
+    name: '&cMoney &7-> &aYellow Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: YELLOW_CARPET
+          amount: 1
+
+  cc86df29e2:
+    name: '&cYellow Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: YELLOW_CARPET
+          amount: 1
+
+  61e0855d82:
+    name: '&cMoney &7-> &aLime Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIME_CARPET
+          amount: 1
+
+  28d5580e16:
+    name: '&cLime Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIME_CARPET
+          amount: 1
+
+  3cb47198ff:
+    name: '&cMoney &7-> &aPink Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PINK_CARPET
+          amount: 1
+
+  ff89174bc3:
+    name: '&cPink Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PINK_CARPET
+          amount: 1
+
+  8499287d82:
+    name: '&cMoney &7-> &aGray Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRAY_CARPET
+          amount: 1
+
+  28d7829948:
+    name: '&cGray Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRAY_CARPET
+          amount: 1
+
+  64aee79b26:
+    name: '&cMoney &7-> &aLight Gray Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_CARPET
+          amount: 1
+
+  62b97eea46:
+    name: '&cLight Gray Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_CARPET
+          amount: 1
+
+  ee27f27b23:
+    name: '&cMoney &7-> &aCyan Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CYAN_CARPET
+          amount: 1
+
+  32b72f72ee:
+    name: '&cCyan Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CYAN_CARPET
+          amount: 1
+
+  c661886087:
+    name: '&cMoney &7-> &aPurple Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PURPLE_CARPET
+          amount: 1
+
+  780688166c:
+    name: '&cPurple Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PURPLE_CARPET
+          amount: 1
+
+  3d4098f7a6:
+    name: '&cMoney &7-> &aBlue Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLUE_CARPET
+          amount: 1
+
+  6a7f8904d3:
+    name: '&cBlue Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLUE_CARPET
+          amount: 1
+
+  d09e774d51:
+    name: '&cMoney &7-> &aBrown Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BROWN_CARPET
+          amount: 1
+
+  15d477e90d:
+    name: '&cBrown Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BROWN_CARPET
+          amount: 1
+
+  578500f461:
+    name: '&cMoney &7-> &aGreen Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GREEN_CARPET
+          amount: 1
+
+  164f005875:
+    name: '&cGreen Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GREEN_CARPET
+          amount: 1
+
+  8313a4e712:
+    name: '&cMoney &7-> &aRed Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RED_CARPET
+          amount: 1
+
+  217e4a3138:
+    name: '&cRed Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RED_CARPET
+          amount: 1
+
+  8261713f3f:
+    name: '&cMoney &7-> &aBlack Carpet'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLACK_CARPET
+          amount: 1
+
+  f3f3171628:
+    name: '&cBlack Carpet &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLACK_CARPET
+          amount: 1
+
+  b77ed34e3a:
+    name: '&cMoney &7-> &aInk Sac'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: INK_SAC
+          amount: 1
+
+  a3e43de77b:
+    name: '&cInk Sac &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: INK_SAC
+          amount: 1
+
+  16eca7b6a6:
+    name: '&cMoney &7-> &aRed Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: RED_DYE
+          amount: 1
+
+  6a6b7ace61:
+    name: '&cRed Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: RED_DYE
+          amount: 1
+
+  5385c64e8b:
+    name: '&cMoney &7-> &aLapis Lazuli'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LAPIS_LAZULI
+          amount: 1
+
+  b8e46c5835:
+    name: '&cLapis Lazuli &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LAPIS_LAZULI
+          amount: 1
+
+  5181e0433d:
+    name: '&cMoney &7-> &aPurple Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PURPLE_DYE
+          amount: 1
+
+  d3340e1815:
+    name: '&cPurple Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PURPLE_DYE
+          amount: 1
+
+  50df1fb6cc:
+    name: '&cMoney &7-> &aCyan Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: CYAN_DYE
+          amount: 1
+
+  cc6bf1fd05:
+    name: '&cCyan Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: CYAN_DYE
+          amount: 1
+
+  708c065647:
+    name: '&cMoney &7-> &aLight Gray Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_DYE
+          amount: 1
+
+  746560c807:
+    name: '&cLight Gray Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_GRAY_DYE
+          amount: 1
+
+  da0197f751:
+    name: '&cMoney &7-> &aGray Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRAY_DYE
+          amount: 1
+
+  157f7910ad:
+    name: '&cGray Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRAY_DYE
+          amount: 1
+
+  9447a49da7:
+    name: '&cMoney &7-> &aPink Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: PINK_DYE
+          amount: 1
+
+  7ad94a7449:
+    name: '&cPink Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: PINK_DYE
+          amount: 1
+
+  360801b52d:
+    name: '&cMoney &7-> &aLime Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIME_DYE
+          amount: 1
+
+  d25b108063:
+    name: '&cLime Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIME_DYE
+          amount: 1
+
+  06a6c16ac0:
+    name: '&cMoney &7-> &aLight Blue Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LIGHT_BLUE_DYE
+          amount: 1
+
+  0ca61c6a60:
+    name: '&cLight Blue Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LIGHT_BLUE_DYE
+          amount: 1
+
+  b49ce76c65:
+    name: '&cMoney &7-> &aMagenta Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: MAGENTA_DYE
+          amount: 1
+
+  56c67ec94b:
+    name: '&cMagenta Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: MAGENTA_DYE
+          amount: 1
+
+  29d55d1afa:
+    name: '&cMoney &7-> &aOrange Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ORANGE_DYE
+          amount: 1
+
+  afa1d55d92:
+    name: '&cOrange Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ORANGE_DYE
+          amount: 1
+
+  b66240b8ce:
+    name: '&cMoney &7-> &aBone Meal'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BONE_MEAL
+          amount: 1
+
+  ec8b04266b:
+    name: '&cBone Meal &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BONE_MEAL
+          amount: 1
+
+  15642b952e:
+    name: '&cMoney &7-> &aBlue Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLUE_DYE
+          amount: 1
+
+  e259b24651:
+    name: '&cBlue Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLUE_DYE
+          amount: 1
+
+  64ddb12a15:
+    name: '&cMoney &7-> &aBrown Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BROWN_DYE
+          amount: 1
+
+  51a21bdd46:
+    name: '&cBrown Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BROWN_DYE
+          amount: 1
+
+  394eb9f13e:
+    name: '&cMoney &7-> &aBlack Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BLACK_DYE
+          amount: 1
+
+  e31f9be493:
+    name: '&cBlack Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BLACK_DYE
+          amount: 1
+
+  66af881226:
+    name: '&cMoney &7-> &aWhite Dye'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: WHITE_DYE
+          amount: 1
+
+  622188fa66:
+    name: '&cWhite Dye &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: WHITE_DYE
+          amount: 1
+

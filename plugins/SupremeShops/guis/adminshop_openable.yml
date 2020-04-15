@@ -1,0 +1,274 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Openable'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  96181d9098:
+    item:
+      slot: 0
+      type: OAK_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aOak Door &7(left click)'
+      lore:
+        - '&7&cOak Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:96181d9098
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:8909d18169
+
+  f875c48a85:
+    item:
+      slot: 1
+      type: DARK_OAK_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Oak Door &7(left click)'
+      lore:
+        - '&7&cDark Oak Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:f875c48a85
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:58a84c578f
+
+  2b926dc6ec:
+    item:
+      slot: 2
+      type: SPRUCE_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aSpruce Door &7(left click)'
+      lore:
+        - '&7&cSpruce Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:2b926dc6ec
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:ce6cd629b2
+
+  30b661d5e3:
+    item:
+      slot: 3
+      type: BIRCH_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aBirch Door &7(left click)'
+      lore:
+        - '&7&cBirch Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:30b661d5e3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:3e5d166b03
+
+  5c4c7b8198:
+    item:
+      slot: 4
+      type: JUNGLE_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aJungle Door &7(left click)'
+      lore:
+        - '&7&cJungle Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:5c4c7b8198
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:8918b7c4c5
+
+  dbd20add39:
+    item:
+      slot: 5
+      type: ACACIA_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aAcacia Door &7(left click)'
+      lore:
+        - '&7&cAcacia Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:dbd20add39
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:93dda02dbd
+
+  480a1372e0:
+    item:
+      slot: 6
+      type: IRON_DOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Door &7(left click)'
+      lore:
+        - '&7&cIron Door &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:480a1372e0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:0e2731a084
+
+  ab00de7ba9:
+    item:
+      slot: 9
+      type: OAK_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aOak Trapdoor &7(left click)'
+      lore:
+        - '&7&cOak Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:ab00de7ba9
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:9ab7ed00ba
+
+  231614b340:
+    item:
+      slot: 10
+      type: DARK_OAK_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Oak Trapdoor &7(left click)'
+      lore:
+        - '&7&cDark Oak Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:231614b340
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:043b416132
+
+  ff28064d26:
+    item:
+      slot: 11
+      type: SPRUCE_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aSpruce Trapdoor &7(left click)'
+      lore:
+        - '&7&cSpruce Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:ff28064d26
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:62d46082ff
+
+  870544a6f1:
+    item:
+      slot: 12
+      type: BIRCH_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aBirch Trapdoor &7(left click)'
+      lore:
+        - '&7&cBirch Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:870544a6f1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:1f6a445078
+
+  c34d0910e0:
+    item:
+      slot: 13
+      type: JUNGLE_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aJungle Trapdoor &7(left click)'
+      lore:
+        - '&7&cJungle Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:c34d0910e0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:0e0190d43c
+
+  420242e00b:
+    item:
+      slot: 14
+      type: ACACIA_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aAcacia Trapdoor &7(left click)'
+      lore:
+        - '&7&cAcacia Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:420242e00b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:b00e242024
+
+  4c18062ba2:
+    item:
+      slot: 15
+      type: IRON_TRAPDOOR
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Trapdoor &7(left click)'
+      lore:
+        - '&7&cIron Trapdoor &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:4c18062ba2
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:2ab26081c4
+
+  4cc89823ac:
+    item:
+      slot: 18
+      type: OAK_FENCE_GATE
+      amount: 1
+      name: '&7&cMoney &7-> &aOak Fence Gate &7(left click)'
+      lore:
+        - '&7&cOak Fence Gate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:4cc89823ac
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:ca32898cc4
+
+  d9200b37c9:
+    item:
+      slot: 19
+      type: DARK_OAK_FENCE_GATE
+      amount: 1
+      name: '&7&cMoney &7-> &aDark Oak Fence Gate &7(left click)'
+      lore:
+        - '&7&cDark Oak Fence Gate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:d9200b37c9
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:9c73b0029d
+
+  3d8a26d6a0:
+    item:
+      slot: 20
+      type: SPRUCE_FENCE_GATE
+      amount: 1
+      name: '&7&cMoney &7-> &aSpruce Fence Gate &7(left click)'
+      lore:
+        - '&7&cSpruce Fence Gate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:3d8a26d6a0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:0a6d62a8d3
+
+  0456ef8abf:
+    item:
+      slot: 21
+      type: BIRCH_FENCE_GATE
+      amount: 1
+      name: '&7&cMoney &7-> &aBirch Fence Gate &7(left click)'
+      lore:
+        - '&7&cBirch Fence Gate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:0456ef8abf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:fba8fe6540
+
+  44c9e9ce7e:
+    item:
+      slot: 22
+      type: JUNGLE_FENCE_GATE
+      amount: 1
+      name: '&7&cMoney &7-> &aJungle Fence Gate &7(left click)'
+      lore:
+        - '&7&cJungle Fence Gate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:44c9e9ce7e
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:e7ec9e9c44
+
+  0784957caf:
+    item:
+      slot: 23
+      type: ACACIA_FENCE_GATE
+      amount: 1
+      name: '&7&cMoney &7-> &aAcacia Fence Gate &7(left click)'
+      lore:
+        - '&7&cAcacia Fence Gate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE openable:0784957caf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE openable:fac7594870
+

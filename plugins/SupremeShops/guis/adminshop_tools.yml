@@ -1,0 +1,574 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Tools'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  0178679ef4:
+    item:
+      slot: 0
+      type: IRON_PICKAXE
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Pickaxe &7(left click)'
+      lore:
+        - '&7&cIron Pickaxe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:0178679ef4
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:4fe9768710
+
+  70c61cce3d:
+    item:
+      slot: 1
+      type: IRON_SHOVEL
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Shovel &7(left click)'
+      lore:
+        - '&7&cIron Shovel &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:70c61cce3d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:d3ecc16c07
+
+  02227ddf67:
+    item:
+      slot: 2
+      type: IRON_AXE
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Axe &7(left click)'
+      lore:
+        - '&7&cIron Axe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:02227ddf67
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:76fdd72220
+
+  f8dc4d1751:
+    item:
+      slot: 3
+      type: IRON_HOE
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Hoe &7(left click)'
+      lore:
+        - '&7&cIron Hoe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:f8dc4d1751
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:1571d4cd8f
+
+  f05a42a3d2:
+    item:
+      slot: 4
+      type: IRON_SWORD
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Sword &7(left click)'
+      lore:
+        - '&7&cIron Sword &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:f05a42a3d2
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:2d3a24a50f
+
+  8b0acf649c:
+    item:
+      slot: 5
+      type: IRON_HELMET
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Helmet &7(left click)'
+      lore:
+        - '&7&cIron Helmet &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:8b0acf649c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:c946fca0b8
+
+  985645a5e1:
+    item:
+      slot: 6
+      type: IRON_CHESTPLATE
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Chestplate &7(left click)'
+      lore:
+        - '&7&cIron Chestplate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:985645a5e1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:1e5a546589
+
+  066c045c05:
+    item:
+      slot: 7
+      type: IRON_LEGGINGS
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Leggings &7(left click)'
+      lore:
+        - '&7&cIron Leggings &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:066c045c05
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:50c540c660
+
+  06499ddfad:
+    item:
+      slot: 8
+      type: IRON_BOOTS
+      amount: 1
+      name: '&7&cMoney &7-> &aIron Boots &7(left click)'
+      lore:
+        - '&7&cIron Boots &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:06499ddfad
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:dafdd99460
+
+  c86eaf72b0:
+    item:
+      slot: 9
+      type: DIAMOND_PICKAXE
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Pickaxe &7(left click)'
+      lore:
+        - '&7&cDiamond Pickaxe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:c86eaf72b0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:0b27fae68c
+
+  9359b306a6:
+    item:
+      slot: 10
+      type: DIAMOND_SHOVEL
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Shovel &7(left click)'
+      lore:
+        - '&7&cDiamond Shovel &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:9359b306a6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:6a603b9539
+
+  2cb7d332c0:
+    item:
+      slot: 11
+      type: DIAMOND_AXE
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Axe &7(left click)'
+      lore:
+        - '&7&cDiamond Axe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:2cb7d332c0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:0c233d7bc2
+
+  75c0d94afd:
+    item:
+      slot: 12
+      type: DIAMOND_HOE
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Hoe &7(left click)'
+      lore:
+        - '&7&cDiamond Hoe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:75c0d94afd
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:dfa49d0c57
+
+  a93dc876e8:
+    item:
+      slot: 13
+      type: DIAMOND_SWORD
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Sword &7(left click)'
+      lore:
+        - '&7&cDiamond Sword &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:a93dc876e8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:8e678cd39a
+
+  dc709db324:
+    item:
+      slot: 14
+      type: DIAMOND_HELMET
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Helmet &7(left click)'
+      lore:
+        - '&7&cDiamond Helmet &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:dc709db324
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:423bd907cd
+
+  84139b5b3c:
+    item:
+      slot: 15
+      type: DIAMOND_CHESTPLATE
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Chestplate &7(left click)'
+      lore:
+        - '&7&cDiamond Chestplate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:84139b5b3c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:c3b5b93148
+
+  24e0fbd001:
+    item:
+      slot: 16
+      type: DIAMOND_LEGGINGS
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Leggings &7(left click)'
+      lore:
+        - '&7&cDiamond Leggings &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:24e0fbd001
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:100dbf0e42
+
+  8c8ceea64e:
+    item:
+      slot: 17
+      type: DIAMOND_BOOTS
+      amount: 1
+      name: '&7&cMoney &7-> &aDiamond Boots &7(left click)'
+      lore:
+        - '&7&cDiamond Boots &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:8c8ceea64e
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:e46aeec8c8
+
+  bbba750a9b:
+    item:
+      slot: 18
+      type: GOLDEN_PICKAXE
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Pickaxe &7(left click)'
+      lore:
+        - '&7&cGolden Pickaxe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:bbba750a9b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:b9a057abbb
+
+  43c5caf6b0:
+    item:
+      slot: 19
+      type: GOLDEN_SHOVEL
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Shovel &7(left click)'
+      lore:
+        - '&7&cGolden Shovel &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:43c5caf6b0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:0b6fac5c34
+
+  ce28b23bda:
+    item:
+      slot: 20
+      type: GOLDEN_AXE
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Axe &7(left click)'
+      lore:
+        - '&7&cGolden Axe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:ce28b23bda
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:adb32b82ec
+
+  664b6d6c67:
+    item:
+      slot: 21
+      type: GOLDEN_HOE
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Hoe &7(left click)'
+      lore:
+        - '&7&cGolden Hoe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:664b6d6c67
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:76c6d6b466
+
+  aa14e1d76d:
+    item:
+      slot: 22
+      type: GOLDEN_SWORD
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Sword &7(left click)'
+      lore:
+        - '&7&cGolden Sword &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:aa14e1d76d
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:d67d1e41aa
+
+  d926704cb8:
+    item:
+      slot: 23
+      type: GOLDEN_HELMET
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Helmet &7(left click)'
+      lore:
+        - '&7&cGolden Helmet &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:d926704cb8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:8bc407629d
+
+  a0442df18b:
+    item:
+      slot: 24
+      type: GOLDEN_CHESTPLATE
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Chestplate &7(left click)'
+      lore:
+        - '&7&cGolden Chestplate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:a0442df18b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:b81fd2440a
+
+  6cfd6a6322:
+    item:
+      slot: 25
+      type: GOLDEN_LEGGINGS
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Leggings &7(left click)'
+      lore:
+        - '&7&cGolden Leggings &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:6cfd6a6322
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:2236a6dfc6
+
+  36701d291a:
+    item:
+      slot: 26
+      type: GOLDEN_BOOTS
+      amount: 1
+      name: '&7&cMoney &7-> &aGolden Boots &7(left click)'
+      lore:
+        - '&7&cGolden Boots &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:36701d291a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:a192d10763
+
+  446b444c67:
+    item:
+      slot: 27
+      type: STONE_PICKAXE
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Pickaxe &7(left click)'
+      lore:
+        - '&7&cStone Pickaxe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:446b444c67
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:76c444b644
+
+  bc73ab71f3:
+    item:
+      slot: 28
+      type: STONE_SHOVEL
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Shovel &7(left click)'
+      lore:
+        - '&7&cStone Shovel &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:bc73ab71f3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:3f17ba37cb
+
+  0d131aecc0:
+    item:
+      slot: 29
+      type: STONE_AXE
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Axe &7(left click)'
+      lore:
+        - '&7&cStone Axe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:0d131aecc0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:0ccea131d0
+
+  5496e3d8ef:
+    item:
+      slot: 30
+      type: STONE_HOE
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Hoe &7(left click)'
+      lore:
+        - '&7&cStone Hoe &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:5496e3d8ef
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:fe8d3e6945
+
+  39370c93b4:
+    item:
+      slot: 31
+      type: STONE_SWORD
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Sword &7(left click)'
+      lore:
+        - '&7&cStone Sword &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:39370c93b4
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:4b39c07393
+
+  1449c708d6:
+    item:
+      slot: 32
+      type: LEATHER_HELMET
+      amount: 1
+      name: '&7&cMoney &7-> &aLeather Helmet &7(left click)'
+      lore:
+        - '&7&cLeather Helmet &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:1449c708d6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:6d807c9441
+
+  f1225676cc:
+    item:
+      slot: 33
+      type: LEATHER_CHESTPLATE
+      amount: 1
+      name: '&7&cMoney &7-> &aLeather Chestplate &7(left click)'
+      lore:
+        - '&7&cLeather Chestplate &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:f1225676cc
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:cc6765221f
+
+  56d3a301ae:
+    item:
+      slot: 34
+      type: LEATHER_LEGGINGS
+      amount: 1
+      name: '&7&cMoney &7-> &aLeather Leggings &7(left click)'
+      lore:
+        - '&7&cLeather Leggings &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:56d3a301ae
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:ea103a3d65
+
+  818b49327b:
+    item:
+      slot: 35
+      type: LEATHER_BOOTS
+      amount: 1
+      name: '&7&cMoney &7-> &aLeather Boots &7(left click)'
+      lore:
+        - '&7&cLeather Boots &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:818b49327b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:b72394b818
+
+  12663fdfdd:
+    item:
+      slot: 36
+      type: SHEARS
+      amount: 1
+      name: '&7&cMoney &7-> &aShears &7(left click)'
+      lore:
+        - '&7&cShears &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:12663fdfdd
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:ddfdf36621
+
+  54b12f1ddf:
+    item:
+      slot: 37
+      type: FLINT_AND_STEEL
+      amount: 1
+      name: '&7&cMoney &7-> &aFlint And Steel &7(left click)'
+      lore:
+        - '&7&cFlint And Steel &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:54b12f1ddf
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:fdd1f21b45
+
+  a2412334ae:
+    item:
+      slot: 38
+      type: FISHING_ROD
+      amount: 1
+      name: '&7&cMoney &7-> &aFishing Rod &7(left click)'
+      lore:
+        - '&7&cFishing Rod &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:a2412334ae
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:ea4332142a
+
+  b8abc42cb2:
+    item:
+      slot: 39
+      type: LEAD
+      amount: 1
+      name: '&7&cMoney &7-> &aLead &7(left click)'
+      lore:
+        - '&7&cLead &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:b8abc42cb2
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:2bc24cba8b
+
+  5eef641c05:
+    item:
+      slot: 40
+      type: NAME_TAG
+      amount: 1
+      name: '&7&cMoney &7-> &aName Tag &7(left click)'
+      lore:
+        - '&7&cName Tag &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:5eef641c05
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:50c146fee5
+
+  b05a26253f:
+    item:
+      slot: 41
+      type: COMPASS
+      amount: 1
+      name: '&7&cMoney &7-> &aCompass &7(left click)'
+      lore:
+        - '&7&cCompass &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:b05a26253f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:f35262a50b
+
+  acdea6beb5:
+    item:
+      slot: 42
+      type: CLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aClock &7(left click)'
+      lore:
+        - '&7&cClock &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:acdea6beb5
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:5beb6aedca
+
+  4c5c542291:
+    item:
+      slot: 43
+      type: BOW
+      amount: 1
+      name: '&7&cMoney &7-> &aBow &7(left click)'
+      lore:
+        - '&7&cBow &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:4c5c542291
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:192245c5c4
+
+  6a51587fcb:
+    item:
+      slot: 44
+      type: ARROW
+      amount: 1
+      name: '&7&cMoney &7-> &aArrow &7(left click)'
+      lore:
+        - '&7&cArrow &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE tools:6a51587fcb
+      RIGHT: OPEN_ADMIN_SHOP_TRADE tools:bcf78515a6
+

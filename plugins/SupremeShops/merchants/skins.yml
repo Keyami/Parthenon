@@ -1,0 +1,40 @@
+#----------------------------------------------------------------------------------------------------
+# Merchant skins configuration file for SupremeShops
+#----------------------------------------------------------------------------------------------------
+
+# Register your merchant skins here
+# Skin data and signature can be generated or obtained with https://mineskin.org/
+
+merchant_skins:
+  
+  blacksmith:
+    data: 'eyJ0aW1lc3RhbXAiOjE1NTk3ODEzNTM1NjksInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ4ZTQzZDZlMzcwZjJjMDRlMDNhMTkyZmU3MWYyNzIzOTBjZGM1ZDU1ZTM5ZjljMGI4YmE0ZWM1ODdhMjhjNiJ9fX0='
+    signature: 'DVAIHhcEyWjvMp3Y9KjoCNtXmXGtlhrsjgj5M2+M/vKGqyrCIvTaE9jUVHf3B8oZ+PKx9RMwq+4yYxNSDUqxgd6twgLy51bWTFz0xbQD5Bj0Ik/sQhZUPfk2VRs4JskgorrbwhQbOjHFZkclKLdYRq7/FDvolWj9ECt9GsL6M8Wial0jgQ1AOYjSe7MD4p0xGiGBZ0Bn2ZB0Ot4waMdXpiaqbhbO2K2cgpc5fneNPXe7lv2gcww8yPDK6xbJwR/nZmTLtaZuqOlh/7ODibuibCR6JSg8k3FfTD3vPxyiXy/7WMf1mOeMthZZCRiJmmi+P9SsBTMtPebUNSVp5gyouXnsNw0tFD+qIfQ4Ng2T1Anm/3CukKk5jXdlyHj10t1Q4n8BaAgZaIlXXrm+eK0Emyu0QQGM4d5aDeMZy162gdqnyz4LOuuSup5KMkIlPhZ+PMySVbZsMFvPWg5zcLbK6ddv4FN4jMG6JRygGVf+8vlAUkkRRe37uAKjYw1EFc+vxFJ3OHo/eD4iNsYX+x2VfEaD+SbJ5ftBvYNd5shTG+5WzszHCldPts14hmxy53z80cPUae6VzvOkA6w21nIiuefNlmXSPpVQHxfxyYG7gHXEVtlmrQiHDaoLnlLzcHW7emf/KU7vGb/mgxgWcc22KVPcmqztadNSWJ1lhbMn20A='
+    permission: 'supremeshops.merchant.skin.blacksmith'
+    icon:
+      type: ANVIL
+      name: '&aBlacksmith'
+  
+  miner:
+    data: 'eyJ0aW1lc3RhbXAiOjE1NjE2NTU5NjA2MzcsInByb2ZpbGVJZCI6IjJkYzc3YWU3OTQ2MzQ4MDI5NDI4MGM4NDIyNzRiNTY3IiwicHJvZmlsZU5hbWUiOiJzYWR5MDYxMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MzNlOWFjMDEwODM4OGE0YWE3ZWJkYTc0MzNkMDdiZTQzZDgxOTc3ZmY2M2Q5NDBlYTliNjE4MGZjZDE2MCJ9fX0='
+    signature: 'fVthcveq7SjLocF1EYdnlpY8kLwXtW6Lfjt+QiAt3j3wLI+t2jPngp7Kow7E+iEY/0FDnWW38gE2yLbetqMjuk5UTS9mlvLASXT6JJSVKwTgghfyxW5ZdO7F8CirZi1yOdvhxDnPE9tf+2IQjRfJ4CoQA9kdiD0IySQOftzUFDTCo6VvaKIwA0LsnKwurjetmtWJKP68qo7Yb1y1V09kcWd9VB1dEH25qCkVRapWKT/wYupx0kRNkUE8ju6mDI2rMTn0LJxHYMGbDqziQhGaboCvQmys3xJF8NK5dy3wDnjLLOakSH1q9iqknX6tilp8feC5OX1scXsUCTTLek74TUvX/EL1w8x26E2j+WSSFSs9KYBfmqxIIz9ec19lV1bQP7l0YF7vMSbRmE3wi7MA2hzNIucL3aYmb2xaLbnQ52e5JG23lm/hBVOtZ55Ny77Ebm5g2wvyVP2GvkRQepIg2T4PV9dpxW8C5RccnxsLx137AZoozCIwofs4H5nDmHFT3C/9UA6hTIhaM0jd/VArte5UESTmBqEG9ssTn/tB+HCssWDgXRYqV3t+MTgDjLoC2yjjZLo3G2g2bk6a8CQV2qFG5U6D97TiSZ8FLiguKNCxEQlA2+rU4kQ/qchYImGVDHXODfFlFXNb/45ekSGOzSGE9lcO7Snq/Cv9S7hT4TA='
+    permission: 'supremeshops.merchant.skin.miner'
+    icon:
+      type: IRON_PICKAXE
+      name: '&aMiner'
+  
+  farmer:
+    data: 'eyJ0aW1lc3RhbXAiOjE1NjQ1MDczMjk5NzIsInByb2ZpbGVJZCI6IjVkZTZlMTg0YWY4ZDQ5OGFiYmRlMDU1ZTUwNjUzMzE2IiwicHJvZmlsZU5hbWUiOiJBc3Nhc2luSmlhbmVyMjUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzMDM1OTAyNDQxZDliMDllNjAyOWFjOWIyNTk3ZTk2MDdjNjljZmMzMGRjMWQ1ZTBhMmE3Mjk2YjI0MzcwMmQifX19'
+    signature: 'C22sW6trRAeq+vFzVugC4Rw8nXRpUqUnZdhRXdMuvr7O0BrSVTdFOnC39SOUGQ4ceBn9bWkwQIqt9CzFCxcG5VYeTzIENZJn6t/ypCnUIaXv/CfEl2rIQ6U4U9nHQ4+pjkkJSsELC9enDYTLcPEa40H+fMUmR8H6BGmv0wwEyoL0aX49TW50OuHJ16fmN/pSeiIadkydIyhqu20p433lL3zK+HQKG21CmH0y64KVvBzUxJVot0l0pR7Yd5kwsyZgRi4S7sCmDnQA5nWVkrtd//eaQ1r7gZcfaCkxOPs2JBBEKjEM0CYpJQYD8C3D3Dgd6C1jq3FSQNnvDBPGtdCEMNf7Uxq0D/5wgdQo1vHzIoDd1bVyJ6TQ8j+MUAbzAh2O4ZzZId1ftodUCgPcBPCWf+dHMKR30HzEdTR/8a6orsKSEX860qgA99Of4BSodWoCFy7k8qZNQHbft9kaCUARZHx2rJgyxIQknxty+1xucBOSF1z3FRl1bPwu2dyVWQOCOqtbDR1mSeic9yQpo0op1LBlFou8fFQlKUXm6STe05jLZhzWV97qbxC2ube1eQxayXqYv9LpBduvbLcYc14R8bllACaAQAezoW1XquEqGQsdkxVt+ryBVjqK3dsA+o38RsuxNDEKC2NLG43gd0fjUYyaEOXyiTDPgjsKDp8tVH4='
+    permission: 'supremeshops.merchant.skin.farmer'
+    icon:
+      type: WHEAT
+      name: '&aFarmer'
+  
+  duck:
+    data: 'eyJ0aW1lc3RhbXAiOjE1NjQ0ODA0NjEwNTgsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdhMzA0ZTg1YjU1ZmY1MjQ1NDI0NDc1NmE1OThjY2E0ZDFhZmVkZDE4MDI2MmFiZjRlYzU5OGRkZDBkYTNmNiJ9fX0='
+    signature: 'cRYhIRxUJKXQPfQhrVL8M40FhPUmFRfSJ9ogtM2miWmq9mNJNV4flwQzQfTJX3JWJRAMZMnt5mdJltd5WsduNkVbW43dk3JqiwScm1i+CnYwEQI9lmlEcldj6iUqtZc9fNNk3V3xbTUtm9QBQDs+K1HrZa4PGGej1OY9KCGJ9OeG9/h9168XHeh0/wXkU+vqxulcKWBJNEm1bev9mXO5qLIbGAIugSWJTVud0Oc83kyMO3kCeT0iAbmgUGFvpx0Vl3ECHR4e/qpyRko2s3bXDHBkcnc8QOVYoQTI24ZGlpQyeGitSgykvNPUdwnnDsBwr/CG6+p67YUaJ17bpI8xDQMJeiWkl6HD0tFspnxWwTw+dCJijSvrXnNJee22A8XWMaS3Z1i0o7wklsiavQJy3EqRchCvvd1jZNXjmaUV2nYyR23jPzVGrrE76Vb4V8YDOMnombqQYlV0NMUhfOutQ4Ohs5P1COoWgJU+Ly/R+Pe9EchYZi04KL5zgyoIxZCYwACuVe/nwl+/lJoN8c8MFo6PU5M0VHb6Fvz628404YdYAozN52EOT5he1GwuJS1LaGmRZJik4BncawJOszHKH6pqgAeKhZ2vpYeBVXTnABjqw1Oq3wBeMV9+nXBHrH/GlG6fT7MGu/C3zjkB9z3+eDH5MF8P6NMYa73e8d+yo2E='
+    permission: 'supremeshops.merchant.skin.duck'
+    icon:
+      type: SPONGE
+      name: '&aDuck'

@@ -1,0 +1,789 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  0ecd5dc2a2:
+    name: '&cMoney &7-> &aOak Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OAK_LOG
+          amount: 1
+
+  2a2cd5dce0:
+    name: '&cOak Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OAK_LOG
+          amount: 1
+
+  5c619eb4aa:
+    name: '&cMoney &7-> &aDark Oak Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DARK_OAK_LOG
+          amount: 1
+
+  aa4be916c5:
+    name: '&cDark Oak Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DARK_OAK_LOG
+          amount: 1
+
+  520d8f1086:
+    name: '&cMoney &7-> &aSpruce Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SPRUCE_LOG
+          amount: 1
+
+  6801f8d025:
+    name: '&cSpruce Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SPRUCE_LOG
+          amount: 1
+
+  18250cc936:
+    name: '&cMoney &7-> &aJungle Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: JUNGLE_LOG
+          amount: 1
+
+  639cc05281:
+    name: '&cJungle Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: JUNGLE_LOG
+          amount: 1
+
+  7dc12bfcc9:
+    name: '&cMoney &7-> &aAcacia Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ACACIA_LOG
+          amount: 1
+
+  9ccfb21cd7:
+    name: '&cAcacia Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ACACIA_LOG
+          amount: 1
+
+  10cd27296e:
+    name: '&cMoney &7-> &aBirch Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BIRCH_LOG
+          amount: 1
+
+  e69272dc01:
+    name: '&cBirch Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BIRCH_LOG
+          amount: 1
+
+  d299e521f2:
+    name: '&cMoney &7-> &aOak Planks'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OAK_PLANKS
+          amount: 1
+
+  2f125e992d:
+    name: '&cOak Planks &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OAK_PLANKS
+          amount: 1
+
+  307b921224:
+    name: '&cMoney &7-> &aDark Oak Planks'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DARK_OAK_PLANKS
+          amount: 1
+
+  422129b703:
+    name: '&cDark Oak Planks &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DARK_OAK_PLANKS
+          amount: 1
+
+  aae0336b85:
+    name: '&cMoney &7-> &aSpruce Planks'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SPRUCE_PLANKS
+          amount: 1
+
+  58b6330eaa:
+    name: '&cSpruce Planks &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SPRUCE_PLANKS
+          amount: 1
+
+  7b9a136249:
+    name: '&cMoney &7-> &aJungle Planks'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: JUNGLE_PLANKS
+          amount: 1
+
+  942631a9b7:
+    name: '&cJungle Planks &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: JUNGLE_PLANKS
+          amount: 1
+
+  8e27d478b1:
+    name: '&cMoney &7-> &aAcacia Planks'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ACACIA_PLANKS
+          amount: 1
+
+  1b874d72e8:
+    name: '&cAcacia Planks &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ACACIA_PLANKS
+          amount: 1
+
+  c22fdb7301:
+    name: '&cMoney &7-> &aBirch Planks'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BIRCH_PLANKS
+          amount: 1
+
+  1037bdf22c:
+    name: '&cBirch Planks &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BIRCH_PLANKS
+          amount: 1
+
+  19bcc7a3d7:
+    name: '&cMoney &7-> &aStripped Oak Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STRIPPED_OAK_LOG
+          amount: 1
+
+  7d3a7ccb91:
+    name: '&cStripped Oak Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STRIPPED_OAK_LOG
+          amount: 1
+
+  81ed6dbd4d:
+    name: '&cMoney &7-> &aStripped Dark Oak Wood'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STRIPPED_DARK_OAK_WOOD
+          amount: 1
+
+  d4dbd6de18:
+    name: '&cStripped Dark Oak Wood &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STRIPPED_DARK_OAK_WOOD
+          amount: 1
+
+  262a810af6:
+    name: '&cMoney &7-> &aStripped Spruce Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STRIPPED_SPRUCE_LOG
+          amount: 1
+
+  6fa018a262:
+    name: '&cStripped Spruce Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STRIPPED_SPRUCE_LOG
+          amount: 1
+
+  20ee5a6397:
+    name: '&cMoney &7-> &aStripped Jungle Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STRIPPED_JUNGLE_LOG
+          amount: 1
+
+  7936a5ee02:
+    name: '&cStripped Jungle Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STRIPPED_JUNGLE_LOG
+          amount: 1
+
+  ec409967cb:
+    name: '&cMoney &7-> &aStripped Acacia Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STRIPPED_ACACIA_LOG
+          amount: 1
+
+  bc769904ce:
+    name: '&cStripped Acacia Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STRIPPED_ACACIA_LOG
+          amount: 1
+
+  6e832a903c:
+    name: '&cMoney &7-> &aStripped Birch Log'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: STRIPPED_BIRCH_LOG
+          amount: 1
+
+  c309a238e6:
+    name: '&cStripped Birch Log &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: STRIPPED_BIRCH_LOG
+          amount: 1
+
+  eb3e2385bb:
+    name: '&cMoney &7-> &aOak Slab'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OAK_SLAB
+          amount: 1
+
+  bb5832e3be:
+    name: '&cOak Slab &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OAK_SLAB
+          amount: 1
+
+  3234464286:
+    name: '&cMoney &7-> &aDark Oak Slab'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DARK_OAK_SLAB
+          amount: 1
+
+  6824644323:
+    name: '&cDark Oak Slab &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DARK_OAK_SLAB
+          amount: 1
+
+  9028a46542:
+    name: '&cMoney &7-> &aSpruce Slab'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SPRUCE_SLAB
+          amount: 1
+
+  24564a8209:
+    name: '&cSpruce Slab &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SPRUCE_SLAB
+          amount: 1
+
+  2efed5df76:
+    name: '&cMoney &7-> &aJungle Slab'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: JUNGLE_SLAB
+          amount: 1
+
+  67fd5defe2:
+    name: '&cJungle Slab &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: JUNGLE_SLAB
+          amount: 1
+
+  5f60436230:
+    name: '&cMoney &7-> &aAcacia Slab'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ACACIA_SLAB
+          amount: 1
+
+  03263406f5:
+    name: '&cAcacia Slab &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ACACIA_SLAB
+          amount: 1
+
+  61fc431815:
+    name: '&cMoney &7-> &aBirch Slab'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BIRCH_SLAB
+          amount: 1
+
+  518134cf16:
+    name: '&cBirch Slab &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BIRCH_SLAB
+          amount: 1
+
+  aba351408f:
+    name: '&cMoney &7-> &aOak Stairs'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OAK_STAIRS
+          amount: 1
+
+  f804153aba:
+    name: '&cOak Stairs &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OAK_STAIRS
+          amount: 1
+
+  7743422649:
+    name: '&cMoney &7-> &aDark Oak Stairs'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DARK_OAK_STAIRS
+          amount: 1
+
+  9462243477:
+    name: '&cDark Oak Stairs &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DARK_OAK_STAIRS
+          amount: 1
+
+  fc247969e1:
+    name: '&cMoney &7-> &aSpruce Stairs'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: SPRUCE_STAIRS
+          amount: 1
+
+  1e969742cf:
+    name: '&cSpruce Stairs &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: SPRUCE_STAIRS
+          amount: 1
+
+  08ef2d6c2e:
+    name: '&cMoney &7-> &aJungle Stairs'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: JUNGLE_STAIRS
+          amount: 1
+
+  e2c6d2fe80:
+    name: '&cJungle Stairs &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: JUNGLE_STAIRS
+          amount: 1
+
+  84915c3efa:
+    name: '&cMoney &7-> &aAcacia Stairs'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ACACIA_STAIRS
+          amount: 1
+
+  afe3c51948:
+    name: '&cAcacia Stairs &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ACACIA_STAIRS
+          amount: 1
+
+  08c29f1981:
+    name: '&cMoney &7-> &aBirch Stairs'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: BIRCH_STAIRS
+          amount: 1
+
+  1891f92c80:
+    name: '&cBirch Stairs &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: BIRCH_STAIRS
+          amount: 1
+

@@ -1,0 +1,1185 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  caa08252e6:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgz83MS00uSkwrsSpPLEktYgAAfW0rXB4AAAA='
+
+  6e25280aac:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgz83MS00uSkwrsSpPLEktYgAAfW0rXB4AAAA='
+
+  bccf458c8e:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscotzUtJzEtlAADcZdyWIAAAAA=='
+
+  e8c854fccb:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscotzUtJzEtlAADcZdyWIAAAAA=='
+
+  d942b7951e:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgz83MS00uSkwrsSrJyEzOZgAASidR6h4AAAA='
+
+  e1597b249d:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgz83MS00uSkwrsSrJyEzOZgAASidR6h4AAAA='
+
+  07f6332853:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrsUoszy5PLEphAAAOdkYtIAAAAA=='
+
+  3582336f70:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrsUoszy5PLEphAAAOdkYtIAAAAA=='
+
+  f77cb214e7:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrLTM8oiS/LLAaJAwDNwrJXJQAAAA=='
+
+  7e412bc77f:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrLTM8oiS/LLAaJAwDNwrJXJQAAAA=='
+
+  1249d30974:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPz8tMzyiJL8ssBkkCAEG1Q8EqAAAA'
+
+  47903d9421:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPz8tMzyiJL8ssBkkCAEG1Q8EqAAAA'
+
+  3d0f88806c:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrMK8sszkzKzMksqWQAAJUa8Z0lAAAA'
+
+  c60888f0d3:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrMK8sszkzKzMksqWQAAJUa8Z0lAAAA'
+
+  15b6b17bfd:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPz8wryyzOTMrMySypZAAAGW0ACyoAAAA='
+
+  dfb71b6b51:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPz8wryyzOTMrMySypZAAAGW0ACyoAAAA='
+
+  201b509eb4:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpJTSzIzEtnAAB2MByuIAAAAA=='
+
+  4be905b102:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpJTSzIzEtnAAB2MByuIAAAAA=='
+
+  e7133ecf5c:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrJz0uPz0lNLMjMS2cAAB5QtnQlAAAA'
+
+  c5fce3317e:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrscrJz0uPz0lNLMjMS2cAAB5QtnQlAAAA'
+
+  ec75796568:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSU0syMxLZwAAy46EOicAAAA='
+
+  86569757ce:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSU0syMxLZwAAy46EOicAAAA='
+
+  7723038ba0:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsUrLLEqNL0otziwuScxLTmUAAGUoRuEoAAAA'
+
+  0ab8303277:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsUrLLEqNL0otziwuScxLTmUAAGUoRuEoAAAA'
+
+  56f4092b29:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrscrJz0uPT8ssSo0vSi3OLC5JzEtOZQAAIGiqMy0AAAA='
+
+  92b2904f65:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrscrJz0uPT8ssSo0vSi3OLC5JzEtOZQAAIGiqMy0AAAA='
+
+  3c30e19a8a:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzs3MS00uSkwrsSouz0wryUstLmYAAGN0PT4iAAAA'
+
+  a8a91e03c3:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzs3MS00uSkwrsSouz0wryUstLmYAAGN0PT4iAAAA'
+
+  aa54ffd52a:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrscrJz0uPLy7PTCvJSy0uZgAATt+YUCcAAAA='
+
+  a25dff45aa:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrscrJz0uPLy7PTCvJSy0uZgAATt+YUCcAAAA='
+
+  572d9528b1:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQys3MS00uSkwrsSouKcrPS48vLs9MK8lLLS5mAADCVSCkKQAAAA=='
+
+  1b8259d275:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQys3MS00uSkwrsSouKcrPS48vLs9MK8lLLS5mAADCVSCkKQAAAA=='
+
+  482338610f:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSrOyS/PSy0uZgAAmM1znyEAAAA='
+
+  f016833284:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSrOyS/PSy0uZgAAmM1znyEAAAA='
+
+  3f40da15d0:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPL87JL89LLS5mAABWU+LWJgAAAA=='
+
+  0d51ad04f3:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPL87JL89LLS5mAABWU+LWJgAAAA=='
+
+  4e662a7ecc:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSouKcrPS48vzskvz0stLmYAAJzMEusoAAAA'
+
+  cce7a266e4:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSouKcrPS48vzskvz0stLmYAAJzMEusoAAAA'
+
+  baa25f65e5:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrsSopLSrJSY3PTSwuSS1iAAD8mH5XJgAAAA=='
+
+  5e56f52aab:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrsSopLSrJSY3PTSwuSS1iAAD8mH5XJgAAAA=='
+
+  b7f081a0d0:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyc3MS00uSkwrscrJz0uPLyktKslJjc9NLC5JLWIAALafT6MrAAAA'
+
+  0d0a180f7b:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyc3MS00uSkwrscrJz0uPLyktKslJjc9NLC5JLWIAALafT6MrAAAA'
+
+  dbcaaec8c1:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrsSouKcrPS48vKS0qyUmNz00sLkktYgAA3Iyn/i0AAAA='
+
+  1c8ceaacbd:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrsSouKcrPS48vKS0qyUmNz00sLkktYgAA3Iyn/i0AAAA='
+
+  c07d32005a:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSpPLEktik8qSk0sycjMS2cAABYktK0oAAAA'
+
+  a50023d70c:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSpPLEktik8qSk0sycjMS2cAABYktK0oAAAA'
+
+  695077008f:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrscrJz0uPL08sSS2KTypKTSzJyMxLZwAAU2RYfy0AAAA='
+
+  f800770596:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQy83MS00uSkwrscrJz0uPL08sSS2KTypKTSzJyMxLZwAAU2RYfy0AAAA='
+
+  5ba035e343:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpITczJzEtnAAAPREaPIAAAAA=='
+
+  343e530ab5:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpITczJzEtnAAAPREaPIAAAAA=='
+
+  4e7b4ff458:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSE3MycxLZwAAsvreGycAAAA='
+
+  854ff4b7e4:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSE3MycxLZwAAsvreGycAAAA='
+
+  0cd9d961ec:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpILAJy0hkAmTkrwyAAAAA='
+
+  ce169d9dc0:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzM3MS00uSkwrscpILAJy0hkAmTkrwyAAAAA='
+
+  645abb5380:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPL87JL49PS8zJycxLZwAAI4mPnCoAAAA='
+
+  0835bba546:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPL87JL49PS8zJycxLZwAAI4mPnCoAAAA='
+
+  bd5515f4d7:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSpPTczOSy0uZgAAAj77+SEAAAA='
+
+  7d4f5155db:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSpPTczOSy0uZgAAAj77+SEAAAA='
+
+  173bb8abc5:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPL09NzM5LLS5mAADMoGqwJgAAAA=='
+
+  5cba8bb371:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPL09NzM5LLS5mAADMoGqwJgAAAA=='
+
+  879a7b35c2:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzc3MS00uSkwrscrJz0uPL8jPLAYKAwAidHaKJAAAAA=='
+
+  2c53b7a978:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQzc3MS00uSkwrscrJz0uPL8jPLAYKAwAidHaKJAAAAA=='
+
+  4036e449a1:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPLy4pSs1LL8lgAADCMts3JgAAAA=='
+
+  1a944e6304:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrscrJz0uPLy4pSs1LL8lgAADCMts3JgAAAA=='
+
+  d672f54636:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSCwCiqUzAAAkh7NXJwAAAA=='
+
+  63645f276d:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQyM3MS00uSkwrsSouKcrPS4/PSCwCiqUzAAAkh7NXJwAAAA=='
+
+  4ff08e60bf:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgy83MS00uSkwrscopTc5mAAA8dq/IHQAAAA=='
+
+  fb06e80ff4:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2Pgy83MS00uSkwrscopTc5mAAA8dq/IHQAAAA=='
+
+  5ce7b556fc:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrsSouKcrPS48vyM8sBkoAAOKjlSgmAAAA'
+
+  cf655b7ec5:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQz83MS00uSkwrsSouKcrPS48vyM8sBkoAAOKjlSgmAAAA'
+
+  e885630ba2:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSouKcrPS48HUql56SUZDAAIrSsKKAAAAA=='
+
+  2ab036588e:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzM3MS00uSkwrsSouKcrPS48HUql56SUZDAAIrSsKKAAAAA=='
+
+  d6c9a64304:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQyM3MS00uSkwrsSrIzywGigAAlUMZ2R8AAAA='
+
+  40346a9c6d:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQyM3MS00uSkwrsSrIzywGigAAlUMZ2R8AAAA='
+
+  843ee19707:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrsSrOyS+PT0vMycnMS2cAAK/+fgolAAAA'
+
+  70791ee348:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrsSrOyS+PT0vMycnMS2cAAK/+fgolAAAA'
+
+  66409717fc:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzc3MS00uSkwrsSouKcrPS48vSk1PzUstSgRLAwBRyZP5LAAAAA=='
+
+  cf71790466:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzc3MS00uSkwrsSouKcrPS48vSk1PzUstSgRLAwBRyZP5LAAAAA=='
+
+  43e6e4ad19:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrsSpKTU/NSy1KBIsDAOnmJA4lAAAA'
+
+  91da4e6e34:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQy83MS00uSkwrsSpKTU/NSy1KBIsDAOnmJA4lAAAA'
+
+  9dbba2a379:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPL0pNT81LLUoESwIAZZHVmCoAAAA='
+
+  973a2abbd9:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2OQzs3MS00uSkwrscrJz0uPL0pNT81LLUoESwIAZZHVmCoAAAA='
+
+  4cc8f3776c:
+    name: '&cMoney &7-> &aLingering Potion'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSouKUrNSy/JYAAADKxKfiEAAAA='
+
+  c6773f8cc4:
+    name: '&cLingering Potion &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LINGERING_POTION
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBgYAvIL8nMz2MQys3MS00uSkwrsSouKUrNSy/JYAAADKxKfiEAAAA='
+

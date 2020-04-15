@@ -1,0 +1,4 @@
+&cWelcome, &l{PLAYER} &r&cto &lParthenon&r&c!
+&7Type &8&o/f help &r&7 to register your country!
+&7And &8&o/f list &r&7 to see your competition...
+&7Type &8&o/help&r&7 for a list of commands.

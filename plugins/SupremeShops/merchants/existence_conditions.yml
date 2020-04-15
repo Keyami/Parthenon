@@ -1,0 +1,23 @@
+#----------------------------------------------------------------------------------------------------
+# Merchant existence conditions configuration file for SupremeShops
+#----------------------------------------------------------------------------------------------------
+
+# Register your merchant existence conditions here
+# They're valid for specific merchants (defined by conditions) or all marchants
+# They're periodically checked and merchants that don't match it are destroyed ; they're also checked when trying to create a merchant or add a shop to it
+
+merchant_existence_conditions:
+  
+  # 'example_disallow_spawn' is the name of the conditions
+  # In this example merchants in the spawn region will be forbidden
+#  example_disallow_spawn:
+#    # Conditions
+#    # Here if the condition is valid, that means the merchant is in the spawn region ; so we need the condition to be not valid
+#    required_not_valid: '1'
+#    conditions:
+#      1:
+#        type: IN_WORLDGUARD_REGION
+#        world: world
+#        region: spawn_region
+#    # Error message
+#    general_error_message: '&6SupremeShops >> &7You can''t have a merchant in the spawn region.'

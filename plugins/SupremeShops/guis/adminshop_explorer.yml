@@ -1,0 +1,634 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Explorer'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  e643f30081:
+    item:
+      slot: 0
+      type: CHISELED_STONE_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aChiseled Stone Bricks &7(left click)'
+      lore:
+        - '&7&cChiseled Stone Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:e643f30081
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:18003f346e
+
+  5e5e68a28b:
+    item:
+      slot: 1
+      type: STONE_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Bricks &7(left click)'
+      lore:
+        - '&7&cStone Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:5e5e68a28b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:b82a86e5e5
+
+  6a81cbfa10:
+    item:
+      slot: 2
+      type: MOSSY_STONE_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aMossy Stone Bricks &7(left click)'
+      lore:
+        - '&7&cMossy Stone Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:6a81cbfa10
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:01afbc18a6
+
+  136ef5d694:
+    item:
+      slot: 3
+      type: CRACKED_STONE_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aCracked Stone Bricks &7(left click)'
+      lore:
+        - '&7&cCracked Stone Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:136ef5d694
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:496d5fe631
+
+  0d1d329beb:
+    item:
+      slot: 4
+      type: MOSSY_COBBLESTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aMossy Cobblestone &7(left click)'
+      lore:
+        - '&7&cMossy Cobblestone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:0d1d329beb
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:beb923d1d0
+
+  6415e8fb43:
+    item:
+      slot: 5
+      type: STONE_BRICK_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Brick Stairs &7(left click)'
+      lore:
+        - '&7&cStone Brick Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:6415e8fb43
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:34bf8e5146
+
+  be7a12227a:
+    item:
+      slot: 6
+      type: STONE_BRICK_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aStone Brick Slab &7(left click)'
+      lore:
+        - '&7&cStone Brick Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:be7a12227a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:a72221a7eb
+
+  5a283505e4:
+    item:
+      slot: 7
+      type: COARSE_DIRT
+      amount: 1
+      name: '&7&cMoney &7-> &aCoarse Dirt &7(left click)'
+      lore:
+        - '&7&cCoarse Dirt &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:5a283505e4
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:4e505382a5
+
+  958cdc7914:
+    item:
+      slot: 8
+      type: MYCELIUM
+      amount: 1
+      name: '&7&cMoney &7-> &aMycelium &7(left click)'
+      lore:
+        - '&7&cMycelium &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:958cdc7914
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:4197cdc859
+
+  2f1f26ad67:
+    item:
+      slot: 9
+      type: PODZOL
+      amount: 1
+      name: '&7&cMoney &7-> &aPodzol &7(left click)'
+      lore:
+        - '&7&cPodzol &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:2f1f26ad67
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:76da62f1f2
+
+  eec6116983:
+    item:
+      slot: 10
+      type: SAND
+      amount: 1
+      name: '&7&cMoney &7-> &aSand &7(left click)'
+      lore:
+        - '&7&cSand &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:eec6116983
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:3896116cee
+
+  262c531bc7:
+    item:
+      slot: 11
+      type: SANDSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aSandstone &7(left click)'
+      lore:
+        - '&7&cSandstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:262c531bc7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:7cb135c262
+
+  eb82384aea:
+    item:
+      slot: 12
+      type: CHISELED_SANDSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aChiseled Sandstone &7(left click)'
+      lore:
+        - '&7&cChiseled Sandstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:eb82384aea
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:aea48328be
+
+  fcae54284b:
+    item:
+      slot: 13
+      type: CUT_SANDSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aCut Sandstone &7(left click)'
+      lore:
+        - '&7&cCut Sandstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:fcae54284b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:b48245eacf
+
+  e2dd8e49cc:
+    item:
+      slot: 14
+      type: SANDSTONE_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aSandstone Stairs &7(left click)'
+      lore:
+        - '&7&cSandstone Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:e2dd8e49cc
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:cc94e8dd2e
+
+  35a3a50d12:
+    item:
+      slot: 15
+      type: SANDSTONE_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aSandstone Slab &7(left click)'
+      lore:
+        - '&7&cSandstone Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:35a3a50d12
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:21d05a3a53
+
+  a76fc4da09:
+    item:
+      slot: 16
+      type: RED_SAND
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Sand &7(left click)'
+      lore:
+        - '&7&cRed Sand &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:a76fc4da09
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:90ad4cf67a
+
+  3599d40e74:
+    item:
+      slot: 17
+      type: RED_SANDSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Sandstone &7(left click)'
+      lore:
+        - '&7&cRed Sandstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:3599d40e74
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:47e04d9953
+
+  6ea6c3f9f3:
+    item:
+      slot: 18
+      type: CHISELED_RED_SANDSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aChiseled Red Sandstone &7(left click)'
+      lore:
+        - '&7&cChiseled Red Sandstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:6ea6c3f9f3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:3f9f3c6ae6
+
+  579cfde50f:
+    item:
+      slot: 19
+      type: CUT_RED_SANDSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aCut Red Sandstone &7(left click)'
+      lore:
+        - '&7&cCut Red Sandstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:579cfde50f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:f05edfc975
+
+  fe6fc88198:
+    item:
+      slot: 20
+      type: RED_SANDSTONE_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Sandstone Stairs &7(left click)'
+      lore:
+        - '&7&cRed Sandstone Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:fe6fc88198
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:89188cf6ef
+
+  31420dcaf7:
+    item:
+      slot: 21
+      type: RED_SANDSTONE_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Sandstone Slab &7(left click)'
+      lore:
+        - '&7&cRed Sandstone Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:31420dcaf7
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:7facd02413
+
+  33f6a05060:
+    item:
+      slot: 22
+      type: PURPUR_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aPurpur Block &7(left click)'
+      lore:
+        - '&7&cPurpur Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:33f6a05060
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:06050a6f33
+
+  520f7236d0:
+    item:
+      slot: 23
+      type: PURPUR_PILLAR
+      amount: 1
+      name: '&7&cMoney &7-> &aPurpur Pillar &7(left click)'
+      lore:
+        - '&7&cPurpur Pillar &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:520f7236d0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:0d6327f025
+
+  28ec6d9432:
+    item:
+      slot: 24
+      type: PURPUR_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aPurpur Stairs &7(left click)'
+      lore:
+        - '&7&cPurpur Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:28ec6d9432
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:2349d6ce82
+
+  cb596ea399:
+    item:
+      slot: 25
+      type: PURPUR_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aPurpur Slab &7(left click)'
+      lore:
+        - '&7&cPurpur Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:cb596ea399
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:993ae695bc
+
+  9eddae27a0:
+    item:
+      slot: 26
+      type: GLOWSTONE
+      amount: 1
+      name: '&7&cMoney &7-> &aGlowstone &7(left click)'
+      lore:
+        - '&7&cGlowstone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:9eddae27a0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:0a72eadde9
+
+  5d5a727b55:
+    item:
+      slot: 27
+      type: SOUL_SAND
+      amount: 1
+      name: '&7&cMoney &7-> &aSoul Sand &7(left click)'
+      lore:
+        - '&7&cSoul Sand &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:5d5a727b55
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:55b727a5d5
+
+  70249fd294:
+    item:
+      slot: 28
+      type: NETHERRACK
+      amount: 1
+      name: '&7&cMoney &7-> &aNetherrack &7(left click)'
+      lore:
+        - '&7&cNetherrack &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:70249fd294
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:492df94207
+
+  f302d42569:
+    item:
+      slot: 29
+      type: RED_NETHER_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Nether Bricks &7(left click)'
+      lore:
+        - '&7&cRed Nether Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:f302d42569
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:96524d203f
+
+  ce864f21aa:
+    item:
+      slot: 30
+      type: RED_NETHER_BRICK_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Nether Brick Stairs &7(left click)'
+      lore:
+        - '&7&cRed Nether Brick Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:ce864f21aa
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:aa12f468ec
+
+  0bc44d1a97:
+    item:
+      slot: 31
+      type: RED_NETHER_BRICK_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Nether Brick Slab &7(left click)'
+      lore:
+        - '&7&cRed Nether Brick Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:0bc44d1a97
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:79a1d44cb0
+
+  89c9342353:
+    item:
+      slot: 32
+      type: MAGMA_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aMagma Block &7(left click)'
+      lore:
+        - '&7&cMagma Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:89c9342353
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:3532439c98
+
+  1b10ea0ce3:
+    item:
+      slot: 33
+      type: NETHER_WART_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aNether Wart Block &7(left click)'
+      lore:
+        - '&7&cNether Wart Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:1b10ea0ce3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:3ec0ae01b1
+
+  82e9fabd7b:
+    item:
+      slot: 34
+      type: END_STONE
+      amount: 1
+      name: '&7&cMoney &7-> &aEnd Stone &7(left click)'
+      lore:
+        - '&7&cEnd Stone &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:82e9fabd7b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:b7dbaf9e28
+
+  d85aa17f0b:
+    item:
+      slot: 35
+      type: END_STONE_BRICKS
+      amount: 1
+      name: '&7&cMoney &7-> &aEnd Stone Bricks &7(left click)'
+      lore:
+        - '&7&cEnd Stone Bricks &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:d85aa17f0b
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:b0f71aa58d
+
+  cc4a8319e1:
+    item:
+      slot: 36
+      type: QUARTZ_PILLAR
+      amount: 1
+      name: '&7&cMoney &7-> &aQuartz Pillar &7(left click)'
+      lore:
+        - '&7&cQuartz Pillar &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:cc4a8319e1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:1e9138a4cc
+
+  6b912805f9:
+    item:
+      slot: 37
+      type: QUARTZ_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aQuartz Block &7(left click)'
+      lore:
+        - '&7&cQuartz Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:6b912805f9
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:9f508219b6
+
+  c28ef9e46c:
+    item:
+      slot: 38
+      type: CHISELED_QUARTZ_BLOCK
+      amount: 1
+      name: '&7&cMoney &7-> &aChiseled Quartz Block &7(left click)'
+      lore:
+        - '&7&cChiseled Quartz Block &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:c28ef9e46c
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:c64e9fe82c
+
+  dc5d2a0e58:
+    item:
+      slot: 39
+      type: SMOOTH_QUARTZ
+      amount: 1
+      name: '&7&cMoney &7-> &aSmooth Quartz &7(left click)'
+      lore:
+        - '&7&cSmooth Quartz &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:dc5d2a0e58
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:85e0a2d5cd
+
+  099d480918:
+    item:
+      slot: 40
+      type: QUARTZ_STAIRS
+      amount: 1
+      name: '&7&cMoney &7-> &aQuartz Stairs &7(left click)'
+      lore:
+        - '&7&cQuartz Stairs &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:099d480918
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:819084d990
+
+  0c3130cf6a:
+    item:
+      slot: 41
+      type: QUARTZ_SLAB
+      amount: 1
+      name: '&7&cMoney &7-> &aQuartz Slab &7(left click)'
+      lore:
+        - '&7&cQuartz Slab &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:0c3130cf6a
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:a6fc0313c0
+
+  2a8939dca6:
+    item:
+      slot: 42
+      type: NETHER_BRICK_FENCE
+      amount: 1
+      name: '&7&cMoney &7-> &aNether Brick Fence &7(left click)'
+      lore:
+        - '&7&cNether Brick Fence &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:2a8939dca6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:6acd9398a2
+
+  2a3d1b88cb:
+    item:
+      slot: 43
+      type: NETHER_BRICK_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aNether Brick Wall &7(left click)'
+      lore:
+        - '&7&cNether Brick Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:2a3d1b88cb
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:bc88b1d3a2
+
+  44824bc2b6:
+    item:
+      slot: 44
+      type: COBBLESTONE_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aCobblestone Wall &7(left click)'
+      lore:
+        - '&7&cCobblestone Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:44824bc2b6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:6b2cb42844
+
+  03be301fe0:
+    item:
+      slot: 45
+      type: MOSSY_COBBLESTONE_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aMossy Cobblestone Wall &7(left click)'
+      lore:
+        - '&7&cMossy Cobblestone Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:03be301fe0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:0ef103eb30
+
+  fc1d699eb3:
+    item:
+      slot: 46
+      type: MOSSY_STONE_BRICK_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aMossy Stone Brick Wall &7(left click)'
+      lore:
+        - '&7&cMossy Stone Brick Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:fc1d699eb3
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:3be996d1cf
+
+  4af95a6cb8:
+    item:
+      slot: 47
+      type: RED_SANDSTONE_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aRed Sandstone Wall &7(left click)'
+      lore:
+        - '&7&cRed Sandstone Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:4af95a6cb8
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:8bc6a59fa4
+
+  b476df8616:
+    item:
+      slot: 48
+      type: END_STONE_BRICK_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aEnd Stone Brick Wall &7(left click)'
+      lore:
+        - '&7&cEnd Stone Brick Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:b476df8616
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:6168fd674b
+
+  0c5188fed5:
+    item:
+      slot: 49
+      type: SANDSTONE_WALL
+      amount: 1
+      name: '&7&cMoney &7-> &aSandstone Wall &7(left click)'
+      lore:
+        - '&7&cSandstone Wall &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE explorer:0c5188fed5
+      RIGHT: OPEN_ADMIN_SHOP_TRADE explorer:5def8815c0
+

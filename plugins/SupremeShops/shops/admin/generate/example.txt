@@ -1,0 +1,17 @@
+# This file is an admin shop generation file used to create admin shops faster (use it with /supremeshops admingen -file:example.txt)
+# You can also create money vs items shops using /supremeshops admingen -fromchestid:ID
+
+# Text after # will be ignored (comments)
+
+# To add Vault money, write 'MONEY {amount}' or simply 'MONEY' if you enabled item values for admin shops
+# To add items, write 'ITEM {type} {amount} [-durability {durability}] [-unbreakable] [-name {name}] [-lore {lore1},{lore2},{...}] [-enchant {enchant},{level}]' (more advanced params can't be written here but you can add them after the generation is complete)
+# To add XP levels, write 'XP {amount}'
+# To add PlayerPoints points, write 'PLAYERPOINTS {amount}'
+# To add TokenEnchant tokens, write 'TOKENENCHANT {amount}'
+# To add commands, write 'COMMANDS {command1},{command2},{...}'
+
+-							# To indicate a new trade to generate
+#icon DIRT 1				# To specify an icon (if not specified, the plugin will try to find an item in the trade content, or use an emerald if none found)
+#slot 0						# To specify a slot (if not specified, the slot will be -1 which means added after all the other ones)
+take money					# To specify a taken object (there can be multiple)
+give item DIRT 1			# To specify a given object (there can be multiple)

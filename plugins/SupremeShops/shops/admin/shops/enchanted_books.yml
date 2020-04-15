@@ -1,0 +1,1129 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  8afff442ed:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AMAgF0G/1oD0ap/HuBE7QUIwkLRgkzu97GViwnmHO9VC6i0ZnjTcDGBLG9jVMM5JUbF2UycsV++MWTCGmwA89o9gpQgAAAA=='
+
+  de244fffa8:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AMAgF0G/1oD0ap/HuBE7QUIwkLRgkzu97GViwnmHO9VC6i0ZnjTcDGBLG9jVMM5JUbF2UycsV++MWTCGmwA89o9gpQgAAAA=='
+
+  7b6f363465:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI7eXMW7EziAIaXEJlBMbZzf9yKwYD29G+dD6U7qjdXfCGAIGOtXMc0IkrE1USZLxfcixtdj3ZlcugI/O+8jDUcAAAA='
+
+  564363f6b7:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI7eXMW7EziAIaXEJlBMbZzf9yKwYD29G+dD6U7qjdXfCGAIGOtXMc0IkrE1USZLxfcixtdj3ZlcugI/O+8jDUcAAAA='
+
+  2fa4b1f28f:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI7eXMW7EziAaaBIk1ITbJzf9yKwYD396ZwPS5XMG5u/EcAQMOqnmGYEydiaGKdOxffC5JX7VUhV7AZ+hC89KkcAAAA='
+
+  f82f1b4af2:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI7eXMW7EziAaaBIk1ITbJzf9yKwYD396ZwPS5XMG5u/EcAQMOqnmGYEydiaGKdOxffC5JX7VUhV7AZ+hC89KkcAAAA='
+
+  8ef66a47ce:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAEwBV9KE+fluLfCizAIJyRBA4DG+tnxgIL1pOlSjjUv06ZRdksgMFgTH/CNMPEgC1HFV/dw/1OrvH6aqF4xqJAB5ecaMVIAAAA'
+
+  ec74a66fe8:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAEwBV9KE+fluLfCizAIJyRBA4DG+tnxgIL1pOlSjjUv06ZRdksgMFgTH/CNMPEgC1HFV/dw/1OrvH6aqF4xqJAB5ecaMVIAAAA'
+
+  2eae17d843:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDhYGDKTGGQz83MS00uSkwrsSooys9KTS7JzEmNBzJLQMz8PAYGAJG3+5BNAAAA'
+
+  348d71eae2:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDhYGDKTGGQz83MS00uSkwrsSooys9KTS7JzEmNBzJLQMz8PAYGAJG3+5BNAAAA'
+
+  50ae36ca64:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKOJy3h3AidooMQmUExpnN/3ErBhv30Yl0vzQ+qd1WcCsATE9jXEFUEKji7K2aj6aTxfMXIZCvwD1zQ/QwAAAA=='
+
+  46ac63ea05:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKOJy3h3AidooMQmUExpnN/3ErBhv30Yl0vzQ+qd1WcCsATE9jXEFUEKji7K2aj6aTxfMXIZCvwD1zQ/QwAAAA=='
+
+  6134e4d6df:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQz83MS00uSkwrsUosLE2MT0xLy8zLLKlkYAAAc+ANh0UAAAA='
+
+  fd6d4e4316:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQz83MS00uSkwrsUosLE2MT0xLy8zLLKlkYAAAc+ANh0UAAAA='
+
+  1be8d43908:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQyM3MS00uSkwrsSrJyC/KK2ZgAAA/k0bWPgAAAA=='
+
+  80934d8eb1:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQyM3MS00uSkwrsSrJyC/KK2ZgAAA/k0bWPgAAAA=='
+
+  97ecaa226b:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKMXd/HuBA5gCK2hCVRTGuf3vQQsWE9/jOnQUrN6Z/WRAEwBsX0NcUYQwtZFuVi+fSd+vV7DTYgN+AHM2/vkRQAAAA=='
+
+  b622aace79:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKMXd/HuBA5gCK2hCVRTGuf3vQQsWE9/jOnQUrN6Z/WRAEwBsX0NcUYQwtZFuVi+fSd+vV7DTYgN+AHM2/vkRQAAAA=='
+
+  72f1dbb9a2:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGEQy83MS00uSkwrsUoryi8uiS9PzMlOLWJgAAC1BHyiRAAAAA=='
+
+  2a9bbd1f27:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGEQy83MS00uSkwrsUoryi8uiS9PzMlOLWJgAAC1BHyiRAAAAA=='
+
+  7160432231:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXB0QmAMAwFwGdF0H7qNv47gROENqWFNkoSnN+7CGzYb3+U8yWpkvhgcYsApoC5fx3LitAyjtGEk1Lx0yrpK2wG/E0iA6pBAAAA'
+
+  1322340617:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXB0QmAMAwFwGdF0H7qNv47gROENqWFNkoSnN+7CGzYb3+U8yWpkvhgcYsApoC5fx3LitAyjtGEk1Lx0yrpK2wG/E0iA6pBAAAA'
+
+  e44c886aee:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKMXd/HuBA5gkFZtAjWB6vy8F4AJ825vZdo0PVGtsFoLAJzHkP8MN8ILYSminGq8bD1FSfQ+0lcbAx3WKWHmRQAAAA=='
+
+  eea688c44e:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKMXd/HuBA5gkFZtAjWB6vy8F4AJ825vZdo0PVGtsFoLAJzHkP8MN8ILYSminGq8bD1FSfQ+0lcbAx3WKWHmRQAAAA=='
+
+  cc9dd96b96:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGHgz83MS00uSkwrsSrOzSxJZWAAAMXzWxs9AAAA'
+
+  69b69dd9cc:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGHgz83MS00uSkwrsSrOzSxJZWAAAMXzWxs9AAAA'
+
+  0d91e626cf:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBTQqAIBAG0C8jKJetO0n7TtABZPIHBZ0JHTp/71lgw36r9Bgu9plYW2QdFsBkMNevYllhSsDRCkffKen5EEcnyVHX3OWVMIAfC1L5dEoAAAA='
+
+  fc626e19d0:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBTQqAIBAG0C8jKJetO0n7TtABZPIHBZ0JHTp/71lgw36r9Bgu9plYW2QdFsBkMNevYllhSsDRCkffKen5EEcnyVHX3OWVMIAfC1L5dEoAAAA='
+
+  026ede82ea:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9elCNu490JnKCWGkmhJNg4v+9FYEU6vQ/Jh/FD5k3M3whgCpjrVxEWhJKxtWLCg27f1TrrRazAD8afKpxBAAAA'
+
+  ae28ede620:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9elCNu490JnKCWGkmhJNg4v+9FYEU6vQ/Jh/FD5k3M3whgCpjrVxEWhJKxtWLCg27f1TrrRazAD8afKpxBAAAA'
+
+  a1c77aa9b5:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGEQzc3MS00uSkwrsUrLLEqNTywuSE0uYWAAAA0fNhpDAAAA'
+
+  5b9aa77c1a:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGEQzc3MS00uSkwrsUrLLEqNTywuSE0uYWAAAA0fNhpDAAAA'
+
+  6976ab535c:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAAwRU+yk/L8W8FVkDgVBI4ErxYvzMBFrbT+pB8aHqiWhO1NwCTw9ev4mdcyaytqKQRL9tr71b0hh//O5qXPwAAAA=='
+
+  c535ba6796:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAAwRU+yk/L8W8FVkDgVBI4ErxYvzMBFrbT+pB8aHqiWhO1NwCTw9ev4mdcyaytqKQRL9tr71b0hh//O5qXPwAAAA=='
+
+  270dd58a72:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAEwBU+ypNy/FuBFRBY9RI4DVy0fWcCsCDudneWTfOV1BrVRgAwOfj6VvgZTgpiE2Xu6bB1fOQjegI/CrQ0s0AAAAA='
+
+  27a85dd072:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAEwBU+ypNy/FuBFRBY9RI4DVy0fWcCsCDudneWTfOV1BrVRgAwOfj6VvgZTgpiE2Xu6bB1fOQjegI/CrQ0s0AAAAA='
+
+  c780b697ee:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGHgz83MS00uSkwrsSrIL08tYmAAAL/kZ0k9AAAA'
+
+  ee796b087c:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGHgz83MS00uSkwrsSrIL08tYmAAAL/kZ0k9AAAA'
+
+  5dfd087e29:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGHgz83MS00uSkwrsSooBSplYAAAY7VQfD0AAAA='
+
+  92e780dfd5:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDiYGDKTGHgz83MS00uSkwrsSooBSplYAAAY7VQfD0AAAA='
+
+  4430f010d8:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBQRJAMAwF0K/d0KVxGnsncIJog4w2ZiKc33sJGDCufhuXRfNJ6o3VnwSgC4j1q4g9ghRMTZSz0e7zq5sxXaIH8AOuJCP0QgAAAA=='
+
+  8d010f0344:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBQRJAMAwF0K/d0KVxGnsncIJog4w2ZiKc33sJGDCufhuXRfNJ6o3VnwSgC4j1q4g9ghRMTZSz0e7zq5sxXaIH8AOuJCP0QgAAAA=='
+
+  2faee88ce3:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGHgz83MS00uSkwrsUrLScxNZWAAACaKPQM9AAAA'
+
+  3ec88eeaf2:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGHgz83MS00uSkwrsUrLScxNZWAAACaKPQM9AAAA'
+
+  6a497700a1:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQzM3MS00uSkwrscrJr0zMKalkYAAA0rdzIT8AAAA='
+
+  1a007794a6:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQzM3MS00uSkwrscrJr0zMKalkYAAA0rdzIT8AAAA='
+
+  01fad4a871:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXB0QmAMAwFwGdF0H52HP+dwAlCGzWQRKnB+b3LwIKyx925bV4v8jD2eDOAIWHUTzHNSNJQTJxrpyNWsYdU/AR+NrrqC0AAAAA='
+
+  178a4daf10:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXB0QmAMAwFwGdF0H52HP+dwAlCGzWQRKnB+b3LwIKyx925bV4v8jD2eDOAIWHUTzHNSNJQTJxrpyNWsYdU/AR+NrrqC0AAAAA='
+
+  4c37d35d22:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBTQqAIBCA0U/blEuP074TdALxhwZ0AhuCbt97ATbiafes5dB8JbVR1Z4AOM/S345b8VKIQ7TmmZrtok1U7IMfxpxf2UAAAAA='
+
+  22d53d73c4:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBTQqAIBCA0U/blEuP074TdALxhwZ0AhuCbt97ATbiafes5dB8JbVR1Z4AOM/S345b8VKIQ7TmmZrtok1U7IMfxpxf2UAAAAA='
+
+  72b885fbfa:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAxA0a9clJuO490JnIBAjU2gGmyc3/cizKyH313KbvlK5k3M3wgMI6F+lTAxamFpapJ7On3r+rgWgR+2c1jIPwAAAA=='
+
+  afbf588b27:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAxA0a9clJuO490JnIBAjU2gGmyc3/cizKyH313KbvlK5k3M3wgMI6F+lTAxamFpapJ7On3r+rgWgR+2c1jIPwAAAA=='
+
+  631ac7ab74:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQyc3MS00uSkwrsQKpy0vNycxLZ2AAAHpikZJCAAAA'
+
+  47ba7ca136:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQyc3MS00uSkwrsQKpy0vNycxLZ2AAAHpikZJCAAAA'
+
+  057e07c867:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKNu490JnIBADU3akkB1ft9LwIb99j6oXlZaNlcynwlAiFjkE4QVkSsOZaMy8uOnvuI8W3fgB5K5g05BAAAA'
+
+  768c70e750:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKNu490JnIBADU3akkB1ft9LwIb99j6oXlZaNlcynwlAiFjkE4QVkSsOZaMy8uOnvuI8W3fgB5K5g05BAAAA'
+
+  2d364fcf79:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQy83MS00uSkwrsSoszUzOjgeqLkpPZWAAAPTLo7VEAAAA'
+
+  97fcf463d2:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGEQy83MS00uSkwrsSoszUzOjgeqLkpPZWAAAPTLo7VEAAAA'
+
+  75d2a7d2fd:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI6Mw50JnICUqk2gmto4v+9FYEPa/TZuRemq6oPV3whgCpj717GsCNKQhiiT1cPzI2wkegI/zLczH0AAAAA='
+
+  df2d7a2d57:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C96UI6Mw50JnICUqk2gmto4v+9FYEPa/TZuRemq6oPV3whgCpj717GsCNKQhiiT1cPzI2wkegI/zLczH0AAAAA='
+
+  a084076083:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQzM3MS00uSkwrsQIqScnMS2dgAADZDJhpPwAAAA=='
+
+  380670480a:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQzM3MS00uSkwrsQIqScnMS2dgAADZDJhpPwAAAA=='
+
+  341e411edf:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKM3V/HuBA5gCFRpAjUplfl9LwAL1tNepXxIKlGskVgPAJzHVEeFm+E5Y2sslDTeto8o3AvLc6VPOwE/qQh0D0cAAAA='
+
+  fde114e143:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKM3V/HuBA5gCFRpAjUplfl9LwAL1tNepXxIKlGskVgPAJzHVEeFm+E5Y2sslDTeto8o3AvLc6VPOwE/qQh0D0cAAAA='
+
+  67c2289c2c:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGEQyc3MS00uSkwrsUpNS8tMzkzNS65kYAAA1rK8dUIAAAA='
+
+  c2c9822c76:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDlYGDKTGEQyc3MS00uSkwrsUpNS8tMzkzNS65kYAAA1rK8dUIAAAA='
+
+  10994d29f9:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQyc3MS00uSkwrsSrOzMmOL8kvTc5gYAAA7c0SskIAAAA='
+
+  9f92d49901:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQyc3MS00uSkwrsSrOzMmOL8kvTc5gYAAA7c0SskIAAAA='
+
+  1f42d2a766:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAAwRU+yk/L8W8FVkDwiCRwJHhavzMBFrbT+pDr0HRHtSZqTwAmh69fxc+4crG2opJGzLbnPuxVgR+C4imiPwAAAA=='
+
+  667a2d24f1:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIBAAwRU+yk/L8W8FVkDwiCRwJHhavzMBFrbT+pDr0HRHtSZqTwAmh69fxc+4crG2opJGzLbnPuxVgR+C4imiPwAAAA=='
+
+  acb0c237ed:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKM3V/HuBA7QECiBCCWB6vy+54AN+619cLwkZC/aWHQ6AIuBrV+FXWFKxNGKcBg+6Vnf8FBPpJlpsgd+MBsemEcAAAA='
+
+  de732c0bca:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0C9clKM3V/HuBA7QECiBCCWB6vy+54AN+619cLwkZC/aWHQ6AIuBrV+FXWFKxNGKcBg+6Vnf8FBPpJlpsgd+MBsemEcAAAA='
+
+  ec2003229e:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBQRJAMAwF0K/d0KVxGnsncIJog4w2ZiKc33sJGDCufhuXRfNJ6o3VnwSgC4j1q4g9ghRMTZSz0e7zq5sxXaIH8AOuJCP0QgAAAA=='
+
+  e9223002ce:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBQRJAMAwF0K/d0KVxGnsncIJog4w2ZiKc33sJGDCufhuXRfNJ6o3VnwSgC4j1q4g9ghRMTZSz0e7zq5sxXaIH8AOuJCP0QgAAAA=='
+
+  83c7a46a89:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGHgy83MS00uSkwrscopLUplYAAAVr3BQjwAAAA='
+
+  98a64a7c38:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDmYGDKTGHgy83MS00uSkwrscopLUplYAAAVr3BQjwAAAA='
+
+  972136e51e:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQzM3MS00uSkwrsQIqScnMS2dgAADZDJhpPwAAAA=='
+
+  e15e631279:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAONiYOBkEAouyS9KTXHNS85IzCvJTc0rKeZiYGBgZGJgzinLYWDkYGDKTGEQzM3MS00uSkwrsQIqScnMS2dgAADZDJhpPwAAAA=='
+
+  03844f768d:
+    name: '&cMoney &7-> &aEnchanted Book'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKM3V/HuBA5gCFRpAjUplfl9LwAL1tNepXxIKlGskVgPAJzHVEeFm+E5Y2sslDTeto8o3AvLc6VPOwE/qQh0D0cAAAA='
+
+  d867f44830:
+    name: '&cEnchanted Book &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ENCHANTED_BOOK
+          amount: 1
+          nbt: 'H4sIAAAAAAAAAAXBwQ2AIAwF0A9elKM3V/HuBA5gCFRpAjUplfl9LwAL1tNepXxIKlGskVgPAJzHVEeFm+E5Y2sslDTeto8o3AvLc6VPOwE/qQh0D0cAAAA='
+

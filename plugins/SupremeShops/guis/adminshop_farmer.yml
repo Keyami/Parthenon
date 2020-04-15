@@ -1,0 +1,190 @@
+#----------------------------------------------------------------------------------------------------
+# GUI configuration file (file name without the extension is the GUI identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Settings
+name: 'Shops > Farmer'
+size: 54
+
+# Content : items of this GUI
+content:
+  
+  # open the player shops menu for the player
+  back:
+    item:
+      slot: 53
+      type: ARROW
+      name: '&6Go back'
+    click_actions:
+        DEFAULT: OPEN_GUI main_gui
+  
+  # sell every item the player has quickly in the first admin trade that gives money
+  sell_all:
+    item:
+      slot: 52
+      type: EMERALD
+      name: '&6Quick sell for money'
+      lore:
+        - '&7Sell every item you have &7 in the shops'
+        - '&7 listed here, if it can be sold for money'
+    click_actions:
+        DEFAULT: QUICK_SELL_ADMIN_FOR_VAULT_MONEY
+
+  # Admin shops trades
+  b4db06aad6:
+    item:
+      slot: 0
+      type: WHEAT_SEEDS
+      amount: 1
+      name: '&7&cMoney &7-> &aWheat Seeds &7(left click)'
+      lore:
+        - '&7&cWheat Seeds &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:b4db06aad6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:6daa60bd4b
+
+  64eba785d1:
+    item:
+      slot: 1
+      type: PUMPKIN_SEEDS
+      amount: 1
+      name: '&7&cMoney &7-> &aPumpkin Seeds &7(left click)'
+      lore:
+        - '&7&cPumpkin Seeds &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:64eba785d1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:1d587abe46
+
+  976a7e6da0:
+    item:
+      slot: 2
+      type: MELON_SEEDS
+      amount: 1
+      name: '&7&cMoney &7-> &aMelon Seeds &7(left click)'
+      lore:
+        - '&7&cMelon Seeds &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:976a7e6da0
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:0ad6e7a679
+
+  47f36907e5:
+    item:
+      slot: 3
+      type: BEETROOT_SEEDS
+      amount: 1
+      name: '&7&cMoney &7-> &aBeetroot Seeds &7(left click)'
+      lore:
+        - '&7&cBeetroot Seeds &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:47f36907e5
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:5e70963f74
+
+  c7d24fbea6:
+    item:
+      slot: 4
+      type: SUGAR_CANE
+      amount: 1
+      name: '&7&cMoney &7-> &aSugar Cane &7(left click)'
+      lore:
+        - '&7&cSugar Cane &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:c7d24fbea6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:6aebf42d7c
+
+  ea99aed5b1:
+    item:
+      slot: 5
+      type: COCOA_BEANS
+      amount: 1
+      name: '&7&cMoney &7-> &aCocoa Beans &7(left click)'
+      lore:
+        - '&7&cCocoa Beans &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:ea99aed5b1
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:1b5dea99ae
+
+  36c1ae6f89:
+    item:
+      slot: 6
+      type: BAMBOO
+      amount: 1
+      name: '&7&cMoney &7-> &aBamboo &7(left click)'
+      lore:
+        - '&7&cBamboo &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:36c1ae6f89
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:98f6ea1c63
+
+  62bdcd66c4:
+    item:
+      slot: 7
+      type: BONE_MEAL
+      amount: 1
+      name: '&7&cMoney &7-> &aBone Meal &7(left click)'
+      lore:
+        - '&7&cBone Meal &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:62bdcd66c4
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:4c66dcdb26
+
+  55d63fa05f:
+    item:
+      slot: 9
+      type: WHEAT
+      amount: 1
+      name: '&7&cMoney &7-> &aWheat &7(left click)'
+      lore:
+        - '&7&cWheat &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:55d63fa05f
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:f50af36d55
+
+  d4f9d882ad:
+    item:
+      slot: 10
+      type: PUMPKIN
+      amount: 1
+      name: '&7&cMoney &7-> &aPumpkin &7(left click)'
+      lore:
+        - '&7&cPumpkin &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:d4f9d882ad
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:da288d9f4d
+
+  ea94e6b2e6:
+    item:
+      slot: 11
+      type: MELON
+      amount: 1
+      name: '&7&cMoney &7-> &aMelon &7(left click)'
+      lore:
+        - '&7&cMelon &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:ea94e6b2e6
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:6e2b6e49ae
+
+  d7df931c87:
+    item:
+      slot: 13
+      type: SUGAR
+      amount: 1
+      name: '&7&cMoney &7-> &aSugar &7(left click)'
+      lore:
+        - '&7&cSugar &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:d7df931c87
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:78c139fd7d
+
+  189dcdebc5:
+    item:
+      slot: 19
+      type: CARVED_PUMPKIN
+      amount: 1
+      name: '&7&cMoney &7-> &aCarved Pumpkin &7(left click)'
+      lore:
+        - '&7&cCarved Pumpkin &7-> &aMoney &7(right click)'
+    click_actions:
+      LEFT: OPEN_ADMIN_SHOP_TRADE farmer:189dcdebc5
+      RIGHT: OPEN_ADMIN_SHOP_TRADE farmer:5cbedcd981
+

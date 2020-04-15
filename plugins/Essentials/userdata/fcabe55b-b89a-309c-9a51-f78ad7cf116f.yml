@@ -1,0 +1,21 @@
+lastAccountName: EMNachoboy
+timestamps:
+  login: 1586320958189
+  logout: 1586324912800
+  lastteleport: 1586323794121
+ipAddress: 174.31.238.102
+money: '1900.0'
+logoutlocation:
+  world: world
+  x: -94.02401707341173
+  y: 67.0
+  z: 131.35632206679526
+  yaw: -70.81995
+  pitch: 16.499914
+lastlocation:
+  world: world
+  x: -112.43568253528373
+  y: 65.0
+  z: 121.5111144442791
+  yaw: -164.55528
+  pitch: 26.998749

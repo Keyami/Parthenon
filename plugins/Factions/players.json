@@ -1,0 +1,25 @@
+{
+  "911b6ae3-d74b-3ed7-93e4-c341bac99210": {
+    "factionId": "1",
+    "role": "ADMIN",
+    "title": "",
+    "power": 1.41693,
+    "powerBoost": 0.0,
+    "lastPowerUpdateTime": 1586301868389,
+    "lastLoginTime": 1586301443310,
+    "chatMode": "PUBLIC",
+    "ignoreAllianceChat": false,
+    "id": "911b6ae3-d74b-3ed7-93e4-c341bac99210",
+    "name": "Keyami",
+    "monitorJoins": false,
+    "spyingChat": false,
+    "showScoreboard": true,
+    "warmupTask": 0,
+    "isAdminBypassing": false,
+    "kills": 0,
+    "deaths": 0,
+    "willAutoLeave": false,
+    "mapHeight": 17,
+    "isFlying": false
+  }
+}

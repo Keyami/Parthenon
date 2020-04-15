@@ -1,0 +1,347 @@
+#----------------------------------------------------------------------------------------------------
+# Admin shop configuration file (file name without the extension is the admin shop identifier)
+# This file was generated automatically from file using the admin generation command
+#----------------------------------------------------------------------------------------------------
+
+# Content
+
+trades:
+
+  bc75ce7c4c:
+    name: '&cMoney &7-> &aGranite'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRANITE
+          amount: 1
+
+  c4c7ec57cb:
+    name: '&cGranite &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRANITE
+          amount: 1
+
+  4b4893becf:
+    name: '&cMoney &7-> &aDiorite'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIORITE
+          amount: 1
+
+  fceb3984b4:
+    name: '&cDiorite &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIORITE
+          amount: 1
+
+  9a6873f6e7:
+    name: '&cMoney &7-> &aAndesite'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: ANDESITE
+          amount: 1
+
+  7e6f3786a9:
+    name: '&cAndesite &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: ANDESITE
+          amount: 1
+
+  2133cba428:
+    name: '&cMoney &7-> &aCobblestone'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COBBLESTONE
+          amount: 1
+
+  824abc3312:
+    name: '&cCobblestone &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COBBLESTONE
+          amount: 1
+
+  8248194223:
+    name: '&cMoney &7-> &aDirt'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIRT
+          amount: 1
+
+  3224918428:
+    name: '&cDirt &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIRT
+          amount: 1
+
+  755f659d70:
+    name: '&cMoney &7-> &aGravel'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GRAVEL
+          amount: 1
+
+  07d956f557:
+    name: '&cGravel &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GRAVEL
+          amount: 1
+
+  54b327c58b:
+    name: '&cMoney &7-> &aObsidian'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: OBSIDIAN
+          amount: 1
+
+  b85c723b45:
+    name: '&cObsidian &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: OBSIDIAN
+          amount: 1
+
+  7e4a16265a:
+    name: '&cMoney &7-> &aDiamond'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: DIAMOND
+          amount: 1
+
+  a56261a4e7:
+    name: '&cDiamond &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: DIAMOND
+          amount: 1
+
+  18879590c8:
+    name: '&cMoney &7-> &aCoal'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: COAL
+          amount: 1
+
+  8c09597881:
+    name: '&cCoal &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: COAL
+          amount: 1
+
+  c8216810d4:
+    name: '&cMoney &7-> &aIron Ingot'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: IRON_INGOT
+          amount: 1
+
+  4d0186128c:
+    name: '&cIron Ingot &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: IRON_INGOT
+          amount: 1
+
+  c9cb6c0392:
+    name: '&cMoney &7-> &aGold Ingot'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: GOLD_INGOT
+          amount: 1
+
+  2930c6bc9c:
+    name: '&cGold Ingot &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: GOLD_INGOT
+          amount: 1
+
+  b2541e1361:
+    name: '&cMoney &7-> &aEmerald'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: EMERALD
+          amount: 1
+
+  1631e1452b:
+    name: '&cEmerald &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: EMERALD
+          amount: 1
+
+  9c7f8b520a:
+    name: '&cMoney &7-> &aLapis Lazuli'
+    objects:
+      1:
+        side: TAKING
+        type: VAULT_MONEY
+      2:
+        side: GIVING
+        type: ITEM
+        item:
+          type: LAPIS_LAZULI
+          amount: 1
+
+  a025b8f7c9:
+    name: '&cLapis Lazuli &7-> &aMoney'
+    objects:
+      1:
+        side: GIVING
+        type: VAULT_MONEY
+      2:
+        side: TAKING
+        type: ITEM
+        item:
+          type: LAPIS_LAZULI
+          amount: 1
+

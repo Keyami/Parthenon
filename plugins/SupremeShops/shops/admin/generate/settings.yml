@@ -1,0 +1,16 @@
+# Settings for the automatic generation of admin shops
+
+# Name format
+name_format: '&c{take} &7-> &a{give}'
+name_format_item: '{type}'
+name_format_money: 'Money'
+name_format_money_custom: '{amount}$'
+
+# Gui item (single)
+gui_item_single_name: '&7{name}'
+gui_item_single_lore: []
+
+# Gui item (mixed)
+gui_item_mixed_name: '&7{name} &7(left click)'
+gui_item_mixed_lore:
+  - '&7{name_reverse} &7(right click)'
