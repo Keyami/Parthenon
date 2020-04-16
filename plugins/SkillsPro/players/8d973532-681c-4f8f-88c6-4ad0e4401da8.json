@@ -1,0 +1,35 @@
+{
+  "skill": "Eidolon",
+  "level": 200,
+  "xp": 142,
+  "souls": 99653470,
+  "showReadyMessage": true,
+  "lastSkillChange": 1586920568317,
+  "stats": {
+    "INT": 100,
+    "STR": 100,
+    "DEF": 0,
+    "DEX": 0,
+    "PTS": 0
+  },
+  "disabledAbilities": [],
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "improvements": {
+    "swordsman": {
+      "parry": 3,
+      "dodge": 3,
+      "thousand_cuts": 3,
+      "pierce": 3
+    }
+  },
+  "masteries": {
+    "thick_skin": 3,
+    "harvesting": 13,
+    "precision": 55,
+    "logging": 100,
+    "power": 6
+  },
+  "bonuses": {}
+}

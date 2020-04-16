@@ -7,10 +7,10 @@
   "lastSkillChange": 1586323441493,
   "stats": {
     "INT": 5,
+    "STR": 25,
     "DEF": 15,
-    "PTS": 400,
     "DEX": 15,
-    "STR": 25
+    "PTS": 400
   },
   "disabledAbilities": [
     "fire_crossbow",

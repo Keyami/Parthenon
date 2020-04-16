@@ -1,0 +1,23 @@
+lastAccountName: Keyami
+timestamps:
+  login: 1587019011066
+  lastteleport: 1586922472108
+  logout: 1586922545892
+ipAddress: 68.53.30.232
+money: '200.0'
+afk: true
+lastlocation:
+  world: world
+  x: -197.39640613830278
+  y: 97.0
+  z: -23.03028392448009
+  yaw: -55.682343
+  pitch: 13.949985
+logoutlocation:
+  world: world
+  x: -237.88951840491399
+  y: 114.52291642049082
+  z: -77.28295391068389
+  yaw: 214.31294
+  pitch: 29.700006
+godmode: true

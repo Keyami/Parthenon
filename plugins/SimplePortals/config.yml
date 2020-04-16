@@ -11,7 +11,7 @@ bypass-portal-permissions: false
 # If this is enabled, the player can teleport through portals with vehicles, such as Horses and Boats.
 vehicle-teleportation: true
 # IF this is enabled, portal usage for creative mode players will be blocked entirely.
-block-creative-portal-entrance: false
+block-creative-portal-entrance: true
 
 # The creatures in the list below will be blocked from spawning inside portal regions.
 creature-spawning-blacklist:

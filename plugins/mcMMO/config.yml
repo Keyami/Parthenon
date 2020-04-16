@@ -15,18 +15,18 @@ General:
         Enabled: true
     Locale: en_US
     AprilFoolsEvent: true
-    MOTD_Enabled: true
-    EventBroadcasts: true
-    EventInfoOnPlayerJoin: true
-    AdminNotifications: true
+    MOTD_Enabled: false
+    EventBroadcasts: false
+    EventInfoOnPlayerJoin: false
+    AdminNotifications: false
     # Send a message to the player when his profile was successfully loaded
     Show_Profile_Loaded: false
     # Amount of time (in minutes) to wait between saves of player information
     Save_Interval: 10
     # Allow mcMMO to report on basic anonymous usage
-    Stats_Tracking: true
+    Stats_Tracking: false
     # Allow mcMMO to check if a new version is available
-    Update_Check: true
+    Update_Check: false
     Prefer_Beta: false
     Power_Level_Cap: 0
     # Should mcMMO truncate levels if you lower your max level cap for a skillname
@@ -50,7 +50,7 @@ Scoreboard:
     # Set this to true to enable scoreboards
     UseScoreboards: false
     # Display player's power levels below their names?
-    Power_Level_Tags: false
+    Power_Level_Tags: true
 
     # Allow players to use "/mcscoreboard keep" to keep the scoreboard up
     Allow_Keep: true
@@ -60,7 +60,7 @@ Scoreboard:
 
     # Show scoreboard tips 5 times. Tips are only displayed once for every login session.
     # Set to 0 to never show these tips.
-    Tips_Amount: 5
+    Tips_Amount: 0
 
     # Add some more color on the board :-)
     Rainbows: false
@@ -223,7 +223,7 @@ Mods:
 ###
 Items:
     Chimaera_Wing:
-        Enabled: true
+        Enabled: false
         Cooldown: 240
         Warmup: 5
         RecentlyHurt_Cooldown: 60
@@ -419,7 +419,7 @@ Skills:
         Items_As_Unarmed: false
     Woodcutting:
         Tree_Feller_Sounds: true
-        Level_Cap: 0
+        Level_Cap: -1
         Ability_Activation_Level_Gate: 10
 
 #
@@ -534,7 +534,7 @@ Commands:
         # Prevents players from spamming /mctop or /mcrank
         Player_Cooldown: 1750
     mcmmo:
-        Donate_Message: true
+        Donate_Message: false
     inspect:
         Max_Distance: 30.0
     ptp:

@@ -140,7 +140,7 @@ hologram:
     z: -0.7, 0.7
   # The number of ticks for the hologram to stay.
   # 20 ticks = 1 second
-  stay: 40
+  stay: 80
   lines:
     - "&3Souls&8: &2+%souls_gained%"
     - "&3XP&8: &2+%xp_gained%"
@@ -448,7 +448,7 @@ energy:
 
 friends:
   # Should friends be able to attack each other?
-  friendly-fire: false
+  friendly-fire: true
   # Currently doesn't support placeholders.
   max-friends: 50
 

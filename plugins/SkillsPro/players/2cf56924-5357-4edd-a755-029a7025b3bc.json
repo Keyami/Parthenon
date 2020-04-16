@@ -1,0 +1,22 @@
+{
+  "skill": "Eidolon",
+  "level": 5000,
+  "xp": 23,
+  "souls": 6,
+  "showReadyMessage": true,
+  "lastSkillChange": 1586915636783,
+  "stats": {
+    "STR": 0,
+    "DEF": 0,
+    "DEX": 0,
+    "PTS": 0,
+    "INT": 0
+  },
+  "disabledAbilities": [],
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "improvements": {},
+  "masteries": {},
+  "bonuses": {}
+}

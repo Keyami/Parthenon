@@ -7,10 +7,10 @@
   "lastSkillChange": 1586323729286,
   "stats": {
     "INT": 0,
+    "STR": 0,
     "DEF": 60,
-    "PTS": 0,
     "DEX": 0,
-    "STR": 0
+    "PTS": 0
   },
   "disabledAbilities": [],
   "healthScaling": 0.0,

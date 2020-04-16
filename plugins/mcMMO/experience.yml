@@ -28,8 +28,8 @@ ExploitFix:
     COTWBreeding: true
     UnsafeEnchantments: false
     # Prevent many exploits related to fishing
-    Fishing: true
-    EndermanEndermiteFarms: true
+    Fishing: false
+    EndermanEndermiteFarms: false
     Acrobatics: true
     LavaStoneAndCobbleFarming: true
     TreeFellerReducedXP: true

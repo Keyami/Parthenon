@@ -1,0 +1,22 @@
+lastAccountName: SeveN00
+timestamps:
+  login: 1586920205746
+  lastteleport: 1586917918421
+  logout: 1586920314204
+ipAddress: 107.130.45.196
+lastlocation:
+  world: world
+  x: -266.33563571251017
+  y: 106.75557120174102
+  z: 791.2348726338537
+  yaw: 57.239502
+  pitch: 33.859447
+money: '1700.0'
+logoutlocation:
+  world: world
+  x: -295.1774671902217
+  y: 214.00566810817114
+  z: 666.7308335406541
+  yaw: 68.04811
+  pitch: 8.436969
+afk: false

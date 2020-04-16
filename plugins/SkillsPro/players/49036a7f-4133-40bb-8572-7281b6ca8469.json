@@ -1,0 +1,22 @@
+{
+  "skill": "Mage",
+  "level": 0,
+  "xp": 19,
+  "souls": 8,
+  "showReadyMessage": true,
+  "lastSkillChange": 1586922435406,
+  "stats": {
+    "PTS": 0,
+    "INT": 0,
+    "STR": 0,
+    "DEF": 0,
+    "DEX": 0
+  },
+  "disabledAbilities": [],
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "improvements": {},
+  "masteries": {},
+  "bonuses": {}
+}
