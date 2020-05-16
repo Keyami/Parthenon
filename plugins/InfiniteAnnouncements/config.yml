@@ -42,7 +42,7 @@ Messages:
     - "&c&lThe Parthenon &r&8\xbb &r&7Vote for the server!"
     - "&9http://www.parthenon.ga/vote      "
   message2:
-    - "&c&lThe Parthenon &r&8\xc2\xbb &r&7Allocate your stat points with:"
+    - "&c&lThe Parthenon &r&8\xbb &r&7Allocate your stat points with:"
     - "                           /skill stat                          "
   message3:
     - "&c&lThe Parthenon &r&8\xbb &r&7Join our Discord!"

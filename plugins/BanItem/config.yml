@@ -1,0 +1,91 @@
+# +———————————————————————————————————————————————————+ #
+# |——————————     BANITEM CONFIGURATION     ——————————| #
+# |——————————————————      v1.9      —————————————————| #
+# +———————————————————————————————————————————————————+ #
+# For any bugs/suggestions: Andross#5254
+#
+# -- General Informations: --
+#   - Blacklist contains list of blocked items
+#   - Whitelist contains list of allowed items only
+#   - Worlds can be written:
+#     -> single: 'world' ; 'world_the_end'...
+#     -> multiple: 'world, world_the_end'...
+#     -> all: '*'
+#     -> all except: '*, !world_the_end, !world_nether': all worlds, except world_the_end & world_nether
+#   - Options can be written:
+#     -> single: 'place' ; 'break'...
+#     -> multiple: 'place, break', '*, creative'...
+#     -> all: '*' (does NOT include creative & delete)
+#     -> all except: '*, !place' (all, NOT include creative & delete, except place))
+#
+# Blacklist: block ...
+# - place: when the item is placed or used
+# - break: when the item is breaked
+# - pickup: when the item is picked up
+# - drop: when the item is dropped
+# - interact: when the player use right click with main hand on the placed item
+# - click: when the player use left click with the item in the main hand
+# - attack: when the player use left click with the item in the main hand on an entity
+# - inventory: when the player try to take/put the item from/in an inventory
+# - consume: when the player try to consume a food
+# - wear: when the player try to put the item as an armor (you'll need to use also the 'place' option)
+# - swap: when the player try to swap the item in hands
+# - armorstandplace: when the player try to place the item on an armorstand
+# - armorstandtake: when the player try to take the item from an armorstand
+# - dispense: when an item is dispensed from a block
+# - craft: the item will not be craftable anymore
+# - smelt: the item will not be smeltable anymore
+# - Additional option:
+#  - 'delete': when a player open & close an inventory, it will check and delete items which have this option
+#  - 'creative': applies only if the player is in creative mode
+#
+# Whitelist: allow ...
+# - place: place or use the item
+# - break: break the item
+# - pickup: pick up the item
+# - drop: drop the item
+# - interact: the player to use right click with main hand on the item (Have to be almost always used, as you first interact with the clicked block)
+# - click: the player to use left click with the item in the main hand
+# - attack: the player to use left click with the item in the main hand on an entity
+# - inventory: the player to take/put the item from/in an inventory
+# - consume: the player to consume a food
+# - wear: the player to put the item as an armor
+# - swap: the player to swap the item in hands
+# - armorstandplace: the player to place the item on an armorstand
+# - armorstandtake: the player to take the item from an armorstand
+# - dispense: the item to be dispensed from a block
+# - craft: crafting the item
+# - smelt: smelting the item
+# The 'message' key represents the message sent to players if they try to use an item which is not in whitelist
+# The 'ignored' key represents all ignored options (they will not being by default banned)
+
+# No permission message (for /banitem)
+no-permission: '&cYou do not have permission.'
+
+# Message cooldown when player try to pickup a banned item (in milliseconds)
+pickup-message-cooldown: 1000
+
+# Animations when a ban item message is sent
+sound:
+  enabled: true
+  type: ENCHANT_THORNS_HIT
+  volume: 1
+  pitch: 1
+  worldSound: false # if the sound can be heard by others players around or not
+particle:
+  enabled: false
+  type: BARRIER
+  amount: 1
+
+blacklist:
+  world:
+    enchanted_golden_apple:
+      place, consume, pickup, dispense,interact,swap,transfer,wear: '&cYou can not use Enchanted Golden Apples.'
+  world_the_end:
+    ender_pearl:
+      place: '&cYou can not use enderpearls in the end.'
+#whitelist:
+#  world_the_end:
+#    message: '&cYou can only place and break ender stone in the end.'
+#    ignored: inventory, pickup, drop, click, attack, wear # those options will be ignored by default
+#    end_stone: place, interact, break # allow only place, interacting & breaking ender stone

@@ -1,0 +1,37 @@
+Config:
+  Prefix: ''
+  Messages:
+    Scoreboard-Toggle:
+      'ON': '&fScoreboard turned &aON&f.'
+      'OFF': '&fScoreboard turned &cOFF&f.'
+  Animations:
+    Rainbow-Delay: 10
+    Title-Delay: 2
+    Scroll-Text:
+      Size: 12
+      Space: 2
+  Scoreboard-Refresh: 2
+  Disabled-Worlds:
+    - ExampleWorld
+    - ExampleWorld2
+  Scoreboard:
+    Lobby:
+      Lines:
+        - '%blank%'
+        - ' &7Power Level: &f%mcmmo_power_level%'
+        - ' &7Level: &f%skills_level%'
+        - ' &7XP:  &f%skills_short_xp% / %skills_short_maxxp%'
+        - ' &7Souls: &f%skills_soul%'
+        - ' &7%skills_energy_type%: &f%skills_energy% / %skills_max_energy%'
+        - ' &7Ability Cooldown: &f%skills_active_cooldown%'
+        - '%blank%'
+        - ' &7Kills: &f%kills%'
+        - ' &7Deaths: &f%deaths%'
+        - ' &7Balance: &f%money%'
+        - '%blank%'
+        - ' &7Ping: &f%ping%'
+        - ' &7Online: &f%online%&8/&f%maxplayers%'
+        - '%blank%'
+      Title:
+        - '%rainbow%Player Stats'
+Version: 3

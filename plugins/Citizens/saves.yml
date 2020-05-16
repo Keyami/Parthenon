@@ -1,0 +1,418 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 2
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid-name: dummy
+      cached-skin-uuid: 08944516-039d-4b71-a969-7dafaffd5b39
+      protected: false
+      respawn-delay: 0
+    name: Dummy
+    uuid: d42dd116-13cc-4846-83e4-dc4ce423a1ff
+    traits:
+      location:
+        headYaw: 17.3973
+        world: world
+        x: '-276.3'
+        y: '82.0'
+        z: '-40.1266'
+        yaw: '17.3973'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rTpOera6GotMp5zhXH776oXld9UE5s9N/B+wPm55kmF3kvuu0OrnA9OjCyp5F+K54fs4IfnOZsoEzvUR5z3Z6sKpt1BK/vvNYmp9baZJriUq5N0PQTfXIkLhSFe/uKqMzx6wqwkRCRPGrq/s4rxICKSzwmD4zmC8mZhD1qBRdm5q6Omq20w5Rj7ZCa7qGOmJNHRClY+DuYxTS1K16QhO2AsCzPsYUT2AocczXuIJ3DneXRBHjP5yad29dnVwtIIHom5+bp64OB2+e7kGHpKgAqzRSy6GOzn+l1yrId2ommdZl09XtSlOI5G5FphPGrSbVYghavB4oxXmh7U6i+s3k/yi8hl4NOBYMne3QyWO2ovlWnDBOv9bPblZt99lh85skfxJrPZ02csDBhdtwlogfkXq9nervelVvCYdyi2nPpQwkKRlG9gwiKn4yQIKsj1edboDc+iraPdkNRTOmgEsuXleQzwH/CZ5HHjWzluNrUvK9tgKxc5slgLPqlyG/vcfN/Yhxps4XkcRQE7wlMTMQjcmYeHRqhpyoKOWwZ5zg97vMph5dJ0OQxtHhP7jzksyFbYGeVfzEb0zHqK8pDGu6iv3m1XoKv2u9pnLB2Pish7gRVzFw8AAJWj2S1qJxOOJXoWoI+7L9ZQsL1oXGBLXBKtVjAbJjtkn/QfbtxbRO20=
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNmQ2MmRiZjNmOGVjNDJmNGE2NGRlMjgzNWE4ZGYzNzIiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkODk3YTI0YWRiZDJjZDBhNjMyNWQxZmI0NTJjMWJlNTkwY2I3MWFlZjFmMmI2YzdhMzJlZTE0YjRmNmIxZSIsCiAgICAgICJwcm9maWxlSWQiIDogIjA4OTQ0NTE2MDM5ZDRiNzFhOTY5N2RhZmFmZmQ1YjM5IiwKICAgICAgInRleHR1cmVJZCIgOiAiNjZkODk3YTI0YWRiZDJjZDBhNjMyNWQxZmI0NTJjMWJlNTkwY2I3MWFlZjFmMmI2YzdhMzJlZTE0YjRmNmIxZSIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNmQ2MmRiZjNmOGVjNDJmNGE2NGRlMjgzNWE4ZGYzNzIiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NmQ4OTdhMjRhZGJkMmNkMGE2MzI1ZDFmYjQ1MmMxYmU1OTBjYjcxYWVmMWYyYjZjN2EzMmVlMTRiNGY2YjFlIiwKICAgICJwcm9maWxlSWQiIDogIjA4OTQ0NTE2MDM5ZDRiNzFhOTY5N2RhZmFmZmQ1YjM5IiwKICAgICJ0ZXh0dXJlSWQiIDogIjY2ZDg5N2EyNGFkYmQyY2QwYTYzMjVkMWZiNDUyYzFiZTU5MGNiNzFhZWYxZjJiNmM3YTMyZWUxNGI0ZjZiMWUiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      inventory:
+        '36':
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+      equipment:
+        helmet:
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+      gravity:
+        enabled: false
+      sentinel:
+        stats_ticksSpawned: 2231946
+        stats_timesSpawned: 778
+        stats_arrowsFired: 0
+        stats_potionsThrow: 0
+        stats_fireballsFired: 0
+        stats_snowballsThrown: 0
+        stats_eggsThrown: 0
+        stats_skullsThrown: 0
+        stats_pearlsUsed: 0
+        stats_punches: 10
+        stats_attackAttempts: 49
+        stats_damageTaken: 4263.799136126053
+        stats_damageGiven: 8.0
+        avoidRange: 10.0
+        range: 20.0
+        damage: -1.0
+        armor: -1.0
+        health: 40.0
+        ranged_chase: false
+        close_chase: true
+        invincible: false
+        fightback: true
+        runaway: false
+        attackRate: 30
+        attackRateRanged: 30
+        healRate: 100
+        guardingUpper: 0
+        guardingLower: 0
+        guardedNPC: -1
+        needsAmmo: false
+        safeShot: true
+        respawnTime: 100
+        chaseRange: 100.0
+        enemyDrops: false
+        enemyTargetTime: 0
+        speed: 1.0
+        warning_text: ''
+        greeting_text: ''
+        greet_range: 10.0
+        greet_rate: 100
+        autoswitch: false
+        accuracy: 0.0
+        realistic: false
+        reach: 3.0
+        guard_distance_minimum: 7.0
+        guard_selection_range: 4.0
+        allIgnores:
+          targets:
+            '0': OWNER
+      controllable:
+        enabled: true
+        owner_required: false
+      owner:
+        owner: Keyami
+        uuid: 8d973532-681c-4f8f-88c6-4ad0e4401da8
+    traitnames: gravity,mounttrait,owner,scoreboardtrait,equipment,skintrait,location,inventory,controllable,anchors,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: dummy
+      cached-skin-uuid: 08944516-039d-4b71-a969-7dafaffd5b39
+      respawn-delay: 0
+      protected: false
+    name: Dummy
+    uuid: cf05d84b-b295-4541-aacc-4ffe1c377b31
+    traits:
+      gravity:
+        enabled: false
+      location:
+        headYaw: -141.9089
+        world: world
+        x: '13.8553'
+        y: '56.0'
+        z: '-57.5682'
+        yaw: '-141.9089'
+        pitch: '0.0'
+      equipment:
+        helmet:
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+      type: PLAYER
+      controllable:
+        enabled: true
+        owner_required: false
+      spawned: true
+      inventory:
+        '36':
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rTpOera6GotMp5zhXH776oXld9UE5s9N/B+wPm55kmF3kvuu0OrnA9OjCyp5F+K54fs4IfnOZsoEzvUR5z3Z6sKpt1BK/vvNYmp9baZJriUq5N0PQTfXIkLhSFe/uKqMzx6wqwkRCRPGrq/s4rxICKSzwmD4zmC8mZhD1qBRdm5q6Omq20w5Rj7ZCa7qGOmJNHRClY+DuYxTS1K16QhO2AsCzPsYUT2AocczXuIJ3DneXRBHjP5yad29dnVwtIIHom5+bp64OB2+e7kGHpKgAqzRSy6GOzn+l1yrId2ommdZl09XtSlOI5G5FphPGrSbVYghavB4oxXmh7U6i+s3k/yi8hl4NOBYMne3QyWO2ovlWnDBOv9bPblZt99lh85skfxJrPZ02csDBhdtwlogfkXq9nervelVvCYdyi2nPpQwkKRlG9gwiKn4yQIKsj1edboDc+iraPdkNRTOmgEsuXleQzwH/CZ5HHjWzluNrUvK9tgKxc5slgLPqlyG/vcfN/Yhxps4XkcRQE7wlMTMQjcmYeHRqhpyoKOWwZ5zg97vMph5dJ0OQxtHhP7jzksyFbYGeVfzEb0zHqK8pDGu6iv3m1XoKv2u9pnLB2Pish7gRVzFw8AAJWj2S1qJxOOJXoWoI+7L9ZQsL1oXGBLXBKtVjAbJjtkn/QfbtxbRO20=
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNmQ2MmRiZjNmOGVjNDJmNGE2NGRlMjgzNWE4ZGYzNzIiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkODk3YTI0YWRiZDJjZDBhNjMyNWQxZmI0NTJjMWJlNTkwY2I3MWFlZjFmMmI2YzdhMzJlZTE0YjRmNmIxZSIsCiAgICAgICJwcm9maWxlSWQiIDogIjA4OTQ0NTE2MDM5ZDRiNzFhOTY5N2RhZmFmZmQ1YjM5IiwKICAgICAgInRleHR1cmVJZCIgOiAiNjZkODk3YTI0YWRiZDJjZDBhNjMyNWQxZmI0NTJjMWJlNTkwY2I3MWFlZjFmMmI2YzdhMzJlZTE0YjRmNmIxZSIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNmQ2MmRiZjNmOGVjNDJmNGE2NGRlMjgzNWE4ZGYzNzIiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NmQ4OTdhMjRhZGJkMmNkMGE2MzI1ZDFmYjQ1MmMxYmU1OTBjYjcxYWVmMWYyYjZjN2EzMmVlMTRiNGY2YjFlIiwKICAgICJwcm9maWxlSWQiIDogIjA4OTQ0NTE2MDM5ZDRiNzFhOTY5N2RhZmFmZmQ1YjM5IiwKICAgICJ0ZXh0dXJlSWQiIDogIjY2ZDg5N2EyNGFkYmQyY2QwYTYzMjVkMWZiNDUyYzFiZTU5MGNiNzFhZWYxZjJiNmM3YTMyZWUxNGI0ZjZiMWUiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      sentinel:
+        stats_ticksSpawned: 4327437
+        stats_timesSpawned: 367
+        stats_arrowsFired: 0
+        stats_potionsThrow: 0
+        stats_fireballsFired: 0
+        stats_snowballsThrown: 0
+        stats_eggsThrown: 0
+        stats_skullsThrown: 0
+        stats_pearlsUsed: 0
+        stats_punches: 30
+        stats_attackAttempts: 262
+        stats_damageTaken: 4488.409638881674
+        stats_damageGiven: 26.0
+        avoidRange: 10.0
+        range: 20.0
+        damage: -1.0
+        armor: -1.0
+        health: 40.0
+        ranged_chase: false
+        close_chase: true
+        invincible: false
+        fightback: true
+        runaway: false
+        attackRate: 30
+        attackRateRanged: 30
+        healRate: 100
+        guardingUpper: 0
+        guardingLower: 0
+        guardedNPC: -1
+        needsAmmo: false
+        safeShot: true
+        respawnTime: 100
+        chaseRange: 100.0
+        enemyDrops: false
+        enemyTargetTime: 0
+        speed: 1.0
+        warning_text: ''
+        greeting_text: ''
+        greet_range: 10.0
+        greet_rate: 100
+        autoswitch: false
+        accuracy: 0.0
+        realistic: false
+        reach: 3.0
+        guard_distance_minimum: 7.0
+        guard_selection_range: 4.0
+        allIgnores:
+          targets:
+            '0': OWNER
+      owner:
+        owner: Keyami
+        uuid: 8d973532-681c-4f8f-88c6-4ad0e4401da8
+    traitnames: gravity,mounttrait,scoreboardtrait,owner,equipment,location,skintrait,inventory,anchors,controllable,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: dummy
+      cached-skin-uuid: 08944516-039d-4b71-a969-7dafaffd5b39
+      respawn-delay: 0
+      protected: false
+    name: Dummy
+    uuid: db84041c-cbd6-43cf-8e52-369a9b76fc28
+    traits:
+      gravity:
+        enabled: false
+      location:
+        headYaw: -132.305
+        world: world
+        x: '-29.3551'
+        y: '56.0'
+        z: '-89.2698'
+        yaw: '-132.305'
+        pitch: '0.0'
+      equipment:
+        helmet:
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+      type: PLAYER
+      controllable:
+        enabled: false
+        owner_required: false
+      spawned: true
+      inventory:
+        '36':
+          type_namespace: minecraft
+          type_key: iron_boots
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type_namespace: minecraft
+          type_key: iron_leggings
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type_namespace: minecraft
+          type_key: iron_helmet
+          amount: 1
+          durability: 0
+          mdata: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rTpOera6GotMp5zhXH776oXld9UE5s9N/B+wPm55kmF3kvuu0OrnA9OjCyp5F+K54fs4IfnOZsoEzvUR5z3Z6sKpt1BK/vvNYmp9baZJriUq5N0PQTfXIkLhSFe/uKqMzx6wqwkRCRPGrq/s4rxICKSzwmD4zmC8mZhD1qBRdm5q6Omq20w5Rj7ZCa7qGOmJNHRClY+DuYxTS1K16QhO2AsCzPsYUT2AocczXuIJ3DneXRBHjP5yad29dnVwtIIHom5+bp64OB2+e7kGHpKgAqzRSy6GOzn+l1yrId2ommdZl09XtSlOI5G5FphPGrSbVYghavB4oxXmh7U6i+s3k/yi8hl4NOBYMne3QyWO2ovlWnDBOv9bPblZt99lh85skfxJrPZ02csDBhdtwlogfkXq9nervelVvCYdyi2nPpQwkKRlG9gwiKn4yQIKsj1edboDc+iraPdkNRTOmgEsuXleQzwH/CZ5HHjWzluNrUvK9tgKxc5slgLPqlyG/vcfN/Yhxps4XkcRQE7wlMTMQjcmYeHRqhpyoKOWwZ5zg97vMph5dJ0OQxtHhP7jzksyFbYGeVfzEb0zHqK8pDGu6iv3m1XoKv2u9pnLB2Pish7gRVzFw8AAJWj2S1qJxOOJXoWoI+7L9ZQsL1oXGBLXBKtVjAbJjtkn/QfbtxbRO20=
+        textureRaw: ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiNmQ2MmRiZjNmOGVjNDJmNGE2NGRlMjgzNWE4ZGYzNzIiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkODk3YTI0YWRiZDJjZDBhNjMyNWQxZmI0NTJjMWJlNTkwY2I3MWFlZjFmMmI2YzdhMzJlZTE0YjRmNmIxZSIsCiAgICAgICJwcm9maWxlSWQiIDogIjA4OTQ0NTE2MDM5ZDRiNzFhOTY5N2RhZmFmZmQ1YjM5IiwKICAgICAgInRleHR1cmVJZCIgOiAiNjZkODk3YTI0YWRiZDJjZDBhNjMyNWQxZmI0NTJjMWJlNTkwY2I3MWFlZjFmMmI2YzdhMzJlZTE0YjRmNmIxZSIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiNmQ2MmRiZjNmOGVjNDJmNGE2NGRlMjgzNWE4ZGYzNzIiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NmQ4OTdhMjRhZGJkMmNkMGE2MzI1ZDFmYjQ1MmMxYmU1OTBjYjcxYWVmMWYyYjZjN2EzMmVlMTRiNGY2YjFlIiwKICAgICJwcm9maWxlSWQiIDogIjA4OTQ0NTE2MDM5ZDRiNzFhOTY5N2RhZmFmZmQ1YjM5IiwKICAgICJ0ZXh0dXJlSWQiIDogIjY2ZDg5N2EyNGFkYmQyY2QwYTYzMjVkMWZiNDUyYzFiZTU5MGNiNzFhZWYxZjJiNmM3YTMyZWUxNGI0ZjZiMWUiCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=
+        updateSkins: false
+      sentinel:
+        stats_ticksSpawned: 4302143
+        stats_timesSpawned: 394
+        stats_arrowsFired: 0
+        stats_potionsThrow: 0
+        stats_fireballsFired: 0
+        stats_snowballsThrown: 0
+        stats_eggsThrown: 0
+        stats_skullsThrown: 0
+        stats_pearlsUsed: 0
+        stats_punches: 38
+        stats_attackAttempts: 547
+        stats_damageTaken: 5852.89387335165
+        stats_damageGiven: 36.0
+        avoidRange: 10.0
+        range: 20.0
+        damage: -1.0
+        armor: -1.0
+        health: 40.0
+        ranged_chase: false
+        close_chase: true
+        invincible: false
+        fightback: true
+        runaway: false
+        attackRate: 30
+        attackRateRanged: 30
+        healRate: 100
+        guardingUpper: 0
+        guardingLower: 0
+        guardedNPC: -1
+        needsAmmo: false
+        safeShot: true
+        respawnTime: 100
+        chaseRange: 100.0
+        enemyDrops: false
+        enemyTargetTime: 0
+        speed: 1.0
+        warning_text: ''
+        greeting_text: ''
+        greet_range: 10.0
+        greet_rate: 100
+        autoswitch: false
+        accuracy: 0.0
+        realistic: false
+        reach: 3.0
+        guard_distance_minimum: 7.0
+        guard_selection_range: 4.0
+        allTargets:
+          targets:
+            '0': PLAYER
+        allIgnores:
+          targets:
+            '0': OWNER
+      owner:
+        owner: Keyami
+        uuid: 8d973532-681c-4f8f-88c6-4ad0e4401da8
+    traitnames: gravity,mounttrait,scoreboardtrait,owner,equipment,location,skintrait,inventory,anchors,controllable,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

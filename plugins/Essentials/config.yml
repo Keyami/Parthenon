@@ -308,7 +308,7 @@ enabledSigns:
   #- color
   #- balance
   #- buy
-  #- sell
+  - sell
   #- trade
   #- free
   #- disposal

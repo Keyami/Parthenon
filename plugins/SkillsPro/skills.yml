@@ -65,8 +65,8 @@ Mage:
   commands-to-perform-upon-select: []
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.04 * lvl
   max-level: 100
   stats: [DEX, INT]
@@ -75,40 +75,41 @@ Mage:
     passive:
       scaling: int/10+1
       hoe-damage:
-        DIAMOND_HOE: 8
-        GOLDEN_HOE: 7
-        IRON_HOE: 6
-        STONE_HOE: 5
-        WOODEN_HOE: 4
+        DIAMOND_HOE: 6
+        GOLDEN_HOE: 5
+        IRON_HOE: 4
+        STONE_HOE: 3
+        WOODEN_HOE: 2
     reflect:
       scaling: lvl
       required-level: 5
       chance: lvl * 10
       cost: 100 * (lvl + 1)
     explosion-spell:
-      scaling: int + str / 2
+      scaling: int / 4
       required-level: 10
       hoe-chance:
-        DIAMOND_HOE: 50
-        GOLDEN_HOE: 40
-        IRON_HOE: 30
-        STONE_HOE: 20
-        WOODEN_HOE: 10
+        DIAMOND_HOE: 20
+        GOLDEN_HOE: 15
+        IRON_HOE: 10
+        STONE_HOE: 5
+        WOODEN_HOE: 0
       chance:
       cost: 100 * (lvl + 1)
     heal-spell:
       # "regain" placeholder is the amount of health from natural regen or satiation.
-      required-level: 20
-      scaling: regain + ((%skills_energy% / 10) * lvl)
+      required-level: 15
+      energy: 10
+      scaling: (dex / 10)
       cost: 100 * (lvl + 1)
     energy-flux:
-      required-level: 1
+      required-level: 15
       activation:
         key: R
-        energy: 3
-        cooldown: 2
+        energy: 10
+        cooldown: 4
         item: HOE
-      scaling: 1+lvl*2+int/10
+      scaling: 1+lvl*2+int/20
       # The range of fire. How long the player can shoot the beam.
       range: lvl * 12
       cost: 100 * (lvl + 1)
@@ -118,8 +119,8 @@ Arbalist:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: lvl + 1
   stats: [DEF, INT]
   energy: arrows
@@ -132,8 +133,8 @@ Arbalist:
       cost: 100 * (lvl + 1)
     dual-arrows:
       required-level: 5
-      scaling: def/20+lvl
-      chance: lvl * 25
+      scaling: (dex/20) + lvl
+      chance: 15
       cost: 100 * (lvl + 1)
     minions:
       required-level: 20
@@ -163,15 +164,15 @@ Juggernaut:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 5
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.05 * lvl
   stats: [STR, INT]
   energy: mana
   abilities:
     passive:
-      scaling: def/2
-      chance: def
+      scaling: int/2
+      chance: lvl*2
     heavy-strikes:
       # Special Variables: durability
       required-level: 5
@@ -193,8 +194,8 @@ Juggernaut:
         # Results in 0 for lvl 1 and 2
         THORNS: max(0, lvl - 2) def/3
     chain-smash:
-      required-level: 20
-      scaling: (str / 2) + lvl
+      required-level: 15
+      scaling: (str / 2) + lvl/2
       velocity: lvl * 0.5
       range: lvl + 2
       launch: min(2.5, lvl)
@@ -203,17 +204,17 @@ Juggernaut:
         key: LR
         energy: 18
         cooldown: 15
-        item: '*'
+        item: 'AXE'
     aegis-protection:
       required-level: 10
       scaling: 10-lvl
-      damage: str/2
+      damage: round(int/4)
       cost: 100 * (lvl + 1)
     throw:
-      required-level: 1
+      required-level: 5
       activation:
         key: R
-        energy: 10
+        energy: 25
         cooldown: 15
         item: '*'
       scaling: str/20+lvl*3
@@ -227,8 +228,8 @@ Vampire:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   # blood lost
   energy-regen: "%skills_max_energy% / (20 + bloodwell)"
   stats: [STR, DEX]
@@ -246,15 +247,15 @@ Vampire:
       cost: 100 * (lvl + 1)
     bleed:
       required-level: 10
-      chance: lvl * 5
-      scaling: (str/10) + lvl
+      chance: 2
+      scaling: 0.6
       cost: 100 * (lvl + 1)
     eternal-darkness:
       required-level: 1
       activation:
         key: R
         energy: 10
-        cooldown: 15
+        cooldown: 60
         item: '*'
       scaling: 1+lvl+int/20
       cost: 100 * (lvl + 1)
@@ -264,8 +265,8 @@ Swordsman:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.05 * lvl
   stats: [DEF, STR]
   energy: mana
@@ -301,8 +302,8 @@ Firemage:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.05 * lvl
   stats: [DEX, STR]
   energy: health
@@ -350,8 +351,8 @@ Eidolon:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.05 * lvl
   stats: [DEX, DEF]
   energy: imbalance
@@ -430,8 +431,8 @@ Devourer:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.05 * lvl
   stats: [STR, DEF]
   energy: mana
@@ -499,8 +500,8 @@ Priest:
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 6
-  max-energy: lvl + 20
+  max-health: 20 * 3
+  max-energy: 60
   energy-regen: 1 + 0.04 * lvl
   stats: [DEX, DEF, INT]
   energy: mana

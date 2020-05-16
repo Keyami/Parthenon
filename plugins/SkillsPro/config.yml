@@ -61,7 +61,7 @@ precisions:
 # This does NOT require ActionBarAPI plugin.
 # Server needs to be restarted if this option is changed.
 actionbar:
-  enabled: true
+  enabled: false
   normal: '&8-=( %skills_status% &9∫ %skills_energy_string%&l%skills_energy_symbol%
     &9∫ &3Lvl. &e%skills_short_level% &9∫ &3%skills_short_xp%&8/&3%skills_short_maxxp%
     &9∫ &3%skills_short_soul% &9∫ &3%skills_active_cooldown% &8)=-'
@@ -91,7 +91,7 @@ actionbar:
 # Properties: DARKEN_SKY, PLAY_BOSS_MUSIC, CREATE_FOG
 bossbar:
   levels:
-    enabled: true
+    enabled: false
     title: "&3Lvl. &e%skills_level%  &7|  &6%skills_xp%&8/&6%skills_maxxp%"
     color: GREEN
     style: SEGMENTED_12
@@ -325,19 +325,19 @@ mastery-logging-materials:
 masteries:
   enabled: true
   harvesting:
-    enabled: true
+    enabled: false
     max-level: 100
     cost: (lvl + 1) * 50
   mining:
-    enabled: true
+    enabled: false
     max-level: 100
     cost: (lvl + 1) * 50
   regeneration:
-    enabled: true
+    enabled: false
     max-level: 100
     cost: (lvl + 1) * 50
   logging:
-    enabled: true
+    enabled: false
     max-level: 100
     cost: (lvl + 1) * 50
   pacifist:
@@ -376,7 +376,7 @@ stats:
   # Allow resetting stats from the Stat GUI
   allow-reset: true
   # Cost to reset stats.
-  reset-cost: 0
+  reset-cost: 5000
 
   types:
     str:

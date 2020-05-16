@@ -229,7 +229,7 @@ guis:
       distribution: '&e%amount% &3points added into &e%stat%'
       spent: '&3Used &e%amount% &3stat points.'
     reset:
-      message: '&cYour stat points has been reset.'
+      message: '&cYour stat points have been reset.'
 command-info-others-permission: '&4You don''t have the permission to see others info.'
 not-enough:
   souls: '&cYou don''t have enough souls!'
@@ -373,20 +373,28 @@ skill:
       Attacking with hoes will deal more damage,
       ranging from 4 for a wooden hoe,
       to 8 for a diamond hoe.
+
+      &fScales with Intelligence.
     reflect: |-
       &3When you are attacked, and you're holding
       a staff, have a chance
       (based on your staff material)
       to deal &e%amount% &3to the attacker.
+
+      &fChance scales with level.
     explosionspell: |-
       &3When you are attacking, and you're holding a
       staff, have a chance
       (based on your staff material)
-      to deal &e%amount%% &3more damage to your enemy.
+      to deal &e%amount% &3more damage to your enemy.
+
+      &fScales with Intelligence.
     healspell: |-
       &3For every 10 mana you have,
       regenerate &e%amount%&3 additional health,
       if your health is over 20.
+
+      &fScales with Dexterity.
     energyfluxv2: |-
       &3When right-clicking with a hoe,
       rapidly fire energy bolts that
@@ -396,8 +404,10 @@ skill:
       deal &650% &3less damage.
       More levels gives you more
       distance to hit your target.
+
+      &fScales with Intelligence and Level.
     ready-activation-message: '&3*Your staff glows with powerful magic!* Punch in
-      a direction to fire Energy Flux'
+      a direction to fire Energy Flux.'
     notready-activation-message: '&7*Your staff dims*'
     activation-message: '&3&l*WHOOSH!*'
   firemage:
@@ -441,46 +451,54 @@ skill:
     stoneskin-title: '&6Stone Skin'
     aegisprotection-title: '&6Aegis Protection'
     throw-title: '&6Throw'
-    passivev2: '&3Reduce entity attacks by &e%amount%%'
+    passivev2: '&3Reduce mob damage by &e%amount%%'
     heavystrikes: |-
       &3If you are using an axe to attack,
       deal &e%amount%% &3more damage to your target.
-    stoneskin: |-
-      &3Level 1&8: &eFall damage is reduced by &6%fall%
-      &3Level 2&8: &eFire/lava damage is
-      reduced by &6%fire%/%lava%
-      &3Level 3&8: &eThorns damage is
-      is reduced by %thorns%
+
+      &fScales with Defense and Level.
+    stoneskin: "&eLevel 1&8: &3Fall damage \nreduced by &6%fall%\n&eLevel 2&8: &3Fire/lava\
+      \ damage\nreduced by &3%fire%/%lava%\n&eLevel 3&8: &3Thorns damage\nis reduced\
+      \ by %thorns%\n\n&fScales with Defense and Level."
     aegisprotection: |-
       &3Every &e%amount%&3 seconds,
       refresh a shield that negates all
       damage for the next attack
+
+      &3After Aegis Shield is broken,
+      the attacker is hit with a burst
+      attack dealing %damage% damage.
+
+      &fDamage scales with Intelligence.
     throw: |-
-      &3Sneak and right click at
-      your target to activate.
+      &3Right click then punch
+      the target to activate.
+
       Carry your target for 3 seconds,
       making you and your target unable
       to attack for the duration,
       then toss your enemy in the
-      direction you're looking at.
+      direction you're facing.
+
       Once your target hits the ground,
       deal &e%amount% &3damage to your target.
+
       While you are carrying your target,
-      all incoming damage is reduced by 50%
+      all incoming damage is reduced by 50%.
+
+      &fDamage scales with Strength and Level.
     active-ready-message: '&3*You ready yourself* Hit a target to carry and throw
       it'
     active-notready-message: '&7*You lower your fists*'
-    active-activated-message: '&3&lYou grab your opponent above your head!'
+    active-activated-message: '&3&lYou raise your opponent above your head!'
     active-throw-message-countdown: '&c&lAIM! Throwing opponent in your direction
       in %countdown%'
-    active-throw-success: '&3&lThrew target at location!'
-    aegis-success: '&3Your aegis shield blocks the attack!'
+    active-throw-success: '&3&lThrew target!'
+    aegis-success: '&3Your aegis shield blocked an attack!'
     chain-smash-title: '&6Chain Smash'
-    chain-smash-description: |-
-      &3LR to jump and do a
-      heavy punch to the
-      ground and blow everyone
-      into the air.
+    chain-smash-description: "&3Right-click with an axe\nto do a heavy punch to the\
+      \ ground \ndealing %amount% &3damage and\nblowing everyone into the air.\n\n\
+      &fScales with Strength and Level."
   arbalist:
     execute-title: '&6Execute'
     dualarrow-title: '&6Dual Arrow'
@@ -495,21 +513,23 @@ skill:
       2 times in a row, have a chance to
       perform one of these combos.
 
+      &fScales with Dexterity and Level.
+
       &eLevel 1&8: &3Have a chance to set
       your target on fire for 5 seconds.
       &eLevel 2&8: &3Have a chance to poison
       your target.
       &eLevel 3&8: &3Have a chance to strike
-      a lightning on your target.
+      your target with lightning.
 
       Chances will increase the more
       you shoot the target.
       Your combo will reset if you miss
       or hit another target.
-    dualarrow: "&3Your bow has %chance%% chance \nto fire two arrows at once.\n&3Level\
-      \ 1&8: &eIncrease your second \narrow damage by &3%amount%&e.\n&3Level 2&8:\
-      \ &eThe second arrow will\nhave a higher velocity.&3Level 3&8: &eThe second\
-      \ arrow will\nbe a flame arrow."
+    dualarrow: "&3Your bow has a 15% chance \nto fire two arrows at once.\n\n&eLevel\
+      \ 1&8: &3Increase your second \narrow damage by &3%amount%&e.\n&eLevel 2&8:\
+      \ &3The second arrow will\nhave a higher velocity.\n&eLevel 3&8: &3The second\
+      \ arrow will \nbe a flame arrow.\n\n&fScales with Dexterity and Level."
     minions-description: |-
       &3Right-click and shoot to
       spawn minion skeletons that will
@@ -524,8 +544,8 @@ skill:
     firecrossbow: |-
       &3Fire an arrow at your enemy
       by punching. Does not use arrows,
-      and instead uses energy.
-      Upgrade to reduce cooldown
+      and instead uses %amount% energy.
+      Upgrade to reduce the cooldown.
     activation-msg: '&3Arrow launched!'
   vampire:
     bloodlust-title: '&6Blood Lust'
@@ -538,25 +558,28 @@ skill:
       blood per hit. For every
       2 blood you have, deal an additional
       &e%amount%% &3melee damage to your targets.
-    bloodlust: "&3Level 1: If you have more than 70% of\nyour blood well full, go\
+    bloodlust: "&eLevel 1: &3If you have more than 70% of\nyour blood well full, go\
       \ into a frenzy,\nallowing you to deal\n&e%amount%% &3more damage than usual\n\
-      \nLevel 2: Your natural health regeneration is\ntripled during this time. \n\
-      Level 3: Attacks during this duration\nhave a chance (based on your\ncurrent\
-      \ blood) to heal you by 2"
+      \n&eLevel 2: &3Your natural health regeneration is\ntripled during this time.\
+      \ \n&eLevel 3: &3Attacks during this duration\nhave a chance (based on your\n\
+      current blood) to heal you by 2\n&fScales with Strength."
     bloodwell: |-
       &3Increases your maximum blood levels by a large
       amount every upgrade. Has a &e%amount%% &3chance
       to stop the loss of blood every 4 seconds.
+
+      &fScales with Intelligence.
     bleed: |-
-      &3Your target will bleed for
-      5 seconds. Every time
-      your target gets damaged %amount%
-      and you get %amount% health.
+      &3You have a 5% chance to make
+      your target bleed for 3 hearts
+      over the course of 5 seconds.
     eternaldarkness: |-
       &3Sneak and hit a target to become
       invincible for &e%amount% &3seconds.
       During this time, you blind the targets
       you attack for 1 second per hit.
+
+      &fScales with Intelligence.
   eidolon:
     purify-title: '&6Purify'
     spiritfire-title: '&6Spirit Fire'

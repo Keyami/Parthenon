@@ -1,0 +1,12 @@
+my_custom_potion:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:swiftness
+enchanted_golden_apple:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE

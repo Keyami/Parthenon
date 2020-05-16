@@ -1,22 +1,50 @@
 {
-  "skill": "Eidolon",
-  "level": 200,
-  "xp": 142,
-  "souls": 99653470,
+  "skill": "Swordsman",
+  "level": 1,
+  "xp": 0,
+  "souls": 9968605,
   "showReadyMessage": true,
-  "lastSkillChange": 1586920568317,
+  "lastSkillChange": 1588222568803,
   "stats": {
-    "INT": 100,
-    "STR": 100,
+    "STR": 0,
+    "INT": 30,
     "DEF": 0,
-    "DEX": 0,
-    "PTS": 0
+    "DEX": 20,
+    "PTS": 400
   },
   "disabledAbilities": [],
   "healthScaling": 0.0,
   "friends": [],
   "friendRequests": [],
   "improvements": {
+    "mage": {
+      "reflect": 1,
+      "explosion_spell": 1,
+      "energy_flux": 1,
+      "passive": 1,
+      "heal_spell": 1
+    },
+    "arbalist": {
+      "fire_crossbow": 3,
+      "dual_arrows": 3,
+      "execute": 3,
+      "passive": 1,
+      "minions": 3
+    },
+    "juggernaut": {
+      "aegis_protection": 3,
+      "throw": 3,
+      "heavy_strikes": 3,
+      "passive": 1,
+      "stone_skin": 3,
+      "chain_smash": 3
+    },
+    "vampire": {
+      "blood_well": 1,
+      "blood_lust": 1,
+      "bleed": 3,
+      "eternal_darkness": 1
+    },
     "swordsman": {
       "parry": 3,
       "dodge": 3,
@@ -24,12 +52,6 @@
       "pierce": 3
     }
   },
-  "masteries": {
-    "thick_skin": 3,
-    "harvesting": 13,
-    "precision": 55,
-    "logging": 100,
-    "power": 6
-  },
+  "masteries": {},
   "bonuses": {}
 }
