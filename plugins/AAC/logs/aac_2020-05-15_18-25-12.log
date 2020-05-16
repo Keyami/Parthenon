@@ -1,0 +1,16 @@
+[15-05-2020 18:25:12.312] [CONSOLE] combat.Criticals: enabled
+[15-05-2020 18:25:12.323] [CONSOLE] combat.Hitbox: enabled
+[15-05-2020 18:25:12.328] [CONSOLE] combat.FastBow: enabled
+[15-05-2020 18:25:12.333] [CONSOLE] combat.FightSpeed: enabled
+[15-05-2020 18:25:12.338] [CONSOLE] combat.Regen: enabled
+[15-05-2020 18:25:12.343] [CONSOLE] combat.FastUse: enabled
+[15-05-2020 18:25:12.407] [CONSOLE] combat.Killaura: enabled
+[15-05-2020 18:25:12.412] [CONSOLE] movement.Timer: enabled
+[15-05-2020 18:25:12.460] [CONSOLE] movement.Phase: enabled
+[15-05-2020 18:25:12.462] [CONSOLE] movement.Move: enabled
+[15-05-2020 18:25:12.467] [CONSOLE] movement.NoFall: enabled
+[15-05-2020 18:25:12.470] [CONSOLE] movement.Derp: enabled
+[15-05-2020 18:25:12.476] [CONSOLE] world.BadPackets: enabled
+[15-05-2020 18:25:12.481] [CONSOLE] world.FastBreak: enabled
+[15-05-2020 18:25:12.591] [CONSOLE] world.FastPlace: enabled
+[15-05-2020 18:25:12.600] [CONSOLE] world.Interact: enabled
