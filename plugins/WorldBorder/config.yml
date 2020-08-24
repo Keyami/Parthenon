@@ -1,4 +1,4 @@
-cfg-version: 11
+cfg-version: 12
 message: '&cYou have reached the edge of this world.'
 round-border: false
 debug-mode: false
@@ -20,8 +20,8 @@ prevent-block-place: false
 prevent-mob-spawn: false
 worlds:
   world:
-    x: 1355.8055116476396
-    z: -3012.1659733999263
-    radiusX: 1000000
-    radiusZ: 1000000
+    x: 0.0
+    z: 0.0
+    radiusX: 10000
+    radiusZ: 10000
     wrapping: false

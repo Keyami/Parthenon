@@ -80,10 +80,9 @@ particle:
 blacklist:
   world:
     enchanted_golden_apple:
-      place, consume, pickup, dispense,interact,swap,transfer,wear: '&cYou can not use Enchanted Golden Apples.'
-  world_the_end:
-    ender_pearl:
-      place: '&cYou can not use enderpearls in the end.'
+      place, consume, pickup, dispense,interact,swap,transfer,wear: '&cEnchanted Golden Apples are disabled.'
+    hopper:
+      craft: ''
 #whitelist:
 #  world_the_end:
 #    message: '&cYou can only place and break ender stone in the end.'

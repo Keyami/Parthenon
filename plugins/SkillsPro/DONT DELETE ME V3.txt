@@ -1,0 +1,7 @@
+This file is used to detect if a newer version of skills is being used.
+This will avoid doing unnecessary checks during server startup and converting user's data for no reason.
+This will probably be removed later.
+Please DO NOT delete the file unless you know what you're doing.
+
+Status: Converted a total of 3 users from Skills v12
+2020/08/02 01:12:21

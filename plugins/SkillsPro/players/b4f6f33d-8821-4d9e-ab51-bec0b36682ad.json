@@ -1,0 +1,31 @@
+{
+  "skill": "Firemage",
+  "lastSkillChange": 1597687254232,
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "skills": {
+    "Firemage": {
+      "skill": "Firemage",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {}
+    },
+    "none": {
+      "skill": "none",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {}
+    }
+  },
+  "masteries": {},
+  "bonuses": {}
+}

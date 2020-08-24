@@ -15,7 +15,7 @@ SortToolListAlphabetically: true
 ActivationMode: SNEAK
 RepairFriendlyVeinminer: false
 IncludeEdges: true
-MaxVeinSize: 20
+MaxVeinSize: 15
 Cost: 100.0
 DisabledWorlds:
 - WorldName

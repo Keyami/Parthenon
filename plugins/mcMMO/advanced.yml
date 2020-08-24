@@ -518,33 +518,33 @@ Skills:
             # ChanceMax: Maximum chance of disarming other players
             # MaxBonusLevel: Level when the maximum chance to disarm is reached
             # AntiTheft: Determines if only the disarmed player can retrieve disarmed items
-            ChanceMax: 33.0
+            ChanceMax: 1
             MaxBonusLevel:
-                Standard: 100
-                RetroMode: 1000
+                Standard: 1
+                RetroMode: 1
             AntiTheft: false
 
         ArrowDeflect:
             # ChanceMax: Maximum chance of deflecting arrows
             # MaxBonusLevel: Level when the maximum chance to deflect is reached
-            ChanceMax: 50.0
+            ChanceMax: 1
             MaxBonusLevel:
-                Standard: 100
-                RetroMode: 1000
+                Standard: 1
+                RetroMode: 1
 
         IronGrip:
             # ChanceMax: Maximum chance of preventing being disarmed
             # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
-            ChanceMax: 100.0
+            ChanceMax: 1
             MaxBonusLevel:
-                Standard: 100
-                RetroMode: 1000
+                Standard: 1
+                RetroMode: 1
 
         IronArmStyle:
             # BonusMin: Minimum bonus damage for unarmed
             # BonusMax: Maximum bonus damage for unarmed
             # IncreaseLevel: Bonus damage increases every increase level
-            IncreaseLevel: 10
+            IncreaseLevel: 1
     #
     #  Settings for Woodcutting
     ###

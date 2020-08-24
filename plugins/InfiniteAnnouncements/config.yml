@@ -35,18 +35,56 @@ Sounds:
     - "BLOCK_NOTE_BLOCK_BELL"
   message3:
     - "BLOCK_NOTE_BLOCK_BELL"
-
+  message4:
+    - "BLOCK_NOTE_BLOCK_BELL"  
+  message5:
+    - "BLOCK_NOTE_BLOCK_BELL"  
+  message6:
+    - "BLOCK_NOTE_BLOCK_BELL"
+  message7:
+    - "BLOCK_NOTE_BLOCK_BELL"
+  message8:
+    - "BLOCK_NOTE_BLOCK_BELL"  
+  message9:
+    - "BLOCK_NOTE_BLOCK_BELL"
+  message10:
+    - "BLOCK_NOTE_BLOCK_BELL"
 # You can set the messages here
 Messages:
   message1:
-    - "&c&lThe Parthenon &r&8\xbb &r&7Vote for the server!"
-    - "&9http://www.parthenon.ga/vote      "
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Vote for the server!"
+    - "&9https://verras.xyz/vote      "
   message2:
-    - "&c&lThe Parthenon &r&8\xbb &r&7Allocate your stat points with:"
-    - "                           /skill stat                          "
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Allocate your stat points with:"
+    - "                    /skill stat                          "
   message3:
-    - "&c&lThe Parthenon &r&8\xbb &r&7Join our Discord!"
-    - "&9https://discord.gg/Sn5euaT"
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Join our Discord!"
+    - "&9https://verras.xyz/discord"
+  message4:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7You can disable the stats menu with /sb toggle!"
+  message5:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7You can check a blocks health by right-clicking it with a piece of bamboo!"
+  message6:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7If you're confused, check out the wiki!"
+    - "&9https://verras.xyz/wiki      "
+  message7:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Use /playtime & /toppt to check your hours!"
+  message8:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Use /cheque create to pay with cheques!"
+  message9:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Check out your free pet with /pets! Buy more at the tower cosmetic shop!"
+  message10:
+    - ""
+    - "&5&lV&d&le&5&lr&d&lr&5&la&d&ls &r&8\xbb &r&7Change your trail with /trails! Buy more at the tower cosmetic shop!"
 
 # Messages in this section will only be broadcasted to the player if they are in the specified world.
 World-messaging:

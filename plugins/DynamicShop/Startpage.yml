@@ -1,0 +1,97 @@
+# LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
+Buttons:
+  '1':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '19':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '3':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '5':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '23':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '21':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '25':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '10':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '20':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '0':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '4':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '14':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '24':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '12':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '2':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '22':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '26':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '16':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '6':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '7':
+    icon: MAGENTA_STAINED_GLASS_PANE
+    action: ''
+  '18':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '8':
+    icon: GRAY_STAINED_GLASS_PANE
+    action: ''
+  '9':
+    displayName: Block Shop
+    lore: Shop for decorative blocks!
+    icon: GRASS_BLOCK
+    action: shop Blocks
+  '11':
+    displayName: Utilities Shop
+    lore: Shop for traps and tools!
+    icon: HOPPER
+    action: shop Utilities
+  '15':
+    displayName: Mob Drop Shop
+    lore: Sell drops!
+    icon: ENDER_PEARL
+    action: shop Drops
+  '13':
+    displayName: Mob Spawners
+    lore: Buy mob spawners!
+    icon: SPAWNER
+    action: shop Spawners
+  '17':
+    displayName: Food Shop
+    lore: Buy food here!
+    icon: APPLE
+    action: shop Food
+Options:
+  Title: §5V§de§5r§dr§5a§ds Shop
+  UiSlotCount: 27
+  LineBreak: /

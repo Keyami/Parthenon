@@ -1,0 +1,21 @@
+{
+  "skill": "none",
+  "lastSkillChange": 0,
+  "healthScaling": 0.0,
+  "friends": [],
+  "friendRequests": [],
+  "skills": {
+    "none": {
+      "skill": "none",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {}
+    }
+  },
+  "masteries": {},
+  "bonuses": {}
+}

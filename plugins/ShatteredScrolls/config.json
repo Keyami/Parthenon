@@ -1,0 +1,11 @@
+{
+  "cancelMode": "UNBIND",
+  "defaultType": "LegacyScroll",
+  "safetyCheck": false,
+  "cooldown": 5000,
+  "allowedWorlds": [
+    "world",
+    "world_nether",
+    "world_the_end"
+  ]
+}

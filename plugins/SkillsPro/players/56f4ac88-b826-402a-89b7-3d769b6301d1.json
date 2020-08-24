@@ -1,31 +1,29 @@
 {
-  "skill": "Juggernaut",
-  "level": 100,
-  "xp": 0,
-  "souls": 999996988,
-  "showReadyMessage": true,
-  "lastSkillChange": 1587707885689,
-  "stats": {
-    "DEF": 0,
-    "INT": 0,
-    "STR": 0,
-    "DEX": 0,
-    "PTS": 0
-  },
-  "disabledAbilities": [
-    "heavy_strikes",
-    "throw"
-  ],
+  "skill": "Devourer",
+  "lastSkillChange": 1597550820883,
   "healthScaling": 0.0,
   "friends": [],
   "friendRequests": [],
-  "improvements": {
-    "juggernaut": {
-      "throw": 3,
-      "aegis_protection": 3,
-      "heavy_strikes": 3,
-      "stone_skin": 3,
-      "chain_smash": 3
+  "skills": {
+    "Devourer": {
+      "skill": "Devourer",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {}
+    },
+    "none": {
+      "skill": "none",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {}
     }
   },
   "masteries": {},

@@ -1,0 +1,22 @@
+lastAccountName: Zen0ie
+timestamps:
+  login: 1597492507554
+  lastteleport: 1597492886806
+  logout: 1597494969114
+ipAddress: 86.87.70.203
+lastlocation:
+  world: world
+  x: -259.67036538929835
+  y: 63.0
+  z: 65.26750086347639
+  yaw: -4.817082
+  pitch: 34.407722
+money: '5000.0'
+logoutlocation:
+  world: SpawnWorld
+  x: -181.17489412118826
+  y: 4.0
+  z: 149.6031526020239
+  yaw: -345.5791
+  pitch: -20.563566
+afk: false

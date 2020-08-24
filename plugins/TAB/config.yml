@@ -3,121 +3,109 @@
 change-nametag-prefix-suffix: true
 change-tablist-prefix-suffix: true
 enable-header-footer: true
-
-nametag-refresh-interval-milliseconds: 1000
-tablist-refresh-interval-milliseconds: 1000
-header-footer-refresh-interval-milliseconds: 100
-
 header:
-  - ""
-  - "&7-------------------------"
-  - "&c&lThe Verras Network"
-  - "&7-------------------------"
-  - ""
+- ''
+- '&7-------------------------'
+- '&c&lThe Verras Network'
+- '&7-------------------------'
+- ''
 footer:
-  - ""
-  - "&cTPS: &7%tps%                                &f%online%/%maxplayers%"
-  - ""
-  - "&7http://verras.xyz"
-
-tablist-objective: PING
-tablist-objective-custom-value: "%some_placeholderapi_placeholder%"
+- ''
+- '&cTPS: &7%tps%                                &f%online%/%maxplayers%'
+- ''
+- '&7http://verras.xyz'
 group-sorting-priority-list:
-  - owner
-  - admin
-  - mod
-  - helper
-  - builder
-  - premium
-  - player
-  - default
+- owner
+- admin
+- mod
+- helper
+- builder
+- premium
+- player
+- default
 Groups:
   Owner:
-    tabprefix: "&0&l[&a&lOwner&0&l] &a"
-    tagprefix: "&2&lOwner &a"
+    tabprefix: '&7'
+    tagprefix: '&7'
   Admin:
-    tabprefix: "&0&l[&4&lAdmin&0&l] &1"
-    tagprefix: "%animation:admin_prefix%"
+    tabprefix: '&7'
+    tagprefix: '&7'
   Player:
-    tabprefix: "&0&l[&7&lPlayer&0&l] &3"
-    tagprefix: "&2&lPlayer &3"
-  example_group:
-    header:
-      - "This is an example of per-group header/footer"
-    footer:
-      - "applied to a group"
+    tabprefix: '&7'
+    tagprefix: '&7'  
+  test:
+    tabprefix: '&7'
+    tagprefix: '&7'
   _OTHER_:
-    tabprefix: "%vault-prefix%"
-    tagprefix: "%vault-prefix%"
-    tabsuffix: "%afk%"
-    tagsuffix: "%afk%"
-    customtabname: "%essentialsnick%"
-    customtagname: "%essentialsnick%"
-
+    tabsuffix: '%afk%'
+    tagsuffix: '%afk%'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+    abovename: '&9[%skills_skill_displayname%]'
 Users:
   _NEZNAMY_:
-    tabprefix: "&6&lTAB Author &a"
-    tagprefix: "&6&lTAB &r&a"
-    abovename: "&bOh look, 3 lines of text !"
-    belowname: "&eThere's only one plugin out there supporting it"
-
-belowname:
+    tabprefix: '&6&lTAB Author &a'
+    tagprefix: '&6&lTAB &r&a'
+    abovename: '&bOh look, 3 lines of text !'
+    belowname: '&eThere''s only one plugin out there supporting it'
+abovename:
   enabled: true
   refresh-interval-milliseconds: 200
-  number: "%health%"
-  text: "Health"
-
+  text: '%skills_skill_displayname%'
 enable-collision: true
 revert-collision-rule-in-worlds:
-  - revertedworld
+- revertedworld
 do-not-move-spectators: false
 unlimited-nametag-prefix-suffix-mode:
-  enabled: false
+  enabled: true
   modify-npc-names: false
-
 per-world-settings:
   world1:
     header:
-      - "an example of world with custom"
+    - an example of world with custom
     footer:
-      - "header/footer and prefix/suffix"
+    - header/footer and prefix/suffix
     Groups:
       Owner:
-        tabprefix: "&0&l[&a&lOwner&0&l] &a"
-        tagprefix: "&2&lOwner &a"
+        tabprefix: '&0&l[&a&lOwner&0&l] &a'
+        tagprefix: '&2&lOwner &a'
   world2-world3:
     header:
-      - "This is a shared header for"
-      - "world2 and world3"
+    - This is a shared header for
+    - world2 and world3
 placeholders:
-  afk-yes: " &4*&4&lAFK&4*&r"
-  afk-no: ""
-  date-format: "dd.MM.yyyy"
-  time-format: "[HH:mm:ss / h:mm a]"
+  afk-yes: ' &4*&4&lAFK&4*&r '
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
   remove-strings:
-    - "[]"
-    - "< >"
+  - '[]'
+  - < >
 rank-aliases:
-  Admin: "&4&lADMIN"
-  Mod: "&b&lMOD"
-  Premium: "&6&lPREMIUM"
-  Ultra: "&b&lULTRA"
-  Legend: "&a&lLEGEND"
-  Titan: "&c&lTITAN"
-  Youtuber: "&c&lYOUTUBE"
-  _OTHER_: "&7No Rank"
-  
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&6&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  _OTHER_: '&7No Rank'
 disable-features-in-worlds:
   header-footer:
-    - disabledworld
+  - disabledworld
   tablist-names:
-    - disabledworld
+  - disabledworld
   nametag:
-    - disabledworld
+  - disabledworld
   tablist-objective:
-    - disabledworld
+  - disabledworld
   bossbar:
-    - disabledworld
+  - disabledworld
   belowname:
-    - disabledworld
+  - disabledworld
+yellow-number-in-tablist: '%ping%'
+classic-vanilla-belowname:
+  enabled: true
+  number: '%health%'
+  text: Health

@@ -1,0 +1,85 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   /   | | | | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.   |.|_|.|_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Strings.yml         ####################
+
+#
+#All strings in this file support placeholders!
+#
+
+#
+#Online Placeholders:
+#
+
+#
+#Placeholder: %online%
+#Description: display real server's online
+#
+
+#
+#Placeholder: %fakeOnline%
+#Description: display fake server's online
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#MaxPlayers Placeholders:
+#
+
+#
+#Placeholder: %maxplayers%
+#Description: display number of real server's slots
+#
+
+#
+#Placeholder: %fakeMaxplayers%
+#Description: display number of fake server's
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+    
+Motd:
+    
+    #What should be displayed on line 1 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineTwo section)
+    LineOne:
+        - "         &8-+-+-+-&8&l|&r &5&lV&d&le&5&lr&d&lr&5&la&d&ls &5&lN&d&le&5&lt&d&lw&5&lo&d&lr&5&lk &8&l|&r&8-+-+-+-"
+    
+    #What should be displayed on line 2 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineOne section)
+    LineTwo:
+        - "             &7&l|&r &6Factions &7&l|&r &4Anarchy &7&l|&r"
+    
+HoverBox:
+
+    #What text should be displayed when you hover over a player amount text:
+    HoverText:
+        - "&cServer Info"
+        - "&7--------------"
+        - ""
+        - "&bOnline: &f%online%"
+        - "&bMax Players: &f%maxplayers%"
+        - ""
+        - "&aWiki: &fverras.xyz/wiki"
+        - "&aForum: &fverras.xyz"
+        - "&aVote: &fverras.xyz/vote"
+        - "&aDiscord: &fverras.xyz/discord"
+        - ""
+        - "&7--------------"
+        
+Version:
+    
+    #What text should be displayed instead of player amount text:
+    VersionText: "&eConnect &a>&b>&c>                                                   &a&lJOIN! &r&6&l[&r&c&l%fakeOnline%&r&7/&c&l%fakeMaxplayers%&r&6&l]"
+    

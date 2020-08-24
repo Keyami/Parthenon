@@ -1,0 +1,21 @@
+lastAccountName: Zakkaroom
+timestamps:
+  login: 1598277967764
+  lastteleport: 1598137124914
+  logout: 1598278031845
+ipAddress: 142.113.66.14
+lastlocation:
+  world: world
+  x: -1976.7117402911426
+  y: 63.0
+  z: 4413.7945166379695
+  yaw: 54.61444
+  pitch: -20.955797
+money: '1400.0'
+logoutlocation:
+  world: spawn
+  x: 363.11482170150424
+  y: 177.0625
+  z: -269.508985995015
+  yaw: 4.3159046
+  pitch: 14.932516

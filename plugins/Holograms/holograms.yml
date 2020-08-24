@@ -1,0 +1,42 @@
+holograms:
+  spawnGreet:
+    location: spawn;358.4900790665816;182.29654320202127;-301.40518779143196;86.85;0.6006995
+    lines:
+    - Welcome to the §5Verras Network!
+    - '----------------'
+    - The tower holds endless new abilities!
+    - Or use the portal to continue to factions!
+  spawnPortal:
+    location: spawn;358.4703107874925;181.5383108501633;-256.54467873644;90.0;-1.0498793
+    lines:
+    - Hop in the fountain to start your §6adventure!
+  spawnWiki:
+    location: spawn;358.50088713862476;181.1580722451102;-298.2783437191153;90.0;1.5010492
+    lines:
+    - For info on our classes, use the wiki @ §9verras.xyz/wiki!
+  spawnCommunity:
+    location: spawn;358.29597163616376;178.87836117618804;-284.5268131078922;90.0;-0.14897159
+    lines:
+    - 'You can discuss and post pictures on our forum:'
+    - §6verras.xyz
+    - 'Or our discord:'
+    - §6verras.xyz/discord
+  towerClass:
+    location: spawn;349.461517168682;177.61873380768708;-207.803422966305;89.549995;0.14855957
+    lines:
+    - Change classes here!
+    - animated_item(5000):GOLDEN_SWORD:0 1
+  classToken:
+    location: spawn;349.4904303815477;201.29448172130128;-206.17660737900522;90.0;359.69873
+    lines:
+    - Step forward to purchase a class change token.
+    - animated_item(5000):ENDER_EYE:0 1
+  towerCosmetics:
+    location: spawn;355.534175838;192.78792373705497;-208.45979272479053;90.0;270.1507
+    lines:
+    - Buy cosmetics here!
+    - animated_item(5000):BLAZE_POWDER:0 1
+  parkourFinish:
+    location: spawn;358.4454346631553;235.05990860153884;-263.50178862735316;90.0;181.52808
+    lines:
+    - §6Congratulations! Step here to earn a free pet!

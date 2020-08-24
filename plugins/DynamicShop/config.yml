@@ -1,0 +1,23 @@
+# Language: ex) en-US,ko-KR
+# Prefix: Prefix of plugin messages
+# SalesTax: ~99%
+# UseShopCommand: Set this to false if you want to disable /shop command
+# DefaultShopName: This shop will open when player run /shop or /ds shop command
+# DisplayStockAsStack: ex) true: 10Stacks, false: 640
+# DeliveryChargeScale: 0.01~
+# NumberOfPlayer: This number is used to calculate the recommended median. 3~100
+SalesTax: 0.0
+ShowTax: false
+Language: en-US
+Prefix: '§5V§de§5r§dr§5a§ds Shop §7» '
+UseShopCommand: true
+DefaultShopName: Shop
+DeliveryChargeScale: 0.01
+DisplayStockAsStack: false
+NumberOfPlayer: 30
+SaveLogs: true
+CullLogs: true
+LogCullAgeMinutes: 7200
+LogCullTimeMinutes: 120
+OnClickCloseButton_OpenStartPage: true
+OpenStartPageInsteadOfDefaultShop: true

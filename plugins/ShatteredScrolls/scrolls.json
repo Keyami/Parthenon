@@ -1,0 +1,135 @@
+[
+  {
+    "id": "LegacyScroll",
+    "name": "Legacy Scroll",
+    "material": "PAPER",
+    "bindingData": {
+      "type": "unbound",
+      "data": {}
+    },
+    "displays": {
+      "unbound": {
+        "name": "\u0026bUnbound Teleportation Scroll",
+        "preserveName": false,
+        "lore": [
+          "\u00268---\u003d[ \u00267Description \u00268]\u003d---",
+          "\u00267An unbound teleportation scroll.",
+          "\u00267Right click it to bind it to your location.",
+          "\u00267It has \u0026f%charges%\u00267 charges."
+        ],
+        "glow": false,
+        "customModelData": 0
+      },
+      "location": {
+        "name": "\u0026bTeleportation Scroll",
+        "preserveName": true,
+        "lore": [
+          "\u00268---\u003d[ \u00267Description \u00268]\u003d---",
+          "\u00267A bound teleportation scroll.",
+          "\u00267It goes to \u0026f%x% %y% %z%\u00267 in \u0026f%world%\u00267.",
+          "\u00267It has \u0026f%charges%\u00267 charges remaining."
+        ],
+        "glow": true,
+        "customModelData": 0
+      },
+      "warp": {
+        "name": "\u0026bTeleportation Scroll",
+        "preserveName": false,
+        "lore": [
+          "\u00268---\u003d[ \u00267Description \u00268]\u003d---",
+          "\u00267A bound teleportation scroll.",
+          "\u00267It goes to \u0026f%warp%\u00267.",
+          "\u00267It has \u0026f%charges%\u00267 charges remaining."
+        ],
+        "glow": true,
+        "customModelData": 0
+      }
+    },
+    "crafting": {
+      "recipe": {
+        "items": [
+          " E ",
+          "EPE",
+          " E "
+        ],
+        "mapping": {
+          "P": "PAPER",
+          "E": "ENDER_PEARL"
+        }
+      },
+      "repairMaterial": "AIR",
+      "repairAmount": 0,
+      "craftAmount": 1
+    },
+    "cost": {
+      "type": "none",
+      "data": {}
+    },
+    "infinite": false,
+    "defaultCharges": 10
+  },
+  {
+    "id": "1",
+    "name": "Unbound Scroll",
+    "material": "PAPER",
+    "bindingData": {
+      "type": "unbound",
+      "data": {}
+    },
+    "displays": {
+      "unbound": {
+        "name": "\u0026rUnbound Scroll",
+        "preserveName": false,
+        "lore": [
+          "\u0026f%charges% \u00267charges.",
+          "\u00267Right click to bind to your location."
+        ],
+        "glow": false,
+        "customModelData": 2
+      },
+      "location": {
+        "name": "\u0026rTeleportation Scroll",
+        "preserveName": false,
+        "lore": [
+          "\u00267It goes to \u0026f%x% %y% %z% \u00267 in \u0026f%world%\u00267.",
+          "\u0026f%charges% \u00267charges.",
+          "\u00267Right click to teleport."
+        ],
+        "glow": false,
+        "customModelData": 4
+      },
+      "warp": {
+        "name": "\u0026rWarp Scroll",
+        "preserveName": false,
+        "lore": [
+          "\u0026f%charges% \u00267charges.",
+          "\u00267Right click to warp to \u0026f%warp%\u00267."
+        ],
+        "glow": false,
+        "customModelData": 2
+      }
+    },
+    "crafting": {
+      "recipe": {
+        "items": [
+          " E ",
+          "EPE",
+          " E "
+        ],
+        "mapping": {
+          "P": "PAPER",
+          "E": "ENDER_PEARL"
+        }
+      },
+      "repairMaterial": "ENDER_PEARL",
+      "repairAmount": 2,
+      "craftAmount": 1
+    },
+    "cost": {
+      "type": "none",
+      "data": {}
+    },
+    "infinite": false,
+    "defaultCharges": 5
+  }
+]

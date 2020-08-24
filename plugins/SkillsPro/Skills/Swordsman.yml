@@ -1,0 +1,50 @@
+Swordsman:
+name: "Swordsman"
+commands-to-perform-upon-select: [skill select none]
+commands-to-perform-upon-change: []
+health: 20 + (lvl / 2)
+max-level: 100
+max-health: 20 * 3
+max-energy: (lvl/2) + 10
+energy-regen: 1 + 0.05 * lvl
+required-level: 0
+cost: 0
+stats: [STR, DEX]
+energy: mana
+abilities:
+  swordsman-passive:
+    scaling: str/2
+    # Type of weapons Swordsman are allowed to use for duel wielding.
+    weapons: ["CONTAINS:SWORD"]
+  parry:
+    # Percent of the damage
+    required-level: 5 * (lvl + 1)
+    scaling: dex/5+lvl*2
+    # The stat to compare to other player.
+    stat: str
+    chance: lvl * 10
+    cost: 100 * (lvl + 1)
+  pierce:
+    required-level: 10 * (lvl + 1)
+    scaling: 100 * lvl / 2
+    cost: 100 * (lvl + 1)
+    # The stat to compare to other player.
+    stat: def
+  dodge:
+    required-level: 10 * (lvl + 1)
+    scaling: dex/7+(lvl*5)
+    cost: 100 * (lvl + 1)
+    weapons:
+      - "CONTAINS:SWORD"
+  thousand-cuts:
+    required-level: 1 * (lvl + 1)
+    activation:
+      idle: 5
+      key: R
+      energy: 20
+      cooldown: 10
+      items:
+        - 'CONTAINS:SWORD'
+    scaling: (lvl * 2) + (STR / 10)
+    cut-count: lvl * 3
+    cost: 100 * (lvl + 1)

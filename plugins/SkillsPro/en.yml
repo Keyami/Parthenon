@@ -1,4 +1,4 @@
-prefix: '&8[&3Skills&8] &3'
+prefix: '&5V&de&5r&dr&5a&ds &7» '
 command:
   help:
     description: '&eUse to display commands'
@@ -11,6 +11,15 @@ command:
 
       &3Use &e/Skills help %page% &3to see the next page.
     no-more-pages: '&cNo more pages present.'
+    usage: /Skills help <page>
+    footer: COMPLEX:hover:{&6←,&6Previous Page,/skills help %previous_page%} %pages%hover:{&6→,&6Next
+      Page,/skills help %next_page%}
+    footer-page: COMPLEX:hover:{&8[&2%number%&8],&6Go to page &2%number%,/skills help
+      %number%}
+    footer-current-page: COMPLEX:hover:{&8[&2&l%number%&8],&2Current Page}
+    header: '&8&m---------------=(&c&l Skills &6%page%&7/&6%max_pages% &8&m)=---------------'
+    commands: COMPLEX:hover:{&8/&2skills %cmd% &7- %description%,&8/&2skills %cmd%,|/skills
+      %cmd%}
   usage: '&cUsage&7: &e/Skills '
   unknown: '&cUnknown command!'
   not:
@@ -155,6 +164,7 @@ command:
     notification: '&e%inviter% &3wants to be friends with you. Do &e/skill friend
       %inviter% &3to accept.'
     friended: '&3You''re now friends with &e%friend%'
+    already-friends: '&cYou''re already friends with &e%invited%'
   unfriend:
     description: '&eRemove a player as your friend.'
     removed: '&cYou''ve unfriended &e%removed%'
@@ -163,6 +173,8 @@ command:
     notification: '&e%remover% &chas unfriended you!'
   friends:
     description: '&eList of all your friends.'
+    teleport-not-online: '&e%name% &cis not online to teleport!'
+    teleport-permission: '&cYou don''t have permission to teleport to friends.'
   party:
     description: '&eParty with your friends.'
     create:
@@ -222,6 +234,59 @@ command:
         join.'
       in-party: '&cYou''re already in a party.'
     list-description: '&eA list of party members.'
+  souls:
+    description: '&eDeposit or withdraw souls from your bank.'
+    service-unavailable: '&cBank services are currently unavailable.'
+    unknown-transaction: '&cUnknown transaction &e%transaction%'
+    not-enough-souls: '&cYou don''t have &e%amount% &csouls.'
+    not-enough-money: '&cYou don''t have &e%amount% &cmoney.'
+    deposit-success: |-
+      &3You've successfully deposited &e%amount% &3souls into your bank for &e%translated%
+      &3Your new balance&8: &e%balance%
+    deposit-disabled: '&cYou cannot deposit souls.'
+    withdraw-disabled: '&cYou cannot withdraw souls.'
+    withdraw-success: |-
+      &3You've successfully withdrawn &e%amount% &3souls from your bank for &e%translated%
+      &3Your new balance&8: &e%balance%
+  tpaccept:
+    description: '&eAccept a teleportation request from a friend.'
+    teleporing: '&3Teleporting to &e%friend% &3in &e%delay% &5seconds. Do not move.'
+    pre-notify: '&3Your friend &e%friend% &3will be teleporting to you.'
+    canceled: '&cTeleportation has been cancelled!'
+    canceled-notify: '&cYour friend &e%friend% &cteleportation has been canceled.'
+    teleporting: '&2Teleporting in &6%countdown% seconds&2... Don''t move.'
+    teleport-start: '&3Teleportation will start in &e%delay% seconds. &3Don''t move!'
+    disconnected: '&cYour friend has been disconnected and the teleportation has been
+      canceled.'
+    no-request: '&e%name% &cdid not send you any teleportation requests.'
+    teleported: '&3Teleported to &e%friend%'
+    notify: '&3Your friend &e%friend% &3has teleported to you.'
+    no-requests: '&cYou don''t have any teleportation requests sent to you.'
+    more-than-one: '&cYou have more than one teleportation requests. Please specify
+      the player name that you want to accept the request from.'
+    offline: '&cYour friend that sent you a teleprotation request is now offline.'
+  friendtp:
+    description: '&eTeleport to a friend.'
+    not-friends: '&cYou''re not friends with &e%name%'
+    disabled: '&cFriend teleportation is disabled.'
+    teleported: '&3Teleported to &e%friend%'
+    notify: '&3Your friend &e%friend% &3has teleported to you.'
+    requested: '&3Sent a teleportation request to &e%friend%'
+    already-requested: '&cYou''ve already sent a teleportation request to &e%friend%'
+    expired: '&cYou''re teleportation request to &e%friend% &chas been expired.'
+    expired-notify: '&cYour friends &e%friend% &cteleportation request has expired.'
+    notify-request: |-
+      COMPLEX:&3Your friend &e%friend% &3wants to teleport to you.
+         &3Do hover:{&e/skill tpaccept %friend%,&2Accept,/skill tpaccept %friend%} &3to accept.
+         &3Or ignore to &cdecline &3automatically.
+  shop:
+    description: '&eBuy skills special items.'
+    give:
+      permission: '&cYou don''t have permission to use that command.'
+      usage: '&cUsage&8: &e/skills shop give <type> [player] [amount]'
+      invalid-type: |-
+        &cInvalid Skills item type&8: &e%type%
+        &cAvailable Types&8: &eXP, Energy_Booster, Energy_Potion
 guis:
   statmenu:
     statpoints:
@@ -255,6 +320,478 @@ ability:
   upgrade-notification: '&3You have &e%skills_soul% &3souls. You can now upgrade&8:
     %abilities%'
   upgrade-notification-list: '&6%ability% &7➛ &3%ability_level% '
+  title: '&6&lPassive'
+  swordsman-passive:
+    title: '&6Passive'
+    description: |-
+      &3You can use your offhand to attack now!
+      Your attack is increased by &e%amount%
+      You can increase the damage
+      by getting STR points.
+  arbalist-passive:
+    title: '&6Passive'
+    description: |-
+      &3The longer the distance
+      between you and your target,
+      the higher the damage.
+
+      Have a chance to spawn
+      a cloud to shoot arrows.
+      The higher your skill level
+      is the higher your chance gets.
+  eidolon-passive:
+    title: '&6Passive'
+    description: |-
+      &3Eidolon has a light and dark form.
+      When your Imbalance hits &6100&3,
+      you change to another form.
+      Imbalance is gained over time.
+      Upon changing, restore &e%amount% &3health.
+  devourer-passive:
+    title: '&6Passive'
+    description: |-
+      &3Your attacks inflict corrosion
+      to your enemy, causing them
+      to lose &e%amount% &3health
+      every time they're affected.
+  mage-passive:
+    title: '&6Passive'
+    description: |-
+      &3When attacking with staffs (hoe),
+      you gain back &e%amount% &3mana per hit.
+      Attacking with hoes will deal more damage,
+      ranging from 4 for a wooden hoe,
+      to 8 for a diamond hoe.
+  firemage-passive:
+    title: '&6Passive'
+    description: |-
+      &3When on fire, regain &e%amount% &3extra
+      health when healing.
+      You are also immune to fire damage.
+  priest-passive:
+    title: '&6Passive'
+    description: |-
+      &3Walk on water like Jesus.
+      Your body automatically rejects lava.
+      &cYou become weak and
+      vulnerable in nether and the end!
+  vampire-passive:
+    title: '&6Passive'
+    description: |-
+      &3You'll lose blood over time.
+      Attacking gives you a few
+      blood per hit. For every
+      %blood% blood you have, deal an additional
+      &e%amount% &3melee damage to your targets.
+  juggernaut-passive:
+    title: '&6Passive'
+    description: '&3Reduce entity attacks by &e%amount%%'
+  dodge:
+    title: '&6Dodge'
+    description: |-
+      &3You have a &e%amount%% &3of dodging
+      your opponent's attack.
+      Maximum of &640%
+  parry:
+    title: '&6Parry'
+    description: |-
+      &3If you are holding a sword,
+      and your opponent has lesser
+      &3stat points &3than you, you reflect &e%amount%%
+      &3damage back to your opponent
+  pierce:
+    title: '&6Pierce'
+    description: |-
+      &3If your &6STR &3is higher
+      than your opponent's &4DEF&3,
+      your attack will deal &e%amount%%
+      &3more damage
+  thousand-cuts:
+    title: '&6Thousand Cuts'
+    description: |-
+      &3Right click to activate
+      while holding a sword
+      &3Does &e%amount% &3damage per
+      hit to the next target you attack,
+      while disorienting them each hit
+      for the next 2 seconds.
+  gliders:
+    title: '&6Gliders'
+    description: |-
+      &3Level 1&8: &eWhen sprinting,
+      gain &e5 seconds &espeed
+      depending on your level.
+      &3Level 2&8: &eNo fall damage.
+      &3Level 3&8: &eDouble jump!
+  cloak:
+    title: '&6Cloak'
+    description: |-
+      &3Level 1&8: &eGain invisibility permanently.
+      When you attack, the invisibility
+      is disabled for 30 seconds.
+      &3Level 2: &eHostile mobs will naturally
+      be neutral to you.
+      If you attack a mob, neutrality is
+      disabled for 30 seconds.
+      Some mobs like Enderman, endermite,
+      wither, guardians and the ender dragon
+      will be still able to see you.
+      &3Level 3&8: &eThe first attack you make
+      before becoming visible will
+      deal &6%amount% &emore damage.
+  blink:
+    title: '&6Blink'
+    description: |-
+      &3Teleport around your target
+      randomly, creating a TPAura.
+      The teleportation randomness and counts
+      increase for each level.
+  hook:
+    title: '&6Hook'
+    description: |-
+      &3Right-click to get a grappling hook.
+      Useful to escape from your enemies.
+      Leveling up only
+      increases your hook (arrow) range.
+      &3Level 2: &eYou will not take fall damage from hooks.
+  reflect:
+    title: '&6Reflect'
+    description: |-
+      &3When you are attacked,
+      and you're holding
+      a staff, have a chance
+      (based on your staff material)
+      to deal &e%amount% &3to the attacker.
+  explosion-spell:
+    title: '&6Explosion Spell'
+    description: |-
+      &3When you are attacking, and you're holding a
+      staff, have a chance
+      (based on your staff material)
+      to deal &e%amount%% &3more damage to your enemy.
+  heal-spell:
+    title: '&6Heal Spell'
+    description: |-
+      &3For every 10 mana you have,
+      regenerate &e%amount%&3 additional health,
+      if your health is below 20%.
+  energy-flux:
+    title: '&6Energy Flux'
+    description: |-
+      &3When right-clicking with a hoe,
+      rapidly fire energy bolts that
+      deal &e%amount% &3damage in a line.
+      Repeated hits on the same target
+      within &6%cooldown%s &3will
+      deal &650% &3less damage.
+      More levels gives you more
+      distance to hit your target.
+  absorb-energy:
+    title: '&6Absorb Energy'
+    description: |-
+      &3When attacked, your next attack will
+      set your targets on fire
+      for up to &e%amount% &3seconds.
+  phoenix-essence:
+    title: '&6Phoenix Essence'
+    description: |-
+      &3Deal &e%amount% &3more damage
+      for every &61 second
+      &3your target is on fire for.
+  black-fire:
+    title: '&6Black Fire'
+    description: |-
+      &3When targets in a radius
+      of &65 blocks &3to you,
+      increase their fire damage by &e%amount%
+  inferno:
+    title: '&6Inferno'
+    description: |-
+      &3Right click, and hit a target
+      with your staff to activate.
+      Immediately deal &e%amount% &3damage,
+      plus 1 damage per 20 fireticks the target has
+  heavy-strikes:
+    title: '&6Heavy Strikes'
+    description: |-
+      &3If you are using an axe to attack,
+      deal &e%amount% &3more damage to your
+      targets armors.
+  stone-skin:
+    title: '&6Stone Skin'
+    description: |-
+      &3Level 1&8: &eFall damage is reduced by &6%fall%
+      &3Level 2&8: &eFire/lava damage is
+      reduced by &6%fire%/%lava%
+      &3Level 3&8: &eThorns damage is
+      is reduced by %thorns%
+  aegis-protection:
+    title: '&6Aegis Protection'
+    description: |-
+      &eLevel 1&8: &3Every &e%amount%&3 seconds,
+      refresh a shield that negates all
+      damage for the next attack.
+      &eLevel 2&8: &3Reflect %damage% damage.
+      &eLevel 3&8: &3Knockback your target
+      if your health is under 5.
+  throw:
+    title: '&6Throw'
+    description: |-
+      &3Sneak and right click at
+      your target to activate.
+      Carry your target for 3 seconds,
+      making you and your target unable
+      to attack for the duration,
+      then toss your enemy in the
+      direction you're looking at.
+      Once your target hits the ground,
+      deal &e%amount% &3damage to your target.
+      While you are carrying your target,
+      all incoming damage is reduced by 50%
+  execute:
+    title: '&6Execute'
+    description: |-
+      &3After shooting a single target
+      2 times in a row, have a chance to
+      perform one of these combos.
+
+      &eLevel 1&8: &3Have a chance to set
+      your target on fire for 5 seconds.
+      &eLevel 2&8: &3Have a chance to poison
+      your target.
+      &eLevel 3&8: &3Have a chance to strike
+      a lightning on your target.
+
+      Chances will increase the more
+      you shoot the target.
+      Your combo will reset if you miss
+      or hit another target.
+  dual-arrows:
+    title: '&6Dual Arrows'
+    description: "&3Your bow has %chance%% chance \nto fire two arrows at once.\n\
+      &3Level 1&8: &eIncrease your second \narrow damage by &3%amount%&e.\n&3Level\
+      \ 2&8: &eThe second arrow will\nhave a higher velocity.\n&3Level 3&8: &eThe\
+      \ second arrow will\nbe a flame arrow."
+  minions:
+    title: '&6Minions Arrow'
+    description: "&3Right-click and shoot \nwith a bow to\nspawn minion skeletons\
+      \ that will\nfight for you.\n\n&eLevel 1&8: &3One skeleton\n&eLevel 2&8: &3Two\
+      \ skeletons with invisibility\neffect and better bows.\n&eLevel 3&8: &33 Pillagers\
+      \ with invisibility\nand flame arrows."
+  fire-crossbow:
+    title: '&6Fire Crossbow'
+    description: |-
+      &3Fire an arrow at your enemy
+      by punching. Does not use arrows,
+      and instead uses energy.
+      Upgrade to reduce cooldown
+  blood-lust:
+    title: '&6Blood Lust'
+    description: "&3Level 1: If you have more than 70% of\nyour blood well full, go\
+      \ into a frenzy,\nallowing you to deal\n&e%amount%% &3more damage than usual.\n\
+      Level 2: Your natural health regeneration is\nincreased by %regain% during this\
+      \ time. \nLevel 3: Attacks during this duration\nhave a chance (based on your\n\
+      current blood) to heal you by 2"
+  blood-well:
+    title: '&6Blood Well'
+    description: |-
+      &3Increases your maximum blood levels by a large
+      amount every upgrade. Has a &e%amount%% &3chance
+      to stop the loss of blood every 4 seconds.
+  bleed:
+    title: '&6Bleed'
+    description: |-
+      &3Your target will bleed for
+      5 seconds. Every time
+      your target gets damaged %amount%
+      and you get %amount% health.
+  eternal-darkness:
+    title: '&6Eternal Darkness'
+    description: |-
+      &3Sneak and hit a target to become
+      invincible for &e%amount% &3seconds.
+      During this time, you blind the targets
+      you attack for 1 second per hit.
+  purify:
+    title: '&6Purify'
+    description: |-
+      &3Deal &e%amount% &3damage for
+      every 5 health your target has,
+      up to a maximum of &e%max%&3.
+      &6%amount% &3imbalance is gained when you attack.
+  spirit-fire:
+    title: '&6Spirit Fire'
+    description: "&3In Light form, absorb &e%amount%%\n&3damage when hit, up to a\
+      \ maximum of &650%.\n&3This amount is stored. \n&3In Dark form, expell the stored\n\
+      amount in the first attack to deal\n1 damage per &e%dark% &3damage absorbed"
+  spectre:
+    title: '&6Spectre'
+    description: "&3In Light form, gain a shield, that will\ngive speed &c%speed%&3\
+      \ for 3 seconds\nwhen broken by another mob.\nShield refreshes every &e%amount%\
+      \ &3seconds. \nIn Dark form, your attack will\nbe charged every &e%amount% &3seconds.\n\
+      Charged attacks deal &6%dark%%\n&3additional damage."
+  shape-shifter:
+    title: '&6Shape Shifter'
+    description: |-
+      &3When in dark, you'll deal more
+      damage to the enemy.
+      The darker the more damage you deal.
+      When you're in light places,
+      you'll take less damage.
+      The brighter the fewer damage you'll take.
+  defile:
+    title: '&6Defile'
+    description: |-
+      &3Right-click and attack to tip
+      the balance in your target,
+      increasing its damage taken,
+      and reducing its damage dealt to
+      you by &6%amount%% &3for &e%time% seconds&3.
+  consume:
+    title: '&6Consume'
+    description: |-
+      &3Have a %chance%% chance to steal
+      %amount% &3souls from your opponents
+      or deal massive damage
+      if they have no souls.
+  disarm:
+    title: '&6Disarm'
+    description: |-
+      &3Level 1&8: &ePlace your opponents weapon
+      in their inventory if
+      they have a free space.
+      &3Level 2&8: &eReplace your opponents weapon
+      with an item in their inventory.
+      &3Level 3&8: &eAlso change the hotbar slot they're using.
+  neptune:
+    title: '&9Neptune'
+    description: |-
+      &3Level 1&8: &eDeal %amount% &emore damage with tridents.
+      Have a %chances.lightning% &echance to
+      strike your opponent with
+      lightning when using tridents.
+      &3Level 2&8: &eHave a %chances.multiply% &echance to
+      spawn %multiply% &emultiply tridents
+      targetting your opponent after
+      a successful hit with trident.
+      &3Level 3&8: &eYou can launch yourself with
+      your trident while holding
+      it in your offhand and sneaking
+      This is a little tricky.
+      You need to let go of the sneak
+      button once you released the
+      right-click button. You can
+      technically fly with this thing.
+  blood-circuit:
+    title: '&4Blood Circuit'
+    description: |-
+      &3Level 1&8: &eSpawn an ender crystal that
+      acts like a blood circuit between
+      you and your opponent for %duration% seconds.
+      Every %inferno% ticks, the ender crystal will
+      activate and damage your opponent by %amount%
+      and increases this damage by %damage-modifier%
+      Your inferno will stop activating if your
+      target is %distance% blocks &efurther than the crystal.
+      &3Level 2&8: &eYou'll be healed the same amount of
+      damage your infernodeals to your opponent.
+      &3Level 3&8: &eSpawn vex minions every time
+      your inferno activates.
+  purification:
+    title: '&6Purification'
+    description: |-
+      &eLevel 1&8: &3Guardians, endermen and
+      slimes will no longer target you.
+      &eLevel 2&8: &3Elder guardians, spiders and
+      phantoms will no longer target you.
+      Not that if you attack them they
+      will attack back.
+      &eLevel 3&8: &3Crops around you will
+      grow faster.
+  seal-of-life:
+    title: '&6Seal of Life'
+    description: |-
+      &3Have a chance to escape enemies
+      when severely wounded.
+      Be invincible and increase regeneration.
+  fangs:
+    title: '&6Fangs'
+    description: |-
+      &3Ever wanted to get rid of those
+      annoying evokers?
+      Now you can kill
+      them with their
+      own ability and even better!
+      Sneak while activating
+      the ability to use fangs
+      on surrounding mobs
+      or activate it normally to
+      spawn fangs in a straight line.
+  blackhole:
+    title: '&6Blackhole'
+    description: |-
+      &3Create a blackhole and pull
+      enemies around into it.
+      This blackhole will deal
+      massive damage if someone gets close to it.
+  meteorite:
+    title: '&6Meteorite'
+    description: |-
+      &3Fire multiple
+      fireballs at your enemy.
+      Higher level gives you more fireball
+      and explosion power.
+  chain:
+    smash-title: '&6Chain Smash'
+    smash-description: |-
+      &3Jump and do a
+      heavy punch to the
+      ground and blow everyone
+      into the air.
+  mind-possession:
+    title: '&6Mind Possession'
+    description: |-
+      &3Have a chance to paralyze your
+      enemies with slowness and blindness.
+      Higher levels give higher chances and duration.
+  kindling-of-life:
+    title: '&6Kindling of Life'
+    description: |-
+      &3Heal your team mates
+      to support them.
+      Higher levels gives higher velocity
+      and higher health.
+  asclepius:
+    title: '&6Asclepius'
+    description: |-
+      &3Give effects to players around you
+       while holding a hoe.
+      Support your teammates before a fight
+      with some buffs.
+      Only works on party
+      members or factions.
+  natures-force:
+    title: '&2Nature''s Force'
+    description: |-
+      &3Spawns bees every %interval% seconds
+      &3for %duration% seconds &3from a beehive
+      to fight for you.
+      These bees have %amount% &3damage.
+      If someone breaks the beehive,
+      bees will stop spawning.
+  natures-call:
+    title: '&2Nature''s Call'
+    description: |-
+      &3Spawns %minions% &3foxes to fight
+      for you. Each fox has
+      an attack power of %amount%
+  dash:
+    title: '&3Dash'
+    description: |-
+      &3Dash while holding a sword.
+      Your dash will be stronger
+      with higher levels.
+      Your current power&8: %amount%
 skill:
   no-permission: '&cYou don''t have permission to use &e%skill%'
   owned-error: '&4You already own a skill!'
@@ -314,11 +851,11 @@ skill:
       %amount% souls from your opponents
       or deal massive damage
       if they have no souls.
-    passive: |-
-      &3Your attacks inflict corrosion
-      to your enemy, causing them
-      to lose &e%amount% &3health
-      per second for 5 seconds.
+
+      &fScales with Strength, Dexterity, and Level.
+    passive: "&3Your attacks have a %chance%% \nchance to inflict corrosion\nto your\
+      \ enemy, causing them\nto lose &e%amount% &3health\nper second for %duration%\
+      \ seconds.\n\n&fScales with all stats."
     gliders-description: |-
       &3Level 1&8: &eWhen sprinting,
       gain &e5 seconds &espeed
@@ -328,7 +865,7 @@ skill:
     cloak-description: |-
       &3Level 1&8: &eGain invisibility permanently.
       When you attack, the invisibility
-      is disabled for 30 seconds.
+      is disabled for 3 minutes.
       &3Level 2: &eHostile mobs will naturally
       be neutral to you.
       If you attack a mob, neutrality is
@@ -339,10 +876,12 @@ skill:
       &3Level 3&8: &eThe first attack you make
       before becoming visible will
       deal &6%amount% &emore damage.
-    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
-    invis-enabled: '&1You fade into the darkness...'
+
+      &fScales with Dexterity and Level.
+    invis-disabled: '&cYour invisibility is disabled for 3 minutes!'
+    invis-enabled: '&9&1You fade into the darkness...'
     neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
-    neutrality-enabled: '&1You are now neutral to mobs.'
+    neutrality-enabled: '&9&1You are now neutral to mobs.'
     blink-description: |-
       &3Teleport around your target
       randomly, creating a TPAura.
@@ -423,19 +962,27 @@ skill:
       &3When attacked, your next attack will
       set your targets on fire
       for up to &e%amount% &3seconds.
+
+      &fScales with Intelligence and Level.
     phoenixessence: |-
       &3Deal &e%amount%% &3more damage
       for every &61 second
       &3your target is on fire for.
+
+      &fScales with Intelligence and Level.
     blackfire: |-
       &3When targets in a radius
       of &65 blocks &3to you,
       increase their fire damage by &e%amount%
+
+      &c&lDISABLED.
     inferno-description: |-
       &3Right click, and hit a target
       with your staff to activate.
       Immediately deal &e%amount% &3damage,
       plus 1 damage per 20 fireticks the target has
+
+      &fScales with Intelligence and Level.
     ready-activation-message: '&3*Your hands burns with power* Hit a target to activate
       Inferno'
     notready-activation-message: '&7*The power dissipates*'
@@ -444,8 +991,11 @@ skill:
     meteorite-description: |-
       &3LR to fire multiple
       fireballs at your enemy.
+
       Higher level gives you more fireball
       and explosion power.
+
+      &fScales with Level.
   juggernaut:
     heavystrikes-title: '&6Heavy Strikes'
     stoneskin-title: '&6Stone Skin'
@@ -588,22 +1138,28 @@ skill:
     defile-title: '&6Defile'
     passive: |-
       &3Eidolon has a light and dark form.
-      When your Imbalance hits &6100&3,
+      When your Imbalance hits &6100&3%,
       you change to another form.
       Imbalance is gained over time.
       Upon changing, restore &e%amount% &3health.
+
+      &fScales with Intelligence.
     purify: |-
       &3Deal &e%amount% &3damage for
       every 5 health your target has,
       up to a maximum of &e%max%&3.
       &6%amount% &3imbalance is gained when you attack.
+
+      &fScales with Strength, Level, and Intelligence.
     spiritfire: "&3In Light form, absorb &e%amount%%\n&3damage when hit, up to a maximum\
       \ of &650%.\n&3This amount is stored. \n&3In Dark form, expell the stored\n\
-      amount in the first attack to deal\n1 damage per &e%dark% &3damage absorbed"
+      amount in the first attack to deal\n1 damage per &e%dark% &3damage absorbed\n\
+      \ \n&fScales with Strength and Level."
     spectre: "&3In Light form, gain a shield, that will\ngive speed &c%speed%&3 for\
       \ 3 seconds\nwhen broken by another mob.\nShield refreshes every &e%amount%\
       \ &3seconds. \nIn Dark form, your attack will\nbe charged every &e%amount% &3seconds.\n\
-      Charged attacks deal &6%dark%%\n&3additional damage."
+      Charged attacks deal &6%dark%%\n&3additional damage.\n \n&fScales with Level\
+      \ and Defense."
     shapeshifter: |-
       &3When in dark, you'll deal more
       damage to the enemy.
@@ -611,12 +1167,16 @@ skill:
       When you're in light places,
       you'll take less damage.
       The brighter the fewer damage you'll take.
+
+      &fEntirely based on surrounding light level.
     defile: |-
       &3Right-click and attack to tip
       the balance in your target,
       increasing its damage taken,
       and reducing its damage dealt to
       you by &6%amount%% &3for &e%time% seconds&3.
+
+      &fScales with Intelligence and Level.
     active-ready: '&3*Disruptive energy radiates from you* Punch a target to defile
       it'
     active-not-ready: '&c*The energy dissipates*'
@@ -639,12 +1199,16 @@ skill:
       on surrounding mobs
       or activate it normally to
       spawn fangs in a straight line.
+
+      &fScales with Intelligence and Level.
     blackhole-title: '&6Blackhole'
     blackhole-description: |-
       &3Create a blackhole and pull
       enemies around into it.
       This blackhole will deal
       massive damage if someone gets close to it.
+
+      &fScales with Level.
   priest:
     purification-title: '&6Purification'
     purification-description: |-
@@ -656,6 +1220,8 @@ skill:
       will attack back.
       &eLevel 3&8: &3Crops around you will
       grow faster.
+
+      &fScales with Dexterity.
     seal-of-life-title: '&6Seal of Life'
     seal-of-life-description: |-
       &3Have a chance to escape enemies
@@ -672,17 +1238,25 @@ skill:
       &3Have a chance to paralyze your
       enemies with slowness and blindness.
       Higher levels give higher chances and duration.
+
+      &fScales with Level.
     kindling-of-life-title: '&6Kindling of Life'
     kindling-of-life-description: |-
       &3Right-click and heal your team mates
       to support them.
       Higher levels gives higher velocity
       and higher health.
+
+      &fScales with Level.
     asclepius-title: '&6Asclepius'
     asclepius-description: |-
       &3LR to give effects to players around you.
       Support your teammates before a fight
       with some buffs.
+
+      &fPotion duration scales with Level.
+  required-level: '&cYou need to be at least level &e%level% &cto use this skill.'
+  select-cost: '&cYou need &e%cost% &csouls to select this skill.'
 skill-selected: '&3You are now a &e%skills_skill%'
 mastery:
   maximum-level: '&cThis mastery is upgraded to the max level.'
@@ -690,3 +1264,14 @@ mastery:
   upgraded: '&3Upgraded &e%mastery% &3mastery.'
   downgraded: '&3Downgraded &e%mastery% &3mastery.'
   cant-downgrade: '&cYou can''t downgrade &e%mastery% &cmastery anymore'
+  required-level: '&cYou need to be at least level &3%level% &cto use this mastery.'
+command-help-negative-pages: '&cThere are no hidden pages.'
+kill-message: '&3Gained &e%xp% XP &3and &e%souls% souls &3for killing &e%name%'
+death: '&cYou''ve lost &e%souls% &csoul(s) &cand &e%xp% &cXP.'
+skills-item:
+  energy-booster: '&3Energy Booster &e%booster% &3activated for &e%time%'
+  cost: '&cYou need &e%cost% &csouls to buy this item.'
+  no-free-slot: '&cYou don''t have a free slot in your inventory.'
+events-name:
+  souls: Souls
+  xp: XP

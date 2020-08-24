@@ -1,29 +1,35 @@
 {
-  "skill": "Swordsman",
-  "level": 15,
-  "xp": 0,
-  "souls": 0,
-  "showReadyMessage": true,
-  "lastSkillChange": 1588698043790,
-  "stats": {
-    "INT": 28,
-    "DEX": 12,
-    "PTS": 0,
-    "STR": 5,
-    "DEF": 5
-  },
-  "disabledAbilities": [],
+  "skill": "Eidolon",
+  "lastSkillChange": 1597705490670,
   "healthScaling": 0.0,
   "friends": [],
   "friendRequests": [],
-  "improvements": {
-    "priest": {
-      "purification": 1,
-      "mind_possession": 1,
-      "kindling_of_life": 1,
-      "seal_of_life": 1,
-      "asclepius": 1,
-      "passive": 1
+  "skills": {
+    "Arbalist": {
+      "skill": "Arbalist",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {
+        "STR": 0,
+        "DEF": 0,
+        "DEX": 0,
+        "PTS": 0,
+        "INT": 0
+      }
+    },
+    "Eidolon": {
+      "skill": "Eidolon",
+      "level": 0,
+      "xp": 0.0,
+      "souls": 0,
+      "showReadyMessage": true,
+      "disabledAbilities": [],
+      "abilities": {},
+      "stats": {}
     }
   },
   "masteries": {},

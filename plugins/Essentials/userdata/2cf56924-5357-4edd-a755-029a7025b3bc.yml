@@ -1,22 +1,22 @@
 lastAccountName: SeveN00
 timestamps:
-  login: 1588699984244
+  login: 1597705484894
   lastteleport: 1588700869286
-  logout: 1588701208260
+  logout: 1597706109043
 ipAddress: 107.130.45.196
 lastlocation:
-  world: world
-  x: -649.6175482139962
-  y: 65.84836307407208
-  z: -526.3610440100747
-  yaw: 309.85205
-  pitch: 47.745594
-money: '2600.0'
+  world: SpawnWorld
+  x: -207.12506348824863
+  y: 8.0
+  z: 98.07327198290199
+  yaw: -209.0981
+  pitch: 17.249962
+money: '3600.0'
 logoutlocation:
-  world: world
-  x: -576.4398139063954
-  y: 74.78775184176337
-  z: -370.765354450281
-  yaw: 175.16919
-  pitch: 61.212723
+  world: SpawnWorld
+  x: -154.94969674860394
+  y: 4.0
+  z: 121.7577186703013
+  yaw: -353.3318
+  pitch: 17.918503
 afk: false

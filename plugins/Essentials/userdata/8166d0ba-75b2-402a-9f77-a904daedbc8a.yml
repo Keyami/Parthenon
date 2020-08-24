@@ -1,0 +1,20 @@
+lastAccountName: jochem_block
+timestamps:
+  login: 1597492724853
+  logout: 1597494941467
+ipAddress: 84.106.197.204
+lastlocation:
+  world: world
+  x: -164.72440495265508
+  y: 124.98181025626948
+  z: 122.75451873204739
+  yaw: -198.46472
+  pitch: 12.096532
+money: '5200.0'
+logoutlocation:
+  world: SpawnWorld
+  x: -178.39303485571503
+  y: 31.08591621856611
+  z: 213.86844175483932
+  yaw: -148.20947
+  pitch: 18.82575

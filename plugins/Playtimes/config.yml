@@ -1,4 +1,4 @@
-prefix: '&7[&b&lPlayTime&7]'
+prefix: ''
 date-format: MM/dd/yyyy
 playtime:
   name:
@@ -10,22 +10,20 @@ playtime:
     minutes: mins
     hours: hrs
     days: days
-  show-seconds: true
+  show-seconds: false
   message:
-  - '&b&m=======&b&l[%player%]&b&m======='
-  - '&aPlaytime:&f %time%'
-  - '&aTimes joined:&f %timesjoined%'
-  - '&aJoined Date:&f %joindate%'
-  - '&b&m============================'
+  - '&7--------------------------'
+  - '&c&l%player%&7'
+  - ''
+  - '&cPlaytime:&f %time%'
+  - '&cJoined Date:&f %joindate%'
+  - '&7--------------------------'
 uptime:
-  message:
-  - '&b&m============================'
-  - '&aServer Uptime:&f %serveruptime%'
-  - '&b&m============================'
+  message: []
 top-playtime:
-  header: '&b******&9[&3&lPlayTime Leaderboards&9]&b*****'
-  content: '&5%place%) &9&l%player% &9&o- %time%'
-  footer: '&b****************************************'
+  header: '&7-----&c&lPlaytime Leaderboard&7-----'
+  content: '&7%place%. &c%player% - &f%time%'
+  footer: '&7--------------------------------'
   enable-cooldown: true
   cooldown-seconds: 60
 messages:

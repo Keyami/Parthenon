@@ -1,0 +1,87 @@
+Needs-Pet-Permission-To-Open-GUI: true
+Needs-Permission: true
+Remove-Item-If-No-Permission: true
+RemovePetsOnWorldChange: true
+UseVaultEconomy: true
+ShowParticles: true
+Complete-Mobspawning-Deny-Bypass: true
+Use&k: false
+ColorCodes: true
+PetItemStorage:
+  Enable: false
+  Inventory-Size: 27
+OldPetRegistering: false
+Needs-Data-Permissions: true
+Pathfinding:
+  Min-Distance-For-Teleport: 20.0
+  Stopping-Distance: 7.0
+Worlds:
+  Enabled: false
+  Allowed-Worlds:
+  - world
+WorldGuard:
+  BypassPermission: region.bypass
+  Spawning:
+    Always-Allowed: true
+    Blocked-Regions:
+    - pvp
+  Pet-Entering:
+    Always-Allowed: true
+    Blocked-Regions:
+    - pvp
+  Pet-Riding:
+    Always-Allowed: true
+    Blocked-Regions:
+    - pvp
+PlotSquared:
+  BypassPermission: plots.admin
+  On-Unclaimed-Plots:
+    Move: true
+    Spawn: true
+    Riding: true
+  On-Roads:
+    Move: true
+    Spawn: true
+    Riding: true
+  Block-If-Denied:
+    Move: true
+    Spawn: true
+    Riding: true
+WorldBorder:
+  Block-If-Denied:
+    Move: true
+    Spawn: true
+    Riding: true
+MySQL:
+  Enabled: false
+  Host: host
+  Port: '3306'
+  DatabaseName: insert_DatabaseName
+  Login:
+    Username: username
+    Password: password
+  Options:
+    UseSSL: false
+    AutoReconnect: false
+Debug:
+  Enabled: false
+  Levels:
+  - '0'
+  - '1'
+  - '2'
+PetToggles:
+  GlowWhenVanished: true
+  HideNameOnShift: true
+  AutoRemove:
+    Enabled: true
+    TickDelay: 10000
+Allow-Pets-Being-Mounts: true
+Allow-Pets-Being-Hats: true
+Respawn-Last-Pet-On-Login: true
+RenamePet:
+  Enabled: true
+  ViaAnvil: true
+  Limit-Number-Of-Characters: false
+  CharacterLimit: 10
+  Blocked-Words:
+  - jeb_

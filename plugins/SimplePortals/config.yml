@@ -7,11 +7,11 @@ reload-plugin-timer: true
 # If this is enabled when the player is teleport they will keep their current Yaw and Pitch.
 keep-teleport-head-axis: false
 # If this is enabled, all players will be able to use all portals.
-bypass-portal-permissions: false
+bypass-portal-permissions: true
 # If this is enabled, the player can teleport through portals with vehicles, such as Horses and Boats.
 vehicle-teleportation: true
 # IF this is enabled, portal usage for creative mode players will be blocked entirely.
-block-creative-portal-entrance: true
+block-creative-portal-entrance: false
 
 # The creatures in the list below will be blocked from spawning inside portal regions.
 creature-spawning-blacklist:
@@ -30,6 +30,8 @@ join-protection-cooldown: 5
 portal-cooldown-duration: 5
 # This is the force/multiplier of the portal throw back feature (Set to -1 or lower to disable).
 throw-velocity: 1.35
+# This is the delay before portal commands are initiated (20 ticks = 1 second).
+command-tick-delay: 5
 
 # This is the sound that is played when the player teleports.
 # You may need to change this based on your minecraft version.

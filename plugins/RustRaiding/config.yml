@@ -15,8 +15,11 @@ craftable: true
 # If you are using this for hardcore factions then you should enable this option.
 disable-tnt: true
 
-# Set the HP of the block categories. By default, all blocks have 500 HP.
-custom-hp-enabled: true
+# Makes spawners mineable in faction territory
+mine-spawners: true
+
+# By default, all blocks have 500 HP.
+default-hp: 500
 
 # Should player have to find blueprints to craft explosives?
 blueprints-required: true
@@ -35,10 +38,10 @@ supply-crate-max-z: 5000
 supply-crate-min-z: -5000
 
 # How long (in minutes) between each supply crate drop.
-supply-crate-interval: 45
+supply-crate-interval: 60
 
 # How long (in minutes) before crates despawn?
-supply-crate-despawn-timer: 15
+supply-crate-despawn-timer: 35
 
 # Supply crate item spawn chance weighted at 100:
 c4-supply-crate-chance: 15
@@ -53,7 +56,7 @@ rpg-blueprint-supply-crate-chance: 3
 
 # Add blocks that shouldn't be effected by the explosions.
 disabled-blocks:
-  - BEDROCK
+  - AIR
 
 # Set the damage for the explosives.
 rpg: 350
@@ -66,13 +69,14 @@ rpg-max-range: 150
 # Set the explosions range. For reference, TNT is 4.0
 # If this isn't a float value, the plugin will disable itself.
 # IF you go lower than 1.5, some blocks will not be detected by the explosion.
+rpg-explosion-strength: 4.0
 c4-explosion-strength: 2.0
 satchel-explosion-strength: 1.5
 
 #Sets the item to check block health.
 health-checker: BAMBOO
 
-# Custom HP for blocks (Note: These lists do nothing if custom-hp is disabled.).
+# Custom HP for blocks.
 # The format for adding custom HP to blocks is simply <block name> <health>
 # By default, all unspecified blocks have 500 HP.
 custom-hp:
@@ -116,7 +120,7 @@ custom-hp:
   - STRIPPED_SPRUCE_WOOD 250
   - GOLD_BLOCK 350
   - IRON_BLOCK 1000
-  - IRON_BARS 1000
+  - IRON_BARS 300
   - IRON_DOOR 800
   - OBSIDIAN 2000
   - ACACIA_LEAVES 50
@@ -127,3 +131,4 @@ custom-hp:
   - SPRUCE_LEAVES 50
   - GRASS_BLOCK 150
   - DIRT 100
+  - BEDROCK 2000

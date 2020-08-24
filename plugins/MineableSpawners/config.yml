@@ -145,10 +145,10 @@ mining:
   still-break: false
   # Here you can translate the requirements that will be shown when the still break message is sent.
   requirements:
-    wrong-tool: 'Wrong tool.'
+    wrong-tool: ''
     permission: 'Not allowed to silk touch spawners.'
     individual-permission: 'Not allowed to silk touch that type of spawner.'
-    silktouch: 'Missing Silktouch'
+    silktouch: ''
     # Available placeholder: %level% => required level
     silktouch-level: 'Missing Silktouch level %level%'
   # Configure worlds players will not be able to change spawners in.
@@ -159,11 +159,11 @@ mining:
   prices:
     - 'PIG:10000'
   messages:
-    wrong-tool: '&cYou do not have the tool required.'
+    wrong-tool: ''
     no-permission: '&cNo Permission.'
     no-individual-permission: '&cYou do not have permission to mine a spawner of that type.'
     blacklisted: '&cYou cant do that in this world.'
-    no-silktouch: '&cYou need silktouch to mine this spawner.'
+    no-silktouch: ''
     # Available placeholder: %level% => required level
     not-level-required: '&cYou are not the right silk touch level to do this. You must be level %level%'
     inventory-full: '&cThe targets inventory is full. No spawner has been given.'

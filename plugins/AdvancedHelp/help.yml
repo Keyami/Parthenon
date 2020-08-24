@@ -1,0 +1,11 @@
+pages:
+  '1':
+    - '&7----------------------------------'
+    - '&c&lWelcome to The Verras Network!'
+    - ''
+    - "{\"text\":\"/help factions &7&o- click me!\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/help factions\"}}"
+    - "{\"text\":\"/help anarchy &7&o- coming soon!\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\"}}"
+    - ''
+    - '&7Check out the wiki for a more detailed guide!' 
+    - '&7&ohttp://verras.xyz/wiki'
+    - '&7----------------------------------'

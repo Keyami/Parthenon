@@ -1,21 +1,22 @@
 lastAccountName: RandomNerd
 timestamps:
-  login: 1587707874324
+  login: 1598250452158
   lastteleport: 1587709805951
-  logout: 1587710891646
+  logout: 1598251489586
 ipAddress: 162.247.208.222
 lastlocation:
   world: world
-  x: 1008.8875443855281
-  y: 63.92159999847412
-  z: -2180.64622360361
-  yaw: -152.12848
-  pitch: 27.81132
-money: '1500.0'
+  x: -1016.6999999880791
+  y: 58.48804168241613
+  z: 3877.699999988079
+  yaw: 7.505067
+  pitch: -69.257385
+money: '1700.0'
 logoutlocation:
   world: world
-  x: -471.3659225051323
-  y: 110.0
-  z: 321.841249436871
-  yaw: 124.86798
-  pitch: 19.508814
+  x: -1368.9300857871926
+  y: 97.0
+  z: -4722.35585837629
+  yaw: 131.80495
+  pitch: 15.991022
+afk: false

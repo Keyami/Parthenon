@@ -9,10 +9,11 @@
 # Also note that if a skill has multiple active abilities, expressions such as "SSL" and "SSLS" for two abilities in a single skill are not allowed.
 # Since "SSL" ability will be activated before "SSLS" ability.
 
-# Activation items are optional.
-# To activate the ability with any item or even without any, use '*'
-# If an item's name is specified, it'll check if the current item's name contains this name or not.
-# E.g. item: BOW -> CROSSBOW, BOW | item: SWORD -> DIAMOND_SWORD, WOODEN_SWORD, GOLDEN_SWORD, etc...
+# Activation Items
+# To activate the ability with any item or even without any, use empty list []
+# If an item's name is specified starting with "CONTAINS:" it'll accept any item type that has the string in its type name.
+# E.g. CONTAIS:BOW -> CROSSBOW, BOW | CONTAINS:SWORD -> DIAMOND_SWORD, WOODEN_SWORD, GOLDEN_SWORD, etc...
+# You can also use RegEx with "REGEX:" prefix. But it's not recommended for performance.
 # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html (tip: use Ctrl+F to find the material you want)
 
 # Commands support arguments, the command can either be executed from the player or the console.
@@ -31,11 +32,18 @@
 # The energy name must be the node name.
 
 # You can also add these properties to any active ability:
-# messages:
-#  idle: When player ability is activated but isn't used.
-#  activated: When ability is activated.
-#  finished: When ability is finished. Mostly for abilities that are not activated instantly.
-#  ready: When a non-instant ability is activated and waiting for response.
+# activation:
+#  key: The activation key used to activate this ability.
+#  energy: The energy cost to enable this ability.
+#  cooldown: Cooldown for activating the ability again.
+#  items: List of items that the player must hold to activate the ability.
+#  idle: If this ability is a non-instant ability (if it's used instantly without needing to hit a player first)
+#        this is the ticks before going out of "ready" state with no responses.
+#   messages:
+#    idle: When player ability is activated but isn't used.
+#    activated: When ability is activated.
+#    finished: When ability is finished. Not used for abilities that are activated instantly.
+#    ready: When a non-instant ability is activated and waiting for response.
 
 # Placeholders in the GUI for normal scaling is %amount%
 # Other scalings have the placeholder with their own name.
@@ -60,20 +68,23 @@
 # You can see a full list from Java's Math class: https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
 # Special cases: random(min, max) will give you a double and there is randInt(min, max) that gives an integer.
 
+# The internal names can be changed. However data loss will occur.
 Mage:
   name: "Mage"
   commands-to-perform-upon-select: []
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.04 * lvl
   max-level: 100
+  required-level: 0
+  cost: 0
   stats: [DEX, INT]
   energy: mana
   abilities:
-    passive:
-      scaling: int/10+1
+    mage-passive:
+      scaling: int/10 + 1
       hoe-damage:
         DIAMOND_HOE: 6
         GOLDEN_HOE: 5
@@ -85,6 +96,14 @@ Mage:
       required-level: 5
       chance: lvl * 10
       cost: 100 * (lvl + 1)
+    neptune:
+      scaling: lvl + (str / 2)
+      required-level: 20
+      cost: 100 * (lvl + 1)
+      multiply: min(5, (str + 6) / 3)
+      chances:
+        lightning: lvl * (int + 5)
+        multiply: lvl * (dex + 5)
     explosion-spell:
       scaling: int / 4
       required-level: 10
@@ -99,19 +118,22 @@ Mage:
     heal-spell:
       # "regain" placeholder is the amount of health from natural regen or satiation.
       required-level: 15
+      health: 20
       energy: 10
       scaling: (dex / 10)
       cost: 100 * (lvl + 1)
     energy-flux:
-      required-level: 15
+      required-level: 1
       activation:
         key: R
         energy: 10
         cooldown: 4
-        item: HOE
+        items: ["CONTAINS:HOE"]
       scaling: 1+lvl*2+int/20
       # The range of fire. How long the player can shoot the beam.
       range: lvl * 12
+      # Level 3 pass through blocks?
+      pass-through: true
       cost: 100 * (lvl + 1)
 Arbalist:
   name: "Arbalist"
@@ -120,32 +142,57 @@ Arbalist:
   health: 20 + lvl/2
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  required-level: 0
+  cost: 0
+  max-energy: (lvl/2) + 10
   energy-regen: lvl + 1
   stats: [DEF, INT]
   energy: arrows
   abilities:
-    passive:
+    arbalist-passive:
       scaling: lvl
+      chance: "min(60, %skills_level%)"
+      arrows: 6
+      flame-chance: '%skills_level%'
     execute:
       required-level: 10
       scaling: dex + (lvl * 10)
+      # Fire ticks to set the target on fire.
+      fire: (lvl - 1) * 50
+      effects:
+        - "POISON, lvl * 4 * 20, max(lvl - 1, 0)"
       cost: 100 * (lvl + 1)
     dual-arrows:
       required-level: 5
-      scaling: (dex/20) + lvl
+      # The damage
+      scaling: def/20+lvl
       chance: 15
+      # Speed of the arrow.
+      speed: lvl
+      # Fire ticks of the arrow.
+      fire: (lvl - 1) * 50
       cost: 100 * (lvl + 1)
     minions:
       required-level: 20
       scaling: str / 30 + lvl
       cost: 100 * (lvl + 1)
+      # Time in seconds the minions are allowed to fight.
+      time: lvl * 30
+      # Amount of minions.
+      amount: lvl + 1
+      # Bow enchantment.
+      enchants:
+        arrow-damage: lvl
+        flame: lvl
+      effects:
+        - "SPEED, 30 * 20, lvl"
+        - "STRENGTH, 30 * 20, 1, 50"
       activation:
+        idle: 5
         key: R
         energy: 20
         cooldown: 20
-        # Includes CROSSBOW too.
-        item: BOW
+        items: ["CONTAINS:BOW"]
     fire-crossbow:
       required-level: 1
       activation:
@@ -153,31 +200,52 @@ Arbalist:
         energy: lvl + 5
         cooldown: 5
         # Includes CROSSBOW too.
-        item: BOW
+        items: ["CONTAINS:BOW"]
       scaling: 7-lvl*2
       cost: 100 * (lvl + 1)
       # Related to speed of the arrow and particles displayed.
-      range-scaling: lvl * 2
+      range: lvl * 2
+      # Knockback strength of the arrow.
+      knockback: lvl
+      # Chance to make the main arrow critical.
+      critical-chance: lvl * 30
+      # Chance for the arrow to explode when hit.
+      explosion-chance: min(0, lvl - 2) * 50
+      # Set fire ticks of the arrow.
+      fire: lvl * 50
+      # Chance to shoot multiple arrows.
+      shotgun:
+        chance: 0
+        # The offset of arrows for a shotgun effect.
+        offset: 1
+        # The amount of arrows.
+        amount:
+          min: 3
+          max: lvl * 3
 Juggernaut:
   name: "Juggernaut"
   commands-to-perform-upon-select: []
   commands-to-perform-upon-change: []
   health: 20 + lvl/2
   max-level: 100
-  max-health: 20 * 3
-  max-energy: 60
+  max-health: 20 * 3 
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.05 * lvl
+  required-level: 0
+  cost: 0
   stats: [STR, INT]
   energy: mana
   abilities:
-    passive:
+    juggernaut-passive:
       scaling: int/2
-      chance: lvl*2
+      chance: def
     heavy-strikes:
       # Special Variables: durability
       required-level: 5
-      scaling: (def / 2) * lvl
+      scaling: (def / 2) + lvl
       cost: 100 * (lvl + 1)
+      weapons:
+        - "CONTAINS:AXE"
     stone-skin:
       required-level: 5
       scaling: lvl
@@ -194,29 +262,35 @@ Juggernaut:
         # Results in 0 for lvl 1 and 2
         THORNS: max(0, lvl - 2) def/3
     chain-smash:
-      required-level: 15
-      scaling: (str / 2) + lvl/2
+      required-level: 20
+      scaling: (str / 2) + (lvl/2)
       velocity: lvl * 0.5
       range: lvl + 2
       launch: min(2.5, lvl)
       cost: 100 * (lvl + 1)
       activation:
         key: LR
-        energy: 18
+        energy: 15
         cooldown: 15
-        item: 'AXE'
+        items: 
+            - 'CONTAINS:AXE'
     aegis-protection:
       required-level: 10
-      scaling: 10-lvl
+      scaling: 30-lvl
       damage: round(int/4)
+      knockback:
+        # Health percent.
+        health: 30
+        velocity: 2
       cost: 100 * (lvl + 1)
     throw:
       required-level: 5
       activation:
+        idle: 5
         key: R
-        energy: 25
+        energy: 10
         cooldown: 15
-        item: '*'
+        items: []
       scaling: str/20+lvl*3
       # Entity types that this ability can be used on.
       # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
@@ -229,70 +303,96 @@ Vampire:
   health: 20 + lvl/2
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
+  required-level: 0
+  cost: 0
   # blood lost
   energy-regen: "%skills_max_energy% / (20 + bloodwell)"
   stats: [STR, DEX]
   energy: blood
   abilities:
-    passive:
-      scaling: str/5+1
+    vampire-passive:
+      scaling: 2
+      blood: 10
     blood-lust:
       required-level: 5
+      # percent
+      energy: 100 - (lvl * 10)
+      # Heal chance
+      chance: lvl * 10
+      heal: 2
+      regain: 5
       scaling: str/7+lvl*2
       cost: 100 * (lvl + 1)
     blood-well:
       required-level: 5
+      # Chance
       scaling: int/4+lvl*2
       cost: 100 * (lvl + 1)
     bleed:
       required-level: 10
       chance: 2
       scaling: 0.6
+      # x times in 10 ticks.
+      duration: 10
       cost: 100 * (lvl + 1)
     eternal-darkness:
       required-level: 1
       activation:
+        idle: 5
         key: R
         energy: 10
-        cooldown: 60
-        item: '*'
+        cooldown: 15
+        items: []
       scaling: 1+lvl+int/20
       cost: 100 * (lvl + 1)
 Swordsman:
   name: "Swordsman"
-  commands-to-perform-upon-select: []
+  commands-to-perform-upon-select: [skill select none]
   commands-to-perform-upon-change: []
-  health: 20 + lvl/2
+  health: 20 + (lvl / 2)
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.05 * lvl
-  stats: [DEF, STR]
+  required-level: 0
+  cost: 0
+  stats: [STR, DEX]
   energy: mana
   abilities:
-    passive:
-      scaling: str*(1/16)
+    swordsman-passive:
+      scaling: str/2
+      # Type of weapons Swordsman are allowed to use for duel wielding.
+      weapons: ["CONTAINS:SWORD"]
     parry:
       # Percent of the damage
-      required-level: 5
+      required-level: 5 * (lvl + 1)
       scaling: dex/5+lvl*2
+      # The stat to compare to other player.
+      stat: str
+      chance: lvl * 10
       cost: 100 * (lvl + 1)
     pierce:
-      required-level: 10
-      scaling: 20 * (lvl + 1)
+      required-level: 10 * (lvl + 1)
+      scaling: 100 * lvl / 2
       cost: 100 * (lvl + 1)
+      # The stat to compare to other player.
+      stat: def
     dodge:
-      required-level: 10
+      required-level: 10 * (lvl + 1)
       scaling: dex/7+(lvl*5)
       cost: 100 * (lvl + 1)
+      weapons:
+        - "CONTAINS:SWORD"
     thousand-cuts:
-      required-level: 1
+      required-level: 1 * (lvl + 1)
       activation:
+        idle: 5
         key: R
         energy: 20
         cooldown: 10
-        item: 'SWORD'
+        items:
+          - 'CONTAINS:SWORD'
       scaling: (lvl * 2) + (STR / 10)
       cut-count: lvl * 3
       cost: 100 * (lvl + 1)
@@ -303,33 +403,37 @@ Firemage:
   health: 20 + lvl/2
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.05 * lvl
+  required-level: 0
+  cost: 0
   stats: [DEX, STR]
   energy: health
   abilities:
-    passive:
+    firemage-passive:
       scaling: int/20+1
     absorb-energy:
       required-level: 5
       scaling: lvl+int/10
+      # Set target on fire. In seconds.
+      fire: lvl * 5
       cost: 100 * (lvl + 1)
     phoenix-essence:
       required-level: 5
-      scaling: int/9+lvl*2
+      scaling: int/10+lvl*2
       cost: 100 * (lvl + 1)
     black-fire:
-      required-level: 5
-      scaling: lvl+str/20
+      required-level: 1000000000
+      scaling: 0 #lvl+str/20
       cost: 100 * (lvl + 1)
     meteorite:
       required-level: 20
       activation:
         key: LR
         energy: 20
-        cooldown: 10
-        item: '*'
-      scaling: lvl+str/5
+        cooldown: 15
+        items: []
+      scaling: 0
       fireballs: lvl * 2
       range: lvl * 2
       yield: 0.5 + (lvl / 3)
@@ -337,11 +441,12 @@ Firemage:
     inferno:
       required-level: 1
       activation:
+        idle: 5
         key: R
-        energy: 6
+        energy: 10
         cooldown: 6
-        item: '*'
-      scaling: lvl*2+int/5
+        items: []
+      scaling: lvl+int/10
       # The fire range
       range: (lvl * 2) - 1
       cost: 100 * (lvl + 1)
@@ -352,54 +457,61 @@ Eidolon:
   health: 20 + lvl/2
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.05 * lvl
+  required-level: 0
+  cost: 0
   stats: [DEX, DEF]
   energy: imbalance
   abilities:
-    passive:
+    eidolon-passive:
       scaling: int/10+1
     purify:
       required-level: 3
-      scaling: str/15+lvl/2
+      scaling: (str/16+lvl/10)
+      hp: hp / 5
+      max: round(int/16+lvl)
+      energy-per-damage: 2
       cost: 100 * (lvl + 1)
-      max: int/6+lvl*4
     spirit-fire:
       required-level: 5
       # light scaling
-      scaling: str/7+lvl*3
+      scaling: str/16+lvl*3
       cost: 100 * (lvl + 1)
       dark-scaling: 6-lvl
     spectre:
       required-level: 5
       scaling: 45-(lvl*5)
       cost: 100 * (lvl + 1)
-      dark-scaling: 45-(lvl*5)
-      speed: def/30
+      dark-scaling: 30-(lvl*5)
+      speed: round(def/30)
     shape-shifter:
       required-level: 10
       # Special Variables:
       # light = The light level of the block that the player is standing on. 0-15
-      scaling: light + 2
+      scaling: light/16
       cost: 100 * (lvl + 1)
       reversed: false
     defile:
       required-level: 1
       activation:
+        idle: 5
         key: R
-        energy: 1
+        energy: 10
         cooldown: 17
-        item: '*'
+        items: []
       scaling: lvl*8+(int/2)+5
+      damage: 1 + imbalance / 100
       cost: 100 * (lvl + 1)
       time: lvl*3
     blackhole:
       required-level: 50
       activation:
+        idle: 5
         key: LR
         energy: 1
         cooldown: 17
-        item: '*'
+        items: []
       # Note the damage is done every quality ticks.
       scaling: 0.3
       # Pull the player every x tick.
@@ -407,7 +519,7 @@ Eidolon:
       # Duration of the blackhole in ticks.
       duration: (lvl * 5) * 20
       # The range of the blackhole gravity.
-      range: 3 + lvl
+      range: 2 + lvl
       # The strength of the blackhole gravity.
       gravity: (0.1 * lvl)
       # Format: Type, Duration (in seconds), Amplifier (Level)
@@ -419,9 +531,9 @@ Eidolon:
       activation:
         key: LLR
         energy: 5
-        cooldown: 3
-        item: '*'
-      scaling: lvl*8+(int/2)+5
+        cooldown: 15
+        items: []
+      scaling: lvl*4+(int/2)+5
       # Fangs count for a straight line attack.
       fangs: lvl * 3
       cost: 100 * (lvl + 1)
@@ -432,65 +544,77 @@ Devourer:
   health: 20 + lvl/2
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.05 * lvl
+  required-level: 0
+  cost: 0
   stats: [STR, DEF]
   energy: mana
   abilities:
-    passive:
+    devourer-passive:
       # The damage of the effect every time it damages the player.
-      scaling: (str * 2) / (def + 1)
+      scaling: round((str * 2) / (def + 1))
       # The chance from 100% for this ability to have effects.
-      chance: (int / 2) + 30
+      chance: (int / 2) + 10
       # The potion duration in seconds.
-      duration: 5 + (dex / 2)
+      duration: (dex / 6)
       # The potion amplifier (power) level.
       amplifier: 1
       # The potion effect type. Must be either WITHER or POISON
-      effect: POISON
+      effect: WITHER
     gliders:
       required-level: 4
       # Used for the jump height vector.
       scaling: 1
+      # Speed
+      effects:
+        - "SPEED, 20 * 5, lvl"
       cost: 100 * (lvl + 1)
+      double-jump-level: 3
     consume:
       required-level: 20
       chance: lvl * 5
       scaling: (dex / 3) + lvl
       # Damage if the victim has no souls.
-      damage: str/2
+      damage: str/4
       cost: 100 * (lvl + 1)
     cloak:
       required-level: 5
       scaling: dex/4
-      invis-cooldown: 30 - (lvl * 2)
-      neutrality-cooldown: 30 - (lvl * 2)
+      neutrality: true
+      cooldown:
+        invisibility: 60*3
+        neutrality: 30 - (lvl * 2)
       cost: 100 * (lvl + 1)
     disarm:
       required-level: 10
       scaling: 0
       cost: 100 * (lvl + 1)
       activation:
+        idle: 5
         key: LLR
         energy: lvl * 2
         cooldown: lvl * 4
-        item: '*'
+        items: []
     blink:
       required-level: 10
       scaling: dex/3+lvl
       cost: 100 * (lvl + 1)
+      hits: lvl * 3
       activation:
+        idle: 5
         key: LR
         energy: lvl * 2
         cooldown: lvl * 4
-        item: '*'
+        items: []
     hook:
       required-level: 20
+      hook: SPECTRAL_ARROW
       activation:
         key: R
         energy: 15
         cooldown: 10
-        item: '*'
+        items: []
       scaling: lvl*3+dex/10
       cost: 100 * (lvl + 1)
 
@@ -501,31 +625,48 @@ Priest:
   health: 20 + lvl/2
   max-level: 100
   max-health: 20 * 3
-  max-energy: 60
+  max-energy: (lvl/2) + 10
   energy-regen: 1 + 0.04 * lvl
+  required-level: 0
+  cost: 0
   stats: [DEX, DEF, INT]
   energy: mana
   abilities:
-    passive:
+    priest-passive:
       # Unused
       scaling: int/10+1
+      # Interval in sconds for applying effects.
+      # Doesn't support formulas.
+      interval: 300
+      # Allow jesus water walking.
+      jesus: true
+      effects:
+        nether:
+          - "CONFUSION, 15, 1, max(100 - %skills_level%; 0)"
+        end:
+          - "BLINDNESS, 15, 1, max(100 - %skills_level%; 0)"
     asclepius:
       required-level: 20
+      effects:
+        - "NIGHT_VISION, lvl * 30, 1"
+        - "DAMAGE_RESISTANCE, lvl * 30, 1"
+        - "REGENERATION, lvl * 20, 1, (lvl - 1) * 100"
+        - "ABSORPTION, lvl * 30, 1, (lvl - 1) * 100"
       activation:
         key: LR
         energy: 20
         cooldown: 30
-        item: HOE
-      # Multiplier of potion durations.
+        items: ["CONTAINS:HOE"]
+      # Currently not used for anything.
       scaling: lvl
       cost: 100 * (lvl + 1)
     kindling-of-life:
       required-level: 1
       activation:
         key: R
-        energy: 10
-        cooldown: 5
-        item: '*'
+        energy: 5
+        cooldown: 8
+        items: []
       # Healing amount
       scaling: (lvl + 1) * 2
       cost: 100 * (lvl + 1)
@@ -533,19 +674,25 @@ Priest:
       required-level: 5
       # Used for the chance to use.
       # Chance from 100
-      scaling: lvl * 10
+      scaling: lvl * 5
       cost: 100 * (lvl + 1)
     seal-of-life:
       required-level: 5
       # Used for the cooldown between each use.
       # The scaling defines the amount of seconds for cooldown.
-      scaling: 60 * (10 - lvl)
+      scaling: 120 * (10 - lvl)
+      health: 10
+      effects:
+        - "REGENERATION, 5 * lvl, 1"
+        - "SPEED, 10 * lvl, 1"
       cost: 100 * (lvl + 1)
     purification:
       required-level: 5
-      # Used for grass purification (lvl 3) only.
-      scaling: lvl * 10
       cost: 100 * (lvl + 1)
+
+      # The block radius of crops to be. This radius only works for xz axis.
+      # Note high radiuses can lag the server.
+      scaling: min(5 + (dex / 2), 20)
 
       # Purification lvl 3:
       # Note that this level only works for 1.13+
@@ -553,7 +700,5 @@ Priest:
       # Rate of growth is universal. It means you cannot change it per player.
       # So no placeholders will work for this. You need to use a constant number.
       # In ticks. 20 ticks = 1 sec
+      # You need to restart the server for this to change.
       rate: 20
-      # The block radius of crops to be. This radius only works for xz axis.
-      # Note high radiuses can lag the server.
-      radius: min(5 + (dex / 2), 20)

@@ -1,0 +1,700 @@
+# Shop name can not contain formatting codes, '/' and ' '
+Drops:
+  Options:
+    page: 1
+    title: Mob Drops
+    lore: Sell mob drops here!
+    UiSlotCount: 36
+    permission: dshop.user.shop.drops
+  '27':
+    mat: PHANTOM_MEMBRANE
+    value: 93.75
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '9':
+    mat: CACTUS
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '19':
+    mat: STRING
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '11':
+    mat: GUNPOWDER
+    value: 75
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '29':
+    mat: BONE
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '31':
+    mat: BLAZE_ROD
+    value: 62.5
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '22':
+    mat: NETHER_STAR
+    value: 8000
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '13':
+    mat: ENDER_PEARL
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '15':
+    mat: GHAST_TEAR
+    value: 93.75
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '33':
+    mat: SPIDER_EYE
+    value: 46.875
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '25':
+    mat: ROTTEN_FLESH
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '17':
+    mat: PUFFERFISH
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '35':
+    mat: TROPICAL_FISH
+    value: 15.625
+    median: 0
+    stock: -1
+    tradeType: SellOnly
+  '1':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '10':
+    mat: GRAY_STAINED_GLASS_PANE
+  '12':
+    mat: GRAY_STAINED_GLASS_PANE
+  '14':
+    mat: GRAY_STAINED_GLASS_PANE
+  '16':
+    mat: GRAY_STAINED_GLASS_PANE
+  '24':
+    mat: GRAY_STAINED_GLASS_PANE
+  '26':
+    mat: GRAY_STAINED_GLASS_PANE
+  '34':
+    mat: GRAY_STAINED_GLASS_PANE
+  '20':
+    mat: GRAY_STAINED_GLASS_PANE
+  '18':
+    mat: GRAY_STAINED_GLASS_PANE
+  '28':
+    mat: GRAY_STAINED_GLASS_PANE
+  '30':
+    mat: GRAY_STAINED_GLASS_PANE
+  '32':
+    mat: GRAY_STAINED_GLASS_PANE
+  '42':
+    mat: GRAY_STAINED_GLASS_PANE
+  '40':
+    mat: GRAY_STAINED_GLASS_PANE
+  '38':
+    mat: GRAY_STAINED_GLASS_PANE
+  '36':
+    mat: GRAY_STAINED_GLASS_PANE
+  '44':
+    mat: GRAY_STAINED_GLASS_PANE
+  '6':
+    mat: GRAY_STAINED_GLASS_PANE
+  '8':
+    mat: GRAY_STAINED_GLASS_PANE
+  '4':
+    mat: GRAY_STAINED_GLASS_PANE
+  '2':
+    mat: GRAY_STAINED_GLASS_PANE
+  '0':
+    mat: GRAY_STAINED_GLASS_PANE
+  '3':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '5':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '7':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '23':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '21':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '39':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '37':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '41':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '43':
+    mat: MAGENTA_STAINED_GLASS_PANE
+Blocks:
+  Options:
+    title: blocks
+    lore: ''
+    page: 2
+    permission: ''
+    SalesTax: 55
+  '2':
+    mat: PURPUR_BLOCK
+    value: 31.25
+    median: 0
+    stock: -1
+  '4':
+    mat: GLASS
+    value: 31.25
+    median: 0
+    stock: -1
+  '6':
+    mat: PURPUR_PILLAR
+    value: 31.25
+    median: 0
+    stock: -1
+  '10':
+    mat: GRASS_BLOCK
+    value: 31.25
+    median: 0
+    stock: -1
+  '12':
+    mat: DIRT
+    value: 31.25
+    median: 0
+    stock: -1
+  '14':
+    mat: STONE
+    value: 31.25
+    median: 0
+    stock: -1
+  '16':
+    mat: ANDESITE
+    value: 31.25
+    median: 0
+    stock: -1
+  '20':
+    mat: PRISMARINE_BRICKS
+    value: 31.25
+    median: 0
+    stock: -1
+  '22':
+    mat: PRISMARINE
+    value: 31.25
+    median: 0
+    stock: -1
+  '24':
+    mat: DARK_PRISMARINE
+    value: 31.25
+    median: 0
+    stock: -1
+  '30':
+    mat: BLACKSTONE
+    value: 31.25
+    median: 0
+    stock: -1
+  '32':
+    mat: OAK_WOOD
+    value: 31.25
+    median: 0
+    stock: -1
+  '34':
+    mat: WHITE_WOOL
+    value: 31.25
+    median: 0
+    stock: -1
+  '28':
+    mat: DIORITE
+    value: 31.25
+    median: 0
+    stock: -1
+  '41':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '15':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '17':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '13':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '11':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '9':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '19':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '21':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '23':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '25':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '26':
+    mat: GRAY_STAINED_GLASS_PANE
+  '18':
+    mat: GRAY_STAINED_GLASS_PANE
+  '27':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '29':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '31':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '33':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '40':
+    mat: GRAY_STAINED_GLASS_PANE
+  '42':
+    mat: GRAY_STAINED_GLASS_PANE
+  '38':
+    mat: GRAY_STAINED_GLASS_PANE
+  '36':
+    mat: GRAY_STAINED_GLASS_PANE
+  '39':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '37':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '43':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '44':
+    mat: GRAY_STAINED_GLASS_PANE
+  '35':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '8':
+    mat: GRAY_STAINED_GLASS_PANE
+  '0':
+    mat: GRAY_STAINED_GLASS_PANE
+  '7':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '5':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '3':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '1':
+    mat: MAGENTA_STAINED_GLASS_PANE
+Spawners:
+  Options:
+    title: spawners
+    lore: ''
+    page: 2
+    permission: ''
+    SalesTax: 50
+  '30':
+    mat: SPAWNER
+    itemStack:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §ePig §fSpawner
+      lore:
+      - §aPlace this down for
+      - §a Pig Spawner.
+      internal: H4sIAAAAAAAAAONiYOBgYMstjs/NT2JgDvB0ZwAAng7AdxIAAAA=
+      blockMaterial: SPAWNER
+    value: 10000
+    median: 0
+    stock: -1
+  '32':
+    mat: SPAWNER
+    itemStack:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §eSquid §fSpawner
+      lore:
+      - §aPlace this down for
+      - §a Squid Spawner.
+      internal: H4sIAAAAAAAAAONiYOBgYMstjs/NT2JgDQ4M9XRhAAAh1zntFAAAAA==
+      blockMaterial: SPAWNER
+    value: 15000
+    median: 0
+    stock: -1
+  '10':
+    mat: SPAWNER
+    itemStack:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §eSkeleton §fSpawner
+      lore:
+      - §aPlace this down for
+      - §a Skeleton Spawner.
+      internal: H4sIAAAAAAAAAONiYOBgYMstjs/NT2LgCPZ29XEN8fdjAADlnBcUFwAAAA==
+      blockMaterial: SPAWNER
+    value: 20000
+    median: 0
+    stock: -1
+  '12':
+    mat: SPAWNER
+    itemStack:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §eZombie §fSpawner
+      lore:
+      - §aPlace this down for
+      - §a Zombie Spawner.
+      internal: H4sIAAAAAAAAAONiYOBgYMstjs/NT2Jgi/L3dfJ0ZQAAjpQKvhUAAAA=
+      blockMaterial: SPAWNER
+    value: 20000
+    median: 0
+    stock: -1
+  '14':
+    mat: SPAWNER
+    itemStack:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §eSpider §fSpawner
+      lore:
+      - §aPlace this down for
+      - §a Spider Spawner.
+      internal: H4sIAAAAAAAAAONiYOBgYMstjs/NT2JgCw7wdHENYgAA/eVgBRUAAAA=
+      blockMaterial: SPAWNER
+    value: 20000
+    median: 0
+    stock: -1
+  '16':
+    mat: SPAWNER
+    itemStack:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §eCreeper §fSpawner
+      lore:
+      - §aPlace this down for
+      - §a Creeper Spawner.
+      internal: H4sIAAAAAAAAAONiYOBgYMstjs/NT2Jgdw5ydQ1wDWIAAM3x1VEWAAAA
+      blockMaterial: SPAWNER
+    value: 65000
+    median: 0
+    stock: -1
+  '0':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '1':
+    mat: GRAY_STAINED_GLASS_PANE
+  '19':
+    mat: GRAY_STAINED_GLASS_PANE
+  '9':
+    mat: GRAY_STAINED_GLASS_PANE
+  '11':
+    mat: GRAY_STAINED_GLASS_PANE
+  '13':
+    mat: GRAY_STAINED_GLASS_PANE
+  '15':
+    mat: GRAY_STAINED_GLASS_PANE
+  '17':
+    mat: GRAY_STAINED_GLASS_PANE
+  '7':
+    mat: GRAY_STAINED_GLASS_PANE
+  '5':
+    mat: GRAY_STAINED_GLASS_PANE
+  '3':
+    mat: GRAY_STAINED_GLASS_PANE
+  '2':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '4':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '6':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '8':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '26':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '24':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '22':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '20':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '18':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '21':
+    mat: GRAY_STAINED_GLASS_PANE
+  '23':
+    mat: GRAY_STAINED_GLASS_PANE
+  '25':
+    mat: GRAY_STAINED_GLASS_PANE
+  '33':
+    mat: GRAY_STAINED_GLASS_PANE
+  '35':
+    mat: GRAY_STAINED_GLASS_PANE
+  '43':
+    mat: GRAY_STAINED_GLASS_PANE
+  '41':
+    mat: GRAY_STAINED_GLASS_PANE
+  '31':
+    mat: GRAY_STAINED_GLASS_PANE
+  '39':
+    mat: GRAY_STAINED_GLASS_PANE
+  '29':
+    mat: GRAY_STAINED_GLASS_PANE
+  '37':
+    mat: GRAY_STAINED_GLASS_PANE
+  '27':
+    mat: GRAY_STAINED_GLASS_PANE
+  '28':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '36':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '38':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '40':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '42':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '34':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '44':
+    mat: MAGENTA_STAINED_GLASS_PANE
+Utilities:
+  Options:
+    title: utilities
+    lore: ''
+    page: 2
+    permission: ''
+    SalesTax: 80
+  '9':
+    mat: INFESTED_STONE
+    value: 50
+    median: 0
+    stock: -1
+  '11':
+    mat: SPONGE
+    value: 100
+    median: 0
+    stock: -1
+  '13':
+    mat: HOPPER
+    value: 2000
+    median: 0
+    stock: -1
+  '15':
+    mat: CHORUS_FRUIT
+    value: 500
+    median: 0
+    stock: -1
+    tradeType: BuyOnly
+  '17':
+    mat: SADDLE
+    value: 2500
+    median: 0
+    stock: -1
+    tradeType: BuyOnly
+  '29':
+    mat: NAME_TAG
+    value: 1500
+    median: 0
+    stock: -1
+    tradeType: BuyOnly
+  '31':
+    mat: LEAD
+    value: 1000
+    median: 0
+    stock: -1
+    tradeType: BuyOnly
+  '33':
+    mat: FIREWORK_ROCKET
+    value: 250
+    median: 0
+    stock: -1
+    tradeType: BuyOnly
+  '0':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '1':
+    mat: GRAY_STAINED_GLASS_PANE
+  '21':
+    mat: GRAY_STAINED_GLASS_PANE
+  '19':
+    mat: GRAY_STAINED_GLASS_PANE
+  '23':
+    mat: GRAY_STAINED_GLASS_PANE
+  '25':
+    mat: GRAY_STAINED_GLASS_PANE
+  '2':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '10':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '12':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '14':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '16':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '24':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '4':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '6':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '22':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '20':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '18':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '28':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '30':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '32':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '34':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '42':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '40':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '38':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '36':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '44':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '26':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '8':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '7':
+    mat: GRAY_STAINED_GLASS_PANE
+  '5':
+    mat: GRAY_STAINED_GLASS_PANE
+  '3':
+    mat: GRAY_STAINED_GLASS_PANE
+  '27':
+    mat: GRAY_STAINED_GLASS_PANE
+  '37':
+    mat: GRAY_STAINED_GLASS_PANE
+  '39':
+    mat: GRAY_STAINED_GLASS_PANE
+  '41':
+    mat: GRAY_STAINED_GLASS_PANE
+  '43':
+    mat: GRAY_STAINED_GLASS_PANE
+  '35':
+    mat: GRAY_STAINED_GLASS_PANE
+Food:
+  Options:
+    title: Food
+    lore: ''
+    page: 2
+    permission: ''
+  '10':
+    mat: COOKED_BEEF
+    median: 25
+    stock: -1
+  '12':
+    mat: COOKED_PORKCHOP
+    value: 25
+    median: 0
+    stock: -1
+  '14':
+    mat: CARROT
+    value: 20
+    median: 0
+    stock: -1
+  '16':
+    mat: APPLE
+    value: 100
+    median: 0
+    stock: -1
+  '29':
+    mat: POTATO
+    value: 15
+    median: 0
+    stock: -1
+  '31':
+    mat: MELON_SLICE
+    value: 10
+    median: 0
+    stock: -1
+  '33':
+    mat: BEETROOT
+    value: 10.0
+    median: 0
+    stock: -1
+  '3':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '11':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '21':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '13':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '5':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '15':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '23':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '25':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '17':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '7':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '19':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '9':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '27':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '37':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '39':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '41':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '43':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '35':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '2':
+    mat: GRAY_STAINED_GLASS_PANE
+  '20':
+    mat: GRAY_STAINED_GLASS_PANE
+  '38':
+    mat: GRAY_STAINED_GLASS_PANE
+  '28':
+    mat: GRAY_STAINED_GLASS_PANE
+  '30':
+    mat: GRAY_STAINED_GLASS_PANE
+  '22':
+    mat: GRAY_STAINED_GLASS_PANE
+  '40':
+    mat: GRAY_STAINED_GLASS_PANE
+  '32':
+    mat: GRAY_STAINED_GLASS_PANE
+  '24':
+    mat: GRAY_STAINED_GLASS_PANE
+  '34':
+    mat: GRAY_STAINED_GLASS_PANE
+  '42':
+    mat: GRAY_STAINED_GLASS_PANE
+  '44':
+    mat: GRAY_STAINED_GLASS_PANE
+  '26':
+    mat: GRAY_STAINED_GLASS_PANE
+  '8':
+    mat: GRAY_STAINED_GLASS_PANE
+  '6':
+    mat: GRAY_STAINED_GLASS_PANE
+  '4':
+    mat: GRAY_STAINED_GLASS_PANE
+  '18':
+    mat: GRAY_STAINED_GLASS_PANE
+  '36':
+    mat: GRAY_STAINED_GLASS_PANE
+  '1':
+    mat: MAGENTA_STAINED_GLASS_PANE
+  '0':
+    mat: GRAY_STAINED_GLASS_PANE

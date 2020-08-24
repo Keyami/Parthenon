@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "hat": true,
+  "mount": true,
+  "float_down": false,
+  "fly": false,
+  "ride_speed": 0.2700000238418579,
+  "speed": 0.6000000238418579,
+  "item": {
+    "material": "PLAYER_HEAD",
+    "meta": {
+      "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VhYmFlY2M1ZmFlNWE4YTQ5Yzg4NjNmZjQ4MzFhYWEyODQxOThmMWEyMzk4ODkwYzc2NWUwYThkZTE4ZGE4YyJ9fX0="
+    },
+    "name": "&f&lZombified Piglin Pet"
+  },
+  "on_summon": [
+    
+  ],
+  "data-items": {
+    "silent": [
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2MTUxOGI3NGQ1ZjcwMTZmNzIyOTQ3NTZmYzY4YzU0NzExMTBjYzk3ZjNiYjA5M2UwYzZlZDk0YTllMyJ9fX0="
+        },
+        "name": "&6Silent: &e%value%"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmMzI3YzNmMzQ5MTU4ZDIwOWI0ODY3ZDY4ZmZiMTg5MGJjNTdhMDFiYTk0ODNlM2ZmZmU0ZWM3ZmRlYTBiMCJ9fX0="
+        },
+        "name": "&6Silent: &e%value%"
+      }
+    ],
+    "age": [
+      {
+        "material": "WHEAT",
+        "meta": {
+          
+        },
+        "name": "&6Baby: &e%value%"
+      }
+    ],
+    "arms": [
+      {
+        "material": "STICK",
+        "meta": {
+          
+        },
+        "name": "&6Arms Raised: &e%value%"
+      }
+    ]
+  }
+}

@@ -14,7 +14,7 @@ General:
     RetroMode:
         Enabled: true
     Locale: en_US
-    AprilFoolsEvent: true
+    AprilFoolsEvent: false
     MOTD_Enabled: false
     EventBroadcasts: false
     EventInfoOnPlayerJoin: false
@@ -281,7 +281,7 @@ Party:
 ###
 Abilities:
     Enabled: true
-    Messages: true
+    Messages: false
     Activation:
         Only_Activate_When_Sneaking: false
     Cooldowns:
@@ -333,8 +333,8 @@ Skills:
         Enabled_For_PVE: true
         Level_Cap: 0
     Axes:
-        Enabled_For_PVP: true
-        Enabled_For_PVE: true
+        Enabled_For_PVP: false
+        Enabled_For_PVE: false
         Level_Cap: 0
         Ability_Activation_Level_Gate: 10
     Excavation:
@@ -406,8 +406,8 @@ Skills:
                 Summon_Length: 240
                 Per_Player_Limit: 1
     Unarmed:
-        Enabled_For_PVP: true
-        Enabled_For_PVE: true
+        Enabled_For_PVP: false
+        Enabled_For_PVE: false
         Level_Cap: 0
         Ability_Activation_Level_Gate: 10
         Block_Cracker:
@@ -559,7 +559,7 @@ Commands:
 ###
 Particles:
     # These settings determine if fireworks should get launched when a player activates/deactivates an ability
-    Ability_Activation: false
+    Ability_Activation: true
     Ability_Deactivation: false
 
     # Determines if the fireworks should be a large ball or a small one

@@ -668,7 +668,7 @@ minimum-pay-amount: 1.00
 ############################################################
 
 # Show other plugins commands in help.
-non-ess-in-help: true
+non-ess-in-help: false
 
 # Hide plugins which do not give a permission.
 # You can override a true value here for a single plugin by adding a permission to a user/group.
